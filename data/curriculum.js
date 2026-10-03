@@ -38,16 +38,16 @@ window.CURRICULUM = [
     descriptionRu:
       "Падежи (именительный, винительный, местный), прошедшее и будущее время, еда, покупки и повседневные ситуации.",
     lessons: [
-      { id: 1, slug: "a1-01", titleSr: "Padezi — uvod (nominativ i akuzativ)", titleRu: "Падежи — введение (именительный и винительный)", ready: false },
-      { id: 2, slug: "a1-02", titleSr: "Lokativ — gde se nalazi?", titleRu: "Местный падеж — где находится?", ready: false },
-      { id: 3, slug: "a1-03", titleSr: "Prisvojne zamenice i pridevi", titleRu: "Притяжательные местоимения и прилагательные", ready: false },
-      { id: 4, slug: "a1-04", titleSr: "Futur I — buduce vreme", titleRu: "Будущее время (футур I)", ready: false },
-      { id: 5, slug: "a1-05", titleSr: "Perfekt — uvod u proslo vreme", titleRu: "Перфект — введение в прошедшее время", ready: false },
-      { id: 6, slug: "a1-06", titleSr: "Hrana i narudzbina u restoranu", titleRu: "Еда и заказ в ресторане", ready: false },
-      { id: 7, slug: "a1-07", titleSr: "Kupovina i brojevi uz padeze", titleRu: "Покупки и числа с падежами", ready: false },
-      { id: 8, slug: "a1-08", titleSr: "Dnevna rutina i povratni glagoli", titleRu: "Распорядок дня и возвратные глаголы", ready: false },
-      { id: 9, slug: "a1-09", titleSr: "Komparacija prideva", titleRu: "Сравнение прилагательных", ready: false },
-      { id: 10, slug: "a1-10", titleSr: "Putovanja i javni transport", titleRu: "Путешествия и общественный транспорт", ready: false }
+      { id: 1, slug: "a1-01", titleSr: "Padezi — uvod (nominativ i akuzativ)", titleRu: "Падежи — введение (именительный и винительный)", ready: true },
+      { id: 2, slug: "a1-02", titleSr: "Lokativ — gde se nalazi?", titleRu: "Местный падеж — где находится?", ready: true },
+      { id: 3, slug: "a1-03", titleSr: "Prisvojne zamenice i pridevi", titleRu: "Притяжательные местоимения и прилагательные", ready: true },
+      { id: 4, slug: "a1-04", titleSr: "Futur I — buduce vreme", titleRu: "Будущее время (футур I)", ready: true },
+      { id: 5, slug: "a1-05", titleSr: "Perfekt — uvod u proslo vreme", titleRu: "Перфект — введение в прошедшее время", ready: true },
+      { id: 6, slug: "a1-06", titleSr: "Hrana i narudzbina u restoranu", titleRu: "Еда и заказ в ресторане", ready: true },
+      { id: 7, slug: "a1-07", titleSr: "Kupovina i brojevi uz padeze", titleRu: "Покупки и числа с падежами", ready: true },
+      { id: 8, slug: "a1-08", titleSr: "Dnevna rutina i povratni glagoli", titleRu: "Распорядок дня и возвратные глаголы", ready: true },
+      { id: 9, slug: "a1-09", titleSr: "Komparacija prideva", titleRu: "Сравнение прилагательных", ready: true },
+      { id: 10, slug: "a1-10", titleSr: "Putovanja i javni transport", titleRu: "Путешествия и общественный транспорт", ready: true }
     ]
   },
   {
