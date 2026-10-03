@@ -7,7 +7,7 @@ window.LESSONS["a0-09"] = {
   titleRu: "Вопросительные слова и отрицание",
 
   intro: {
-    sr: `Danas ucimo upitne reci (ko, šta, gde, kada...) i kako se gradi negacija u recenici.`,
+    sr: `Danas učimo upitne reči (ko, šta, gde, kada...) i kako se gradi negacija u rečenici.`,
     ru: `Вопросительные слова нужны, чтобы спрашивать «кто, что, где, когда, почему». Также вы узнаете, как задавать вопросы типа «да/нет» и как строить отрицание — и обнаружите приятную параллель с русским языком: двойное отрицание работает точно так же!`
   },
 
@@ -32,7 +32,7 @@ window.LESSONS["a0-09"] = {
         },
         drill: {
           type: "choice",
-          question: "Koja rec znaci 'почему'?",
+          question: "Koja reč znači 'почему'?",
           options: ["zašto", "kako", "gde"],
           correctIndex: 0
         }
@@ -65,7 +65,7 @@ window.LESSONS["a0-09"] = {
         ],
         drill: {
           type: "choice",
-          question: "Kako se kaze 'Я ничего не понимаю'?",
+          question: "Kako se kaže 'Я ничего не понимаю'?",
           options: ["Ništa ne razumem.", "Ništa razumem.", "Ne ništa razumem."],
           correctIndex: 0
         }
@@ -92,15 +92,15 @@ window.LESSONS["a0-09"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Dvostruka negacija (<b>niko ne..., ništa ne..., nikad ne...</b>) je <b>obavezna</b> — za razliku od engleskog, ovo je ustvari lakse za ruske govornike jer radi tacno kao u ruskom.`,
+      `Dvostruka negacija (<b>niko ne..., ništa ne..., nikad ne...</b>) je <b>obavezna</b> — za razliku od engleskog, ovo je ustvari lakse za ruske govornike jer radi tačno kao u ruskom.`,
       `<b>Da li</b> i inverzija sa <b>li</b> su potpuno zamenljivi — izbor je stvar stila, ne gramatike.`,
-      `<b>Koji/koja/koje</b> se slaze sa rodom imenice na koju se odnosi, kao pridev: "koji grad" (m.), "koja knjiga" (ž.), "koje selo" (s.).`,
-      `Rec <b>šta</b> se koristi za stvari, a <b>ko</b> za ljude — kao rusko "что" i "кто".`
+      `<b>Koji/koja/koje</b> se slaže sa rodom imenice na koju se odnosi, kao pridev: "koji grad" (m.), "koja knjiga" (ž.), "koje selo" (s.).`,
+      `Reč <b>šta</b> se koristi za stvari, a <b>ko</b> za ljude — kao rusko "что" i "кто".`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "ko", ru: "кто" },
       { sr: "šta", ru: "что" },
@@ -142,24 +142,24 @@ window.LESSONS["a0-09"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Sta znaci 'ko'?", options: ["кто", "что", "где"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'šta'?", options: ["что", "кто", "когда"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'gde'?", options: ["где", "как", "почему"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'zašto'?", options: ["почему", "сколько", "когда"], correct: 0 },
+    { type: "mc", q: "Šta znači 'ko'?", options: ["кто", "что", "где"], correct: 0 },
+    { type: "mc", q: "Šta znači 'šta'?", options: ["что", "кто", "когда"], correct: 0 },
+    { type: "mc", q: "Šta znači 'gde'?", options: ["где", "как", "почему"], correct: 0 },
+    { type: "mc", q: "Šta znači 'zašto'?", options: ["почему", "сколько", "когда"], correct: 0 },
     { type: "mc", q: "Koja je druga varijanta pitanja 'Da li govoriš ruski?'", options: ["Govoriš li ruski?", "Ruski govoriš?", "Li govoriš ruski?"], correct: 0 },
     { type: "mc", q: "Kako prevodis 'Я не знаю'?", options: ["Ne znam.", "Znam ne.", "Nisam znam."], correct: 0 },
     { type: "mc", q: "Kako prevodis 'Никто не знает'?", options: ["Niko ne zna.", "Niko zna.", "Ne niko zna."], correct: 0 },
-    { type: "mc", q: "Sta znaci 'ništa'?", options: ["ничего", "никто", "никогда"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'nikad'?", options: ["никогда", "ничего", "никто"], correct: 0 },
-    { type: "mc", q: "Koja rec se slaze sa rodom imenice ('который')?", options: ["koji / koja / koje", "ko", "šta"], correct: 0 },
+    { type: "mc", q: "Šta znači 'ništa'?", options: ["ничего", "никто", "никогда"], correct: 0 },
+    { type: "mc", q: "Šta znači 'nikad'?", options: ["никогда", "ничего", "никто"], correct: 0 },
+    { type: "mc", q: "Koja reč se slaže sa rodom imenice ('который')?", options: ["koji / koja / koje", "ko", "šta"], correct: 0 },
     { type: "mc", q: "Da li srpski koristi dvostruku negaciju kao ruski?", options: ["Da", "Ne", "Samo u pitanjima"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'razumeti'?", options: ["понимать", "знать", "думать"], correct: 0 },
+    { type: "mc", q: "Šta znači 'razumeti'?", options: ["понимать", "знать", "думать"], correct: 0 },
     { type: "fill", q: "Dopuni: ___ je to? (kto)", answer: "Ko", alt: ["ko"] },
     { type: "fill", q: "Dopuni negaciju: Ja ___ znam. (ne)", answer: "ne", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'Я ничего не понимаю.':", answer: "Ništa ne razumem.", alt: ["nista ne razumem"] },
     { type: "fill", q: "Prevedi na srpski 'Где ты живёшь?':", answer: "Gde živiš?", alt: ["gde zivis", "Gde zivis?"] },
-    { type: "fill", q: "Napisi upitnu rec za 'сколько':", answer: "koliko", alt: [] },
-    { type: "fill", q: "Napisi upitnu rec za 'когда':", answer: "kada", alt: [] },
+    { type: "fill", q: "Napisi upitnu reč za 'сколько':", answer: "koliko", alt: [] },
+    { type: "fill", q: "Napisi upitnu reč za 'когда':", answer: "kada", alt: [] },
     { type: "fill", q: "Preoblikuj sa 'li': Da li imaš vremena? →", answer: "Imaš li vremena?", alt: ["imas li vremena"] },
     { type: "fill", q: "Napisi negativnu zamenicu za 'никогда':", answer: "nikad", alt: [] }
   ]

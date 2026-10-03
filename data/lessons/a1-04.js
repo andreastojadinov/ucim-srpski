@@ -7,7 +7,7 @@ window.LESSONS["a1-04"] = {
   titleRu: "Будущее время (футур I)",
 
   intro: {
-    sr: `Danas ucimo kako se gradi buduce vreme (futur I) — sa glagolom hteti i infinitivom.`,
+    sr: `Danas učimo kako se gradi buduce vreme (futur I) — sa glagolom hteti i infinitivom.`,
     ru: `Отличная новость: сербский футур I строится почти <b>так же, как русское будущее время</b> — вспомогательный глагол (здесь — короткие формы <b>hteti</b>: ću, ćeš, će...) + инфинитив, прямо как русское «буду/будешь/будет + инфинитив». Главная новая сложность — не грамматика, а <b>орфография</b>: в одном порядке слов эти две части сливаются в одно слово.`
   },
 
@@ -15,7 +15,7 @@ window.LESSONS["a1-04"] = {
     titleRu: "Futur I",
     blocks: [
       {
-        heading: "Futur I — dva reda reci, jedno znacenje",
+        heading: "Futur I — dva reda reči, jedno značenje",
         explanationRu: `Футур I = клитика глагола <b>hteti</b> (ću, ćeš, će, ćemo, ćete, će) + инфинитив. Если инфинитив стоит <b>первым</b>, то он срастается с клитикой в <b>одно слово</b>, теряя конечное -i: <i>raditi</i> + <i>ću</i> → <b>radiću</b>. Если перед инфинитивом есть другое слово (например, подлежащее "ja"), части остаются <b>раздельными</b> и инфинитив не меняется.`,
         table: {
           headers: ["Lice", "Rastavljeno", "Spojeno (infinitiv + ću)"],
@@ -35,7 +35,7 @@ window.LESSONS["a1-04"] = {
         ],
         drill: {
           type: "fill",
-          question: "Spoji u jednu rec: 'Ja ću gledati' → 'Gleda___.'",
+          question: "Spoji u jednu reč: 'Ja ću gledati' → 'Gleda___.'",
           answer: "ću",
           alt: ["gledaću"]
         }
@@ -50,7 +50,7 @@ window.LESSONS["a1-04"] = {
         ],
         drill: {
           type: "choice",
-          question: "Kako se kaze 'Я не буду путешествовать'?",
+          question: "Kako se kaže 'Я не буду путешествовать'?",
           options: ["Neću putovati.", "Ne ću putovati.", "Putovaću ne."],
           correctIndex: 0
         }
@@ -65,7 +65,7 @@ window.LESSONS["a1-04"] = {
         ],
         drill: {
           type: "choice",
-          question: "Koja recenica pita 'Придёшь ли ты?'",
+          question: "Koja rečenica pita 'Придёшь ли ты?'",
           options: ["Hoćeš li doći?", "Hoćeš doći li?", "Li hoćeš doći?"],
           correctIndex: 0
         }
@@ -92,15 +92,15 @@ window.LESSONS["a1-04"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Ovo gradivo je gotovo <b>kopija</b> ruskog "буду + infinitiv" — razmisljaj o ću/ćeš/će tacno kao o буду/будешь/будет.`,
+      `Ovo gradivo je gotovo <b>kopija</b> ruskog "буду + infinitiv" — razmisljaj o ću/ćeš/će tačno kao o буду/будешь/будет.`,
       `Pravilo spajanja (radiću, ne "radim ću") je samo <b>pravopisno</b> — izgovor je gotovo isti, samo se pise zajedno kad infinitiv dolazi prvi.`,
       `Negacija <b>nikad</b> ne zadrzava infinitiv spojen — uvek "Neću raditi", nikad "Radićeneću" ili slicno.`,
-      `U svakodnevnom govoru, blizak buduci dogadjaj se cesto izrazava i prezentom (kao "Sutra idem kod lekara" umesto "Sutra ću ići kod lekara") — potpuno kao u ruskom razgovornom jeziku.`
+      `U svakodnevnom govoru, blizak buduci dogadjaj se često izrazava i prezentom (kao "Sutra idem kod lekara" umesto "Sutra ću ići kod lekara") — potpuno kao u ruskom razgovornom jeziku.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "sutra", ru: "завтра" },
       { sr: "uskoro", ru: "скоро" },
@@ -140,22 +140,22 @@ window.LESSONS["a1-04"] = {
     { type: "mc", q: "Od kog glagola se gradi futur I?", options: ["hteti", "biti", "moći"], correct: 0 },
     { type: "mc", q: "Koji je spojen oblik za 'ja ću raditi'?", options: ["radiću", "ćuradi", "radim ću"], correct: 0 },
     { type: "mc", q: "Koja je negacija futura za 'ja'?", options: ["neću", "ne ću", "nisam ću"], correct: 0 },
-    { type: "mc", q: "Sta se desava sa infinitivom kad je spojen sa 'ću'?", options: ["gubi zavrsno -i", "dobija -i", "ostaje nepromenjen"], correct: 0 },
-    { type: "mc", q: "Kako se kaze 'Я не буду работать'?", options: ["Neću raditi.", "Ne ću raditi.", "Radiću ne."], correct: 0 },
-    { type: "mc", q: "Koja recenica je tacna za 'Мы придём вовремя'?", options: ["Doćićemo na vreme.", "Doćemo na vreme ćemo.", "Na vreme doćićemo ćemo."], correct: 0 },
-    { type: "mc", q: "Sta znaci 'sutra'?", options: ["завтра", "сегодня", "вчера"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'uskoro'?", options: ["скоро", "давно", "никогда"], correct: 0 },
+    { type: "mc", q: "Šta se desava sa infinitivom kad je spojen sa 'ću'?", options: ["gubi zavrsno -i", "dobija -i", "ostaje nepromenjen"], correct: 0 },
+    { type: "mc", q: "Kako se kaže 'Я не буду работать'?", options: ["Neću raditi.", "Ne ću raditi.", "Radiću ne."], correct: 0 },
+    { type: "mc", q: "Koja rečenica je tačna za 'Мы придём вовремя'?", options: ["Doćićemo na vreme.", "Doćemo na vreme ćemo.", "Na vreme doćićemo ćemo."], correct: 0 },
+    { type: "mc", q: "Šta znači 'sutra'?", options: ["завтра", "сегодня", "вчера"], correct: 0 },
+    { type: "mc", q: "Šta znači 'uskoro'?", options: ["скоро", "давно", "никогда"], correct: 0 },
     { type: "mc", q: "Kako pitas 'Ты придёшь?' (dva nacina su moguca, izaberi jedan)", options: ["Hoćeš li doći?", "Hoćeš doći?", "Doći hoćeš?"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'zaboraviti'?", options: ["забыть", "помнить", "знать"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'preseliti se'?", options: ["переехать", "путешествовать", "вернуться"], correct: 0 },
-    { type: "mc", q: "Kada se ostavlja infinitiv nespojen sa 'ću'?", options: ["kad nesto drugo dolazi prvo (npr. 'ja')", "nikad", "uvek"], correct: 0 },
+    { type: "mc", q: "Šta znači 'zaboraviti'?", options: ["забыть", "помнить", "знать"], correct: 0 },
+    { type: "mc", q: "Šta znači 'preseliti se'?", options: ["переехать", "путешествовать", "вернуться"], correct: 0 },
+    { type: "mc", q: "Kada se ostavlja infinitiv nespojen sa 'ću'?", options: ["kad nešto drugo dolazi prvo (npr. 'ja')", "nikad", "uvek"], correct: 0 },
     { type: "fill", q: "Spoji: 'Ja ću pisati' →", answer: "Pisaću", alt: ["pisacu"] },
     { type: "fill", q: "Dopuni negaciju: Mi ___ putovati ove godine. (neću oblik za 'mi')", answer: "nećemo", alt: ["necemo"] },
     { type: "fill", q: "Prevedi na srpski 'Увидимся скоро.':", answer: "Videćemo se uskoro.", alt: ["videcemo se uskoro"] },
-    { type: "fill", q: "Prevedi na srpski 'Он не придёт.':", answer: "Neće doći.", alt: ["nece doci"] },
+    { type: "fill", q: "Prevedi na srpski 'Он не придёт.':", answer: "Neće doći.", alt: ["nece doći"] },
     { type: "fill", q: "Napisi spojeni futur za 'ona ce raditi':", answer: "radiće", alt: ["radice"] },
     { type: "fill", q: "Napisi futur za 'vi' od glagola 'kupiti' (rastavljeno):", answer: "vi ćete kupiti", alt: ["vi cete kupiti"] },
-    { type: "fill", q: "Prevedi na srpski 'Что ты купишь?':", answer: "Šta ćeš kupiti?", alt: ["sta ces kupiti"] },
+    { type: "fill", q: "Prevedi na srpski 'Что ты купишь?':", answer: "Šta ćeš kupiti?", alt: ["šta ces kupiti"] },
     { type: "fill", q: "Napisi negaciju futura za 'oni':", answer: "neće", alt: ["nece"] }
   ]
 };

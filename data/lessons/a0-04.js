@@ -7,12 +7,12 @@ window.LESSONS["a0-04"] = {
   titleRu: "Род и число существительных",
 
   intro: {
-    sr: `Danas ucimo rodove imenica (muski, zenski, srednji) i kako se gradi mnozina.`,
+    sr: `Danas učimo rodove imenica (muški, ženski, srednji) i kako se gradi množina.`,
     ru: `Как и в русском, в сербском у существительных есть три рода — мужской, женский и средний — и форма рода почти всегда видна по окончанию слова. Это очень похоже на русский, поэтому интуиция часто срабатывает, но есть и важные различия, особенно во множественном числе.`
   },
 
   grammar: {
-    titleRu: "Rod i mnozina",
+    titleRu: "Rod i množina",
     blocks: [
       {
         heading: "Rod imenica — kako prepoznati",
@@ -89,10 +89,10 @@ window.LESSONS["a0-04"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Pravilo "<b>-a</b> = ženski, <b>-o/-e</b> = srednji, suglasnik = muški" tacno je u vecini slucajeva, ali uvek uci rod zajedno sa novom reci — kao i u ruskom, postoje izuzeci (npr. <i>auto</i>, <i>radio</i> su muskog roda).`,
-      `Rodovi imenica se cesto <b>ne poklapaju</b> između srpskog i ruskog za istu rec — provera je korisna navika kada uciš novi vokabular.`,
-      `<b>Dete → deca</b> je klasican izuzetak koji svi uce rano — zapamti ga kao posebnu, nepravilnu rec.`,
-      `Kod muskog roda, jednoslozne reci (sto, grad, sin) cesto dobijaju umetak <b>-ov-</b> ili <b>-ev-</b> u mnozini: sto → stolovi, sin → sinovi.`
+      `Pravilo "<b>-a</b> = ženski, <b>-o/-e</b> = srednji, suglasnik = muški" tačno je u vecini slucajeva, ali uvek uči rod zajedno sa novom reči — kao i u ruskom, postoje izuzeci (npr. <i>auto</i>, <i>radio</i> su muskog roda).`,
+      `Rodovi imenica se često <b>ne poklapaju</b> između srpskog i ruskog za istu reč — provera je korisna navika kada uciš novi vokabular.`,
+      `<b>Dete → deca</b> je klasican izuzetak koji svi uce rano — zapamti ga kao posebnu, nepravilnu reč.`,
+      `Kod muskog roda, jednoslozne reči (sto, grad, sin) često dobijaju umetak <b>-ov-</b> ili <b>-ev-</b> u množini: sto → stolovi, sin → sinovi.`
     ]
   },
 
@@ -143,15 +143,15 @@ window.LESSONS["a0-04"] = {
     { type: "mc", q: "Koja je množina reči 'selo'?", options: ["sela", "seli", "selovi"], correct: 0 },
     { type: "mc", q: "Koja je množina reči 'grad'?", options: ["gradovi", "gradi", "grade"], correct: 0 },
     { type: "mc", q: "Koja je množina reči 'dete'?", options: ["deca", "deteta", "deti"], correct: 0 },
-    { type: "mc", q: "Koji rod ima reč 'auto' iako se zavrsava na -o?", options: ["Muški (izuzetak)", "Srednji", "Ženski"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'kuća'?", options: ["дом", "школа", "город"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'prijatelj'?", options: ["друг", "враг", "сосед"], correct: 0 },
+    { type: "mc", q: "Koji rod ima reč 'auto' iako se završava na -o?", options: ["Muški (izuzetak)", "Srednji", "Ženski"], correct: 0 },
+    { type: "mc", q: "Šta znači 'kuća'?", options: ["дом", "школа", "город"], correct: 0 },
+    { type: "mc", q: "Šta znači 'prijatelj'?", options: ["друг", "враг", "сосед"], correct: 0 },
     { type: "mc", q: "Koja je množina reči 'knjiga'?", options: ["knjige", "knjiga", "knjigi"], correct: 0 },
     { type: "fill", q: "Dopuni množinu: sto → stol___ (dodaj umetak i nastavak)", answer: "ovi", alt: ["stolovi"], explain: "sto → stolovi." },
     { type: "fill", q: "Napisi množinu reči 'pismo':", answer: "pisma", alt: [] },
     { type: "fill", q: "Napisi množinu reči 'sestra':", answer: "sestre", alt: [] },
-    { type: "fill", q: "Napisi jedninu reči 'deca' (standardni oblik koji se uci, iako je gramaticki poseban):", answer: "dete", alt: [] },
-    { type: "fill", q: "Napisi rod reči 'knjiga' jednom reci (muski/zenski/srednji):", answer: "zenski", alt: ["ženski"], explain: "" },
+    { type: "fill", q: "Napisi jedninu reči 'deca' (standardni oblik koji se uči, iako je gramaticki poseban):", answer: "dete", alt: [] },
+    { type: "fill", q: "Napisi rod reči 'knjiga' jednom reči (muški/ženski/srednji):", answer: "ženski", alt: ["ženski"], explain: "" },
     { type: "fill", q: "Prevedi na srpski 'ребёнок':", answer: "dete", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'город':", answer: "grad", alt: [] }
   ]

@@ -7,7 +7,7 @@ window.LESSONS["a1-10"] = {
   titleRu: "Путешествия и общественный транспорт",
 
   intro: {
-    sr: `Zadnja lekcija A1 nivoa! Danas ucimo reci za putovanje, transport i snalazenje u gradu.`,
+    sr: `Zadnja lekcija A1 nivoa! Danas učimo reči za putovanje, transport i snalazenje u gradu.`,
     ru: `Последний урок уровня A1. Вы выучите слова для путешествий и — как бонус — познакомитесь с <b>instrumental</b> (творительным падежом), который используется для обозначения средства передвижения, совсем как в русском «ехать поездом».`
   },
 
@@ -48,7 +48,7 @@ window.LESSONS["a1-10"] = {
         ],
         drill: {
           type: "choice",
-          question: "Koja recenica znaci 'Я еду поездом' (sredstvo, bez 'sa')?",
+          question: "Koja rečenica znači 'Я еду поездом' (sredstvo, bez 'sa')?",
           options: ["Putujem vozom.", "Putujem sa vozom.", "Putujem voz."],
           correctIndex: 0
         }
@@ -64,7 +64,7 @@ window.LESSONS["a1-10"] = {
         ],
         drill: {
           type: "choice",
-          question: "Sta znaci 'Skreni levo'?",
+          question: "Šta znači 'Skreni levo'?",
           options: ["Поверни налево.", "Иди прямо.", "Поверни направо."],
           correctIndex: 0
         }
@@ -92,14 +92,14 @@ window.LESSONS["a1-10"] = {
     titleRu: "Saveti",
     items: [
       `Instrumental bez predloga za sredstvo transporta (vozom, autobusom) je gotovo identicno ruskom "ехать поездом" — koristi tu naviku direktno.`,
-      `Ne mesaj: <b>vozom</b> (sredstvo, bez "sa") i <b>sa prijateljem</b> (drustvo, uz "sa") — oba su instrumental, ali razlicita upotreba.`,
+      `Ne mesaj: <b>vozom</b> (sredstvo, bez "sa") i <b>sa prijateljem</b> (drustvo, uz "sa") — oba su instrumental, ali različita upotreba.`,
       `Fraza <b>Koliko traje...?</b> (Сколько длится...?) je korisna za bilo koju vremensku duzinu, ne samo putovanja.`,
-      `Cestitamo na zavrsetku A1 nivoa! Sada znas osnovne padeze (nominativ, akuzativ, lokativ, i uvod u genitiv i instrumental), buduce i proslo vreme. A2 nivo ce sistematizovati sve padeze zajedno.`
+      `Cestitamo na zavrsetku A1 nivoa! Sada znas osnovne padeže (nominativ, akuzativ, lokativ, i uvod u genitiv i instrumental), buduce i proslo vreme. A2 nivo ce sistematizovati sve padeže zajedno.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "autobus", ru: "автобус" },
       { sr: "voz", ru: "поезд" },
@@ -141,25 +141,25 @@ window.LESSONS["a1-10"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Koji padez se koristi za sredstvo transporta (vozom)?", options: ["instrumental", "akuzativ", "lokativ"], correct: 0 },
-    { type: "mc", q: "Koji je instrumental reci 'voz'?", options: ["vozom", "voza", "vozu"], correct: 0 },
-    { type: "mc", q: "Koji je instrumental reci 'autobus'?", options: ["autobusom", "autobusu", "autobusa"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'sa prijateljem'?", options: ["с другом", "другом (sredstvo)", "без друга"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'skreni levo'?", options: ["поверни налево", "иди прямо", "поверни направо"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'blizu'?", options: ["близко", "далеко", "быстро"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'karta' (u kontekstu putovanja)?", options: ["билет", "карта (geografska)", "меню"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'peron'?", options: ["платформа", "вокзал", "билет"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'let kasni'?", options: ["рейс задерживается", "рейс отменён", "рейс прибыл"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'čekaonica'?", options: ["зал ожидания", "касса", "платформа"], correct: 0 },
+    { type: "mc", q: "Koji padež se koristi za sredstvo transporta (vozom)?", options: ["instrumental", "akuzativ", "lokativ"], correct: 0 },
+    { type: "mc", q: "Koji je instrumental reči 'voz'?", options: ["vozom", "voza", "vozu"], correct: 0 },
+    { type: "mc", q: "Koji je instrumental reči 'autobus'?", options: ["autobusom", "autobusu", "autobusa"], correct: 0 },
+    { type: "mc", q: "Šta znači 'sa prijateljem'?", options: ["с другом", "другом (sredstvo)", "без друга"], correct: 0 },
+    { type: "mc", q: "Šta znači 'skreni levo'?", options: ["поверни налево", "иди прямо", "поверни направо"], correct: 0 },
+    { type: "mc", q: "Šta znači 'blizu'?", options: ["близко", "далеко", "быстро"], correct: 0 },
+    { type: "mc", q: "Šta znači 'karta' (u kontekstu putovanja)?", options: ["билет", "карта (geografska)", "меню"], correct: 0 },
+    { type: "mc", q: "Šta znači 'peron'?", options: ["платформа", "вокзал", "билет"], correct: 0 },
+    { type: "mc", q: "Šta znači 'let kasni'?", options: ["рейс задерживается", "рейс отменён", "рейс прибыл"], correct: 0 },
+    { type: "mc", q: "Šta znači 'čekaonica'?", options: ["зал ожидания", "касса", "платформа"], correct: 0 },
     { type: "mc", q: "Kako pitas 'Сколько длится путь?'", options: ["Koliko traje put?", "Koliko košta put?", "Gde je put?"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'polazak'?", options: ["отправление", "прибытие", "билет"], correct: 0 },
+    { type: "mc", q: "Šta znači 'polazak'?", options: ["отправление", "прибытие", "билет"], correct: 0 },
     { type: "fill", q: "Dopuni instrumental: Putujem avion___. (avion)", answer: "om", alt: ["avionom"] },
     { type: "fill", q: "Dopuni: Idem na posao ___. (bicikl, instrumental)", answer: "biciklom", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'Когда отправляется поезд?':", answer: "Kada polazi voz?", alt: ["kada polazi voz"] },
     { type: "fill", q: "Prevedi na srpski 'Где станция?':", answer: "Gde je stanica?", alt: ["gde je stanica"] },
-    { type: "fill", q: "Napisi rec za 'аэропорт':", answer: "aerodrom", alt: [] },
-    { type: "fill", q: "Napisi rec za 'направо':", answer: "desno", alt: [] },
-    { type: "fill", q: "Napisi rec za 'прямо' (pravac)):", answer: "pravo", alt: [] },
-    { type: "fill", q: "Napisi instrumental reci 'auto':", answer: "autom", alt: [] }
+    { type: "fill", q: "Napisi reč za 'аэропорт':", answer: "aerodrom", alt: [] },
+    { type: "fill", q: "Napisi reč za 'направо':", answer: "desno", alt: [] },
+    { type: "fill", q: "Napisi reč za 'прямо' (pravac)):", answer: "pravo", alt: [] },
+    { type: "fill", q: "Napisi instrumental reči 'auto':", answer: "autom", alt: [] }
   ]
 };

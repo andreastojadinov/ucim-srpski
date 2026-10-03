@@ -7,7 +7,7 @@ window.LESSONS["a0-02"] = {
   titleRu: "Глагол «быть» и личные местоимения",
 
   intro: {
-    sr: `Danas ucimo najvazniji glagol u srpskom jeziku — BITI (быть) — i licne zamenice.`,
+    sr: `Danas učimo najvazniji glagol u srpskom jeziku — BITI (быть) — i lične zamenice.`,
     ru: `Глагол <b>biti</b> («быть») — самый частотный глагол сербского языка: он нужен почти в каждом предложении о себе и о других («Я — ...», «Ты — ...», «Мы из ...»). В этом уроке вы выучите личные местоимения и полное спряжение <b>biti</b> в настоящем времени, включая отрицательную форму.`
   },
 
@@ -32,7 +32,7 @@ window.LESSONS["a0-02"] = {
         },
         drill: {
           type: "choice",
-          question: "Koja zamenica znaci 'ты'?",
+          question: "Koja zamenica znači 'ты'?",
           options: ["ti", "vi", "on"],
           correctIndex: 0
         }
@@ -87,7 +87,7 @@ window.LESSONS["a0-02"] = {
         ],
         drill: {
           type: "choice",
-          question: "Kako se kaze 'Я не устал' (muski rod)?",
+          question: "Kako se kaže 'Я не устал' (muški rod)?",
           options: ["Nisam umoran.", "Sam umoran.", "Nisi umoran."],
           correctIndex: 0
         }
@@ -114,7 +114,7 @@ window.LESSONS["a0-02"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Kratke forme (<b>sam, si, je, smo, ste, su</b>) gotovo nikada ne pocinju recenicu — zato se "Ja sam Ana", a ne "Sam Ana". Odrečni oblik (<b>nisam</b> itd.) ovo pravilo nema — moze stajati na pocetku.`,
+      `Kratke forme (<b>sam, si, je, smo, ste, su</b>) gotovo nikada ne počinju rečenicu — zato se "Ja sam Ana", a ne "Sam Ana". Odrečni oblik (<b>nisam</b> itd.) ovo pravilo nema — može stajati na pocetku.`,
       `U pitanjima se oblik "jeste" / "jesam" koristi za kratke potvrdne odgovore: "Da li si umoran? — Jesam." (Да, устал.) — slicno kao rusko "Да, это так."`,
       `Zamenicu <b>vi</b> koristi kada se obracas nepoznatoj osobi ili starijoj osobi formalno — potpuno isto kao rusko formalno "Вы".`,
       `Razlika oni / one / ona zavisi od roda grupe o kojoj govoris — za sada pamti <b>oni</b> kao najcesci, "neutralni" izbor kada nisi siguran.`
@@ -122,7 +122,7 @@ window.LESSONS["a0-02"] = {
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "ja", ru: "я" },
       { sr: "ti", ru: "ты" },
@@ -145,7 +145,7 @@ window.LESSONS["a0-02"] = {
       textSr: `<p>— Zdravo! Ja sam <span class="word" data-ru="Виктор">Viktor</span>. <span class="word" data-ru="Я из России.">Ja sam iz Rusije</span>.<br>
       — Ćao, Viktore! Ja sam Milica, i ja sam <span class="word" data-ru="студентка">studentkinja</span>.<br>
       — <span class="word" data-ru="Вы студентка? Я тоже!">Vi ste studentkinja? I ja sam student</span>!<br>
-      — Odlicno! <span class="word" data-ru="Мы оба студенты.">Mi smo oba studenti</span>. Odakle si ti tacno?<br>
+      — Odlicno! <span class="word" data-ru="Мы оба студенты.">Mi smo oba studenti</span>. Odakle si ti tačno?<br>
       — Ja sam iz Moskve, a sada sam ovde, u Beogradu.</p>`,
       comprehension: [
         {
@@ -163,9 +163,9 @@ window.LESSONS["a0-02"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Sta znaci zamenica 'ti'?", options: ["ты", "вы", "он"], correct: 0 },
-    { type: "mc", q: "Koja zamenica znaci 'мы'?", options: ["mi", "vi", "oni"], correct: 0 },
-    { type: "mc", q: "Kako se kaze 'я' na srpskom?", options: ["ja", "ti", "on"], correct: 0 },
+    { type: "mc", q: "Šta znači zamenica 'ti'?", options: ["ты", "вы", "он"], correct: 0 },
+    { type: "mc", q: "Koja zamenica znači 'мы'?", options: ["mi", "vi", "oni"], correct: 0 },
+    { type: "mc", q: "Kako se kaže 'я' na srpskom?", options: ["ja", "ti", "on"], correct: 0 },
     { type: "mc", q: "Koji oblik glagola BITI ide uz 'ja'?", options: ["sam", "si", "je"], correct: 0 },
     { type: "mc", q: "Koji oblik glagola BITI ide uz 'on/ona/ono'?", options: ["je", "sam", "su"], correct: 0 },
     { type: "mc", q: "Koji oblik glagola BITI ide uz 'mi'?", options: ["smo", "ste", "su"], correct: 0 },
@@ -173,15 +173,15 @@ window.LESSONS["a0-02"] = {
     { type: "mc", q: "Kako prevodis 'On je lekar.'?", options: ["Он врач.", "Она врач.", "Мы врачи."], correct: 0 },
     { type: "mc", q: "Kako prevodis 'Mi smo iz Rusije.'?", options: ["Мы из России.", "Я из России.", "Вы из России."], correct: 0 },
     { type: "mc", q: "Koji oblik je 'naglasen' (emfaticki) oblik za 'ti'?", options: ["jesi", "si", "ste"], correct: 0 },
-    { type: "mc", q: "Koja recenica je tacno negirana?", options: ["Nisam umoran.", "Ne sam umoran.", "Sam nisam umoran."], correct: 0 },
-    { type: "mc", q: "Sta znaci 'odakle'?", options: ["откуда", "куда", "где"], correct: 0 },
+    { type: "mc", q: "Koja rečenica je tačno negirana?", options: ["Nisam umoran.", "Ne sam umoran.", "Sam nisam umoran."], correct: 0 },
+    { type: "mc", q: "Šta znači 'odakle'?", options: ["откуда", "куда", "где"], correct: 0 },
     { type: "mc", q: "Koja zamenica se koristi za formalno 'Вы' jednoj osobi?", options: ["vi", "ti", "oni"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'studentkinja'?", options: ["студентка", "преподаватель", "врач"], correct: 0 },
+    { type: "mc", q: "Šta znači 'studentkinja'?", options: ["студентка", "преподаватель", "врач"], correct: 0 },
     { type: "fill", q: "Dopuni: Mi ___ studenti. (biti)", answer: "smo", alt: [], explain: "Mi smo = Мы есть." },
     { type: "fill", q: "Dopuni: Vi ___ veoma ljubazni. (biti)", answer: "ste", alt: [] },
     { type: "fill", q: "Dopuni odrečno: On ___ ovde. (nije)", answer: "nije", alt: [] },
-    { type: "fill", q: "Prevedi na srpski 'я не голоден' (muski rod):", answer: "nisam gladan", alt: ["Nisam gladan"], explain: "" },
+    { type: "fill", q: "Prevedi na srpski 'я не голоден' (muški rod):", answer: "nisam gladan", alt: ["Nisam gladan"], explain: "" },
     { type: "fill", q: "Dopuni: Ja ___ Ana. (biti, potvrdno)", answer: "sam", alt: [] },
-    { type: "fill", q: "Napisi zamenicu za 'они' (muski rod / mesovita grupa):", answer: "oni", alt: [] }
+    { type: "fill", q: "Napisi zamenicu za 'они' (muški rod / mesovita grupa):", answer: "oni", alt: [] }
   ]
 };

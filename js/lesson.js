@@ -1,7 +1,7 @@
 /* =======================================================================
    LESSON.JS — "motor" koji iscrtava lekciju i obradjuje interaktivnost
-   (gramatika sa mini-provezbavanjima, flip-kartice za primere, citanje sa
-   recnikom i kviz sa automatskom provizijom odgovora).
+   (gramatika sa mini-provezbavanjima, flip-kartice za primere, čitanje sa
+   rečnikom i kviz sa automatskom provizijom odgovora).
    ======================================================================= */
 
 (function () {
@@ -9,14 +9,14 @@
   const root = document.getElementById("lessonRoot");
 
   if (!lesson) {
-    root.innerHTML = "<div class='panel'><p>Lekcija nije pronadjena. <a href='index.html'>Nazad na pocetnu</a>.</p></div>";
+    root.innerHTML = "<div class='panel'><p>Lekcija nije pronađena. <a href='index.html'>Nazad na početnu</a>.</p></div>";
     return;
   }
 
   const level = (window.CURRICULUM || []).find((l) => l.code === lesson.level);
   document.getElementById("lessonTitle").textContent =
     (level ? level.code + " · " : "") + lesson.titleSr;
-  document.title = lesson.titleSr + " — Ucim Srpski";
+  document.title = lesson.titleSr + " — Učim Srpski";
 
   const STEPS = [
     { key: "intro", label: "Uvod" },
@@ -131,7 +131,7 @@
         <div class="drill" data-drill="${uid}">
           <div class="drill-q">Probaj sam: ${escapeHtml(drill.question)}</div>
           <div class="text-check-row">
-            <input type="text" placeholder="Upisi odgovor..." data-input="${uid}">
+            <input type="text" placeholder="Upiši odgovor..." data-input="${uid}">
             <button class="btn" data-check="${uid}">Provera</button>
           </div>
           <div class="feedback" data-fb="${uid}"></div>
@@ -221,7 +221,7 @@
     let readingHtml = "";
     if (v.reading) {
       readingHtml = `
-        <h3>Kratak tekst za vezbanje citanja</h3>
+        <h3>Kratak tekst za vežbanje čitanja</h3>
         <div class="reading-excerpt">
           ${v.reading.textSr}
           <span class="source">${v.reading.sourceNote || ""}</span>
@@ -246,23 +246,6 @@
 
   /* ---------------- QUIZ ---------------- */
 
-  function renderQuizSummary() {
-    const total = lesson.quiz.length;
-    const score = quizState.reduce((acc, s) => acc + (s.correct ? 1 : 0), 0);
-    const pct = Math.round((score / total) * 100);
-    return `
-      <div class="panel quiz-summary">
-        <div>Tvoj rezultat / Твой результат</div>
-        <div class="score">${score} / ${total}</div>
-        <div>${pct}%</div>
-        <p style="margin-top:14px">
-          <button class="btn secondary" id="retryQuizBtn">Pokusaj ponovo</button>
-          <a class="btn" style="margin-left:8px;text-decoration:none;display:inline-block" href="index.html">Nazad na sve lekcije</a>
-        </p>
-      </div>
-    `;
-  }
-
   function renderQuizItem(item, idx) {
     const state = quizState[idx];
     let body = "";
@@ -277,7 +260,7 @@
     } else if (item.type === "fill") {
       body = `
         <div class="quiz-check-wrap">
-          <input type="text" placeholder="Upisi odgovor..." data-qinput="${idx}" ${state.answered ? "disabled" : ""}>
+          <input type="text" placeholder="Upiši odgovor..." data-qinput="${idx}" ${state.answered ? "disabled" : ""}>
           <button class="btn" data-qcheck="${idx}" ${state.answered ? "disabled" : ""}>Provera</button>
         </div>
       `;
@@ -294,17 +277,17 @@
 
   function renderQuiz() {
     if (quizFinished && progress.quizScore !== null && progress.quizScore !== undefined && !quizRetryActive) {
-      return `<h2 style="padding:0 2px">Kviz</h2>` + renderQuizSummaryFromProgress();
+      return `<h2 class="quiz-done-heading">Kviz</h2>` + renderQuizSummaryFromProgress();
     }
     const items = lesson.quiz.map((item, idx) => renderQuizItem(item, idx)).join("");
     return `
       <div class="panel">
         <h2>Kviz</h2>
-        <p style="color:var(--text-muted);font-size:0.9rem">Odaberi odgovor ili upisi rec, pa klikni <b>Provera</b>. / Выбери ответ или допиши слово, затем нажми «Provera».</p>
+        <p class="quiz-intro-note">Odaberi odgovor ili upiši reč, pa klikni <b>Provera</b>. / Выбери ответ или допиши слово, затем нажми «Provera».</p>
         ${items}
         <div class="nav-row">
           <button class="btn secondary" id="prevBtn">&larr; Prethodno</button>
-          <button class="btn" id="finishQuizBtn">Zavrsi kviz</button>
+          <button class="btn" id="finishQuizBtn">Završi kviz</button>
         </div>
       </div>
     `;
@@ -319,9 +302,9 @@
         <div>Tvoj rezultat / Твой результат</div>
         <div class="score">${score} / ${total}</div>
         <div>${pct}%</div>
-        <p style="margin-top:14px">
-          <button class="btn secondary" id="retryQuizBtn">Pokusaj ponovo</button>
-          <a class="btn" style="margin-left:8px;text-decoration:none;display:inline-block" href="index.html">Nazad na sve lekcije</a>
+        <p class="quiz-summary-actions">
+          <button class="btn secondary" id="retryQuizBtn">Pokušaj ponovo</button>
+          <a class="btn btn-link-inline" href="index.html">Nazad na sve lekcije</a>
         </p>
       </div>
     `;
@@ -363,13 +346,13 @@
           drillEl.querySelectorAll(".opt-btn").forEach((b) => b.classList.remove("correct", "wrong"));
           if (isCorrect) {
             btn.classList.add("correct");
-            fb.textContent = "Tacno! / Правильно!";
+            fb.textContent = "Tačno! / Правильно!";
             fb.className = "feedback show ok";
           } else {
             btn.classList.add("wrong");
             const correctBtn = drillEl.querySelector(`.opt-btn[data-idx="${correctIdx}"]`);
             if (correctBtn) correctBtn.classList.add("correct");
-            fb.textContent = "Nije tacno. Tacan odgovor je oznacen zeleno. / Неверно — правильный ответ отмечен зелёным.";
+            fb.textContent = "Nije tačno. Tačan odgovor je oznacen zeleno. / Неверно — правильный ответ отмечен зелёным.";
             fb.className = "feedback show bad";
           }
         });
@@ -384,10 +367,10 @@
           const correctInfo = drillAnswerMap[uid];
           const isOk = correctInfo ? fillIsCorrect(val, correctInfo) : false;
           if (isOk) {
-            fb.textContent = "Tacno! / Правильно!";
+            fb.textContent = "Tačno! / Правильно!";
             fb.className = "feedback show ok";
           } else {
-            fb.textContent = `Nije tacno. Tacan odgovor: "${correctInfo ? correctInfo.answer : ""}". / Неверно. Правильный ответ: "${correctInfo ? correctInfo.answer : ""}".`;
+            fb.textContent = `Nije tačno. Tačan odgovor: "${correctInfo ? correctInfo.answer : ""}". / Неверно. Правильный ответ: "${correctInfo ? correctInfo.answer : ""}".`;
             fb.className = "feedback show bad";
           }
         });
@@ -453,10 +436,10 @@
           });
           checkBtn.disabled = true;
           if (state.correct) {
-            fb.textContent = "Tacno! / Правильно! " + (item.explain || "");
+            fb.textContent = "Tačno! / Правильно! " + (item.explain || "");
             fb.className = "feedback show ok";
           } else {
-            fb.textContent = `Nije tacno. Tacan odgovor: "${item.options[item.correct]}". ${item.explain || ""}`;
+            fb.textContent = `Nije tačno. Tačan odgovor: "${item.options[item.correct]}". ${item.explain || ""}`;
             fb.className = "feedback show bad";
           }
         });
@@ -470,10 +453,10 @@
           input.disabled = true;
           checkBtn.disabled = true;
           if (state.correct) {
-            fb.textContent = "Tacno! / Правильно! " + (item.explain || "");
+            fb.textContent = "Tačno! / Правильно! " + (item.explain || "");
             fb.className = "feedback show ok";
           } else {
-            fb.textContent = `Nije tacno. Tacan odgovor: "${item.answer}". ${item.explain || ""}`;
+            fb.textContent = `Nije tačno. Tačan odgovor: "${item.answer}". ${item.explain || ""}`;
             fb.className = "feedback show bad";
           }
         });

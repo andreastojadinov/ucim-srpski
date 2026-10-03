@@ -7,7 +7,7 @@ window.LESSONS["a0-06"] = {
   titleRu: "Дни, месяцы и время (который час)",
 
   intro: {
-    sr: `Danas ucimo dane u nedelji, mesece, godisnja doba i kako da pitamo i kazemo koliko je sati.`,
+    sr: `Danas učimo dane u nedelji, mesece, godisnja doba i kako da pitamo i kažemo koliko je sati.`,
     ru: `Эта лекция — практичный набор слов на каждый день: дни недели, месяцы, времена года и выражение времени («который час», «в семь часов»). Обратите особое внимание на слово <b>nedelja</b> — это ложный друг переводчика!`
   },
 
@@ -31,7 +31,7 @@ window.LESSONS["a0-06"] = {
         },
         drill: {
           type: "choice",
-          question: "Koji srpski dan znaci 'среда'?",
+          question: "Koji srpski dan znači 'среда'?",
           options: ["sreda", "subota", "sedmica"],
           correctIndex: 0
         }
@@ -93,15 +93,15 @@ window.LESSONS["a0-06"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `<b>Nedelja</b> = i «воскресенье» i «неделя» — ako je nejasno iz konteksta, moze se reci <b>sedmica</b> za "neделю" radi preciznosti.`,
-      `Nedelja (sedmica) pocinje <b>ponedeljkom</b>, a ne nedeljom/voskresenjem — razlika od nekih drugih kalendarskih navika.`,
+      `<b>Nedelja</b> = i «воскресенье» i «неделя» — ako je nejasno iz konteksta, može se reči <b>sedmica</b> za "неделю" radi preciznosti.`,
+      `Nedelja (sedmica) počinje <b>ponedeljkom</b>, a ne nedeljom/voskresenjem — razlika od nekih drugih kalendarskih navika.`,
       `Broj uz "sat" prati isto pravilo kao broj uz "godina": 1 sat, 2-4 sata, 5+ sati.`,
       `Za delove dana koristi se: <b>jutro</b> (утро), <b>podne</b> (полдень), <b>popodne</b> (после полудня), <b>veče</b> (вечер), <b>noć</b> (ночь).`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "ponedeljak – nedelja", ru: "дни недели (см. таблицу выше)" },
       { sr: "mesec", ru: "месяц" },
@@ -139,17 +139,17 @@ window.LESSONS["a0-06"] = {
 
   quiz: [
     { type: "mc", q: "Koji dan je prvi u nedelji (po srpskom kalendaru)?", options: ["ponedeljak", "nedelja", "subota"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'sreda'?", options: ["среда", "субота", "четверг"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'subota'?", options: ["субота", "пятница", "вторник"], correct: 0 },
-    { type: "mc", q: "Rec 'nedelja' moze znaciti:", options: ["i voskresenje i nedelju (sedmicu)", "samo subotu", "samo mesec"], correct: 0 },
+    { type: "mc", q: "Šta znači 'sreda'?", options: ["среда", "субота", "четверг"], correct: 0 },
+    { type: "mc", q: "Šta znači 'subota'?", options: ["субота", "пятница", "вторник"], correct: 0 },
+    { type: "mc", q: "Reč 'nedelja' može značiti:", options: ["i voskresenje i nedelju (sedmicu)", "samo subotu", "samo mesec"], correct: 0 },
     { type: "mc", q: "Koji mesec je 'decembar'?", options: ["декабрь", "ноябрь", "октябрь"], correct: 0 },
     { type: "mc", q: "Koje je godisnje doba 'leto'?", options: ["лето", "зима", "весна"], correct: 0 },
     { type: "mc", q: "Koje je godisnje doba 'jesen'?", options: ["осень", "лето", "зима"], correct: 0 },
     { type: "mc", q: "Kako pitas 'Который час?'", options: ["Koliko je sati?", "Koliko ima godina?", "Koji je dan?"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'podne'?", options: ["полдень", "полночь", "утро"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'veče'?", options: ["вечер", "утро", "ночь"], correct: 0 },
-    { type: "mc", q: "Koji oblik ide uz broj 1 i rec 'sat'?", options: ["jedan sat", "jedan sata", "jedan sati"], correct: 0 },
-    { type: "mc", q: "Koji oblik ide uz broj 5 i rec 'sat'?", options: ["pet sati", "pet sata", "pet sat"], correct: 0 },
+    { type: "mc", q: "Šta znači 'podne'?", options: ["полдень", "полночь", "утро"], correct: 0 },
+    { type: "mc", q: "Šta znači 'veče'?", options: ["вечер", "утро", "ночь"], correct: 0 },
+    { type: "mc", q: "Koji oblik ide uz broj 1 i reč 'sat'?", options: ["jedan sat", "jedan sata", "jedan sati"], correct: 0 },
+    { type: "mc", q: "Koji oblik ide uz broj 5 i reč 'sat'?", options: ["pet sati", "pet sata", "pet sat"], correct: 0 },
     { type: "fill", q: "Napisi dan koji dolazi posle petka:", answer: "subota", alt: [] },
     { type: "fill", q: "Napisi prvi mesec u godini:", answer: "januar", alt: [] },
     { type: "fill", q: "Napisi godisnje doba kada je najhladnije:", answer: "zima", alt: [] },

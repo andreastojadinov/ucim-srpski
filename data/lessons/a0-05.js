@@ -7,7 +7,7 @@ window.LESSONS["a0-05"] = {
   titleRu: "Числа 0–100 и цены",
 
   intro: {
-    sr: `Danas ucimo brojeve od 0 do 100 i kako da pitas i kazes cenu neceg.`,
+    sr: `Danas učimo brojeve od 0 do 100 i kako da pitas i kažeš cenu neceg.`,
     ru: `Числа нужны постоянно — в магазине, по телефону, при обсуждении возраста и времени. В этом уроке — числа 0–100 и то, как спросить и назвать цену. Обратите внимание: число «1» и «2» в сербском согласуются по роду, как и в русском («один/одна/одно», «два/две»).`
   },
 
@@ -106,15 +106,15 @@ window.LESSONS["a0-05"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Brojeve telefona Srbi obicno izgovaraju cifru po cifru ili u parovima — slicno kao i u ruskom.`,
-      `Rec <b>evro</b> (евро) koristi se za vece iznose (stanarina, plate), a <b>dinar</b> za svakodnevne male kupovine — korisno je znati oba.`,
-      `Fraza <b>Koliko košta?</b> radi i u jednini i mnozini konteksta — za vise stvari pitas "Koliko košta ovo?" pokazujuci na predmet, bez promene glagola.`,
-      `Slaganje brojeva sa imenicama (1 / 2-4 / 5+) izgleda slicno kao u ruskom, ali oblici imenica se razlikuju — ovo cemo detaljno uciti kroz padeze na A1 nivou.`
+      `Brojeve telefona Srbi obično izgovaraju cifru po cifru ili u parovima — slicno kao i u ruskom.`,
+      `Reč <b>evro</b> (евро) koristi se za veče iznose (stanarina, plate), a <b>dinar</b> za svakodnevne male kupovine — korisno je znati oba.`,
+      `Fraza <b>Koliko košta?</b> radi i u jednini i množini konteksta — za vise stvari pitas "Koliko košta ovo?" pokazujuci na predmet, bez promene glagola.`,
+      `Slaganje brojeva sa imenicama (1 / 2-4 / 5+) izgleda slicno kao u ruskom, ali oblici imenica se razlikuju — ovo cemo detaljno učiti kroz padeže na A1 nivou.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "nula – deset", ru: "ноль – десять (видите таблицу выше)" },
       { sr: "dvadeset", ru: "двадцать" },
@@ -161,11 +161,11 @@ window.LESSONS["a0-05"] = {
     { type: "mc", q: "Kako se kaže broj 15?", options: ["petnaest", "pedeset", "pet"], correct: 0 },
     { type: "mc", q: "Koji oblik broja 1 ide uz 'knjiga' (ženski rod)?", options: ["jedna", "jedan", "jedno"], correct: 0 },
     { type: "mc", q: "Koji oblik broja 2 ide uz 'knjiga' (ženski rod)?", options: ["dve", "dva", "dvoje"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Koliko košta?'", options: ["Сколько стоит?", "Сколько лет?", "Где это?"], correct: 0 },
-    { type: "mc", q: "Sta je 'dinar'?", options: ["valuta Srbije", "valuta Rusije", "vrsta hleba"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'skupo'?", options: ["дорого", "дёшево", "бесплатно"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'jeftino'?", options: ["дёшево", "дорого", "дорогой"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'račun' u prodavnici?", options: ["счёт/чек", "мелочь", "карта"], correct: 0 },
+    { type: "mc", q: "Šta znači 'Koliko košta?'", options: ["Сколько стоит?", "Сколько лет?", "Где это?"], correct: 0 },
+    { type: "mc", q: "Šta je 'dinar'?", options: ["valuta Srbije", "valuta Rusije", "vrsta hleba"], correct: 0 },
+    { type: "mc", q: "Šta znači 'skupo'?", options: ["дорого", "дёшево", "бесплатно"], correct: 0 },
+    { type: "mc", q: "Šta znači 'jeftino'?", options: ["дёшево", "дорого", "дорогой"], correct: 0 },
+    { type: "mc", q: "Šta znači 'račun' u prodavnici?", options: ["счёт/чек", "мелочь", "карта"], correct: 0 },
     { type: "mc", q: "Kako se kaže 100?", options: ["sto", "sedam", "šest"], correct: 0 },
     { type: "mc", q: "Kako se kaže 'deset' na ruskom?", options: ["десять", "десятка", "десятый"], correct: 0 },
     { type: "fill", q: "Napiši reč za broj 30:", answer: "trideset", alt: [] },
@@ -175,6 +175,6 @@ window.LESSONS["a0-05"] = {
     { type: "fill", q: "Prevedi na srpski 'Сколько стоит?':", answer: "Koliko košta?", alt: ["koliko kosta", "Koliko kosta?"] },
     { type: "fill", q: "Napiši broj 21 rečima:", answer: "dvadeset jedan", alt: [] },
     { type: "fill", q: "Napiši broj 100 rečju:", answer: "sto", alt: [] },
-    { type: "fill", q: "Prevedi na srpski rec 'деньги':", answer: "novac", alt: [] }
+    { type: "fill", q: "Prevedi na srpski reč 'деньги':", answer: "novac", alt: [] }
   ]
 };

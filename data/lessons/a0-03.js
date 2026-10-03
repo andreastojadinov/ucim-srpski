@@ -7,7 +7,7 @@ window.LESSONS["a0-03"] = {
   titleRu: "Глагол «иметь» и знакомство",
 
   intro: {
-    sr: `Danas ucimo glagol IMATI (иметь) i kako da se predstavimo — ime, godine, porodica.`,
+    sr: `Danas učimo glagol IMATI (иметь) i kako da se predstavimo — ime, godine, porodica.`,
     ru: `Второй по важности глагол — <b>imati</b> («иметь/у меня есть»). Он нужен и для обычных вещей («у меня есть брат»), и для возраста («мне 20 лет» = буквально «я имею 20 лет»). Также вы выучите глагол <b>zvati se</b> («зваться») — ключевой для знакомства.`
   },
 
@@ -105,15 +105,15 @@ window.LESSONS["a0-03"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Ne mesaj <b>sam</b> (biti — я есть) i <b>imam</b> (imati — у меня есть) — pocetnici cesto grese i kazu "Ja sam dvadeset godina" umesto tacnog "Imam dvadeset godina".`,
+      `Ne mesaj <b>sam</b> (biti — я есть) i <b>imam</b> (imati — у меня есть) — pocetnici često grese i kazu "Ja sam dvadeset godina" umesto tačnog "Imam dvadeset godina".`,
       `U pitanju za ime, <b>se</b> ostaje uvek uz glagol: "Kako se zoveš?", nikad "Kako zoveš?".`,
       `Fraza <b>Drago mi je</b> (Приятно познакомиться) koristi se i pri upoznavanju i kada cujes dobru vest — slicno ruskom "Приятно".`,
-      `Broj posle "godina" ponekad menja oblik reci "godina" (1 godina, 2-4 godine, 5+ godina) — ovo cemo detaljno obraditi u lekciji o brojevima.`
+      `Broj posle "godina" ponekad menja oblik reči "godina" (1 godina, 2-4 godine, 5+ godina) — ovo cemo detaljno obraditi u lekciji o brojevima.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "imati", ru: "иметь" },
       { sr: "nemati", ru: "не иметь" },
@@ -155,25 +155,25 @@ window.LESSONS["a0-03"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Sta znaci 'imati'?", options: ["иметь", "быть", "звать"], correct: 0 },
+    { type: "mc", q: "Šta znači 'imati'?", options: ["иметь", "быть", "звать"], correct: 0 },
     { type: "mc", q: "Koji oblik glagola IMATI ide uz 'ja'?", options: ["imam", "imaš", "ima"], correct: 0 },
     { type: "mc", q: "Koji je odrečan oblik za 'on' (imati)?", options: ["nema", "nemam", "nemaš"], correct: 0 },
     { type: "mc", q: "Kako pitas nekoga za ime neformalno?", options: ["Kako se zoveš?", "Kako se zovete?", "Ko ste vi?"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Drago mi je'?", options: ["Приятно познакомиться", "До свидания", "Спокойной ночи"], correct: 0 },
+    { type: "mc", q: "Šta znači 'Drago mi je'?", options: ["Приятно познакомиться", "До свидания", "Спокойной ночи"], correct: 0 },
     { type: "mc", q: "Kako se na srpskom pita 'Сколько тебе лет?'", options: ["Koliko imaš godina?", "Koliko si godina?", "Koliko jesi godina?"], correct: 0 },
     { type: "mc", q: "Kako prevodis 'Mne 20 let' na srpski?", options: ["Imam dvadeset godina.", "Sam dvadeset godina.", "Zovem se dvadeset godina."], correct: 0 },
-    { type: "mc", q: "Sta znaci 'brat'?", options: ["брат", "сестра", "друг"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'porodica'?", options: ["семья", "работа", "страна"], correct: 0 },
+    { type: "mc", q: "Šta znači 'brat'?", options: ["брат", "сестра", "друг"], correct: 0 },
+    { type: "mc", q: "Šta znači 'porodica'?", options: ["семья", "работа", "страна"], correct: 0 },
     { type: "mc", q: "Koji glagol je povratan (ima 'se')?", options: ["zvati se", "imati", "biti"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'nemam vremena'?", options: ["У меня нет времени", "У меня есть время", "Я не устал"], correct: 0 },
+    { type: "mc", q: "Šta znači 'nemam vremena'?", options: ["У меня нет времени", "У меня есть время", "Я не устал"], correct: 0 },
     { type: "mc", q: "Koji oblik glagola ZVATI SE ide uz 'mi'?", options: ["zovemo se", "zovete se", "zovu se"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'dete'?", options: ["ребёнок", "взрослый", "друг"], correct: 0 },
+    { type: "mc", q: "Šta znači 'dete'?", options: ["ребёнок", "взрослый", "друг"], correct: 0 },
     { type: "fill", q: "Dopuni: On ___ dvadeset godina. (imati)", answer: "ima", alt: [] },
     { type: "fill", q: "Dopuni: Ja se ___ Ana. (zvati se)", answer: "zovem", alt: [] },
     { type: "fill", q: "Dopuni odrečno: Mi ___ decu. (nemati)", answer: "nemamo", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'Как тебя зовут?':", answer: "Kako se zoveš?", alt: ["kako se zoves", "Kako se zoves?"], explain: "" },
     { type: "fill", q: "Prevedi na srpski 'У меня есть сестра.':", answer: "Imam sestru.", alt: ["imam sestru"], explain: "" },
     { type: "fill", q: "Dopuni: Koliko ___ godina? (imati, ti)", answer: "imaš", alt: ["imas"], explain: "" },
-    { type: "fill", q: "Napisi srpsku rec za 'фамилия':", answer: "prezime", alt: [] }
+    { type: "fill", q: "Napisi srpsku reč za 'фамилия':", answer: "prezime", alt: [] }
   ]
 };

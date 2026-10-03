@@ -7,7 +7,7 @@ window.LESSONS["a1-07"] = {
   titleRu: "Покупки и числа с падежами",
 
   intro: {
-    sr: `Danas ucimo kako brojevi 5 i vise "trazi" genitiv mnozine, i korisne fraze za kupovinu.`,
+    sr: `Danas učimo kako brojevi 5 i vise "trazi" genitiv množine, i korisne fraze za kupovinu.`,
     ru: `В уроке A0-05 вы уже писали «pet godina», «pet sati», не зная почему. Сегодня раскроем секрет: после чисел 5 и больше существительное стоит в <b>genitiv množine</b> (родительный падеж множественного числа) — точно как в русском «пять яблок» (не «яблоки»)! Это та же логика, просто с сербскими окончаниями.`
   },
 
@@ -27,7 +27,7 @@ window.LESSONS["a1-07"] = {
         },
         drill: {
           type: "fill",
-          question: "Dopuni: Imam pet ___. (jabuka, 5+, genitiv mnozine)",
+          question: "Dopuni: Imam pet ___. (jabuka, 5+, genitiv množine)",
           answer: "jabuka",
           alt: []
         }
@@ -42,7 +42,7 @@ window.LESSONS["a1-07"] = {
         ],
         drill: {
           type: "choice",
-          question: "U recenici 'Kupujem pet banana', oblik 'banana' je:",
+          question: "U rečenici 'Kupujem pet banana', oblik 'banana' je:",
           options: ["genitiv množine", "nominativ jednine", "akuzativ jednine"],
           correctIndex: 0
         }
@@ -85,15 +85,15 @@ window.LESSONS["a1-07"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Genitiv množine je jedan od najkorisnijih padeza u svakodnevnoj kupovini — vredi ga uvezbati na recima koje najcesce kupujes.`,
-      `Kad nisi siguran kakav je genitiv mnozine neke reci, slobodno koristi osnovni (nominativ) oblik — ljudi ce te razumeti, iako nije savrseno gramaticki.`,
-      `<b>Pijaca</b> (open-air market) je mesto gde su cene cesto nize i gde je normalno pregovarati malo o ceni — drugacije nego u supermarketu.`,
+      `Genitiv množine je jedan od najkorisnijih padeža u svakodnevnoj kupovini — vredi ga uvezbati na recima koje najcesce kupujes.`,
+      `Kad nisi siguran kakav je genitiv množine neke reči, slobodno koristi osnovni (nominativ) oblik — ljudi ce te razumeti, iako nije savrseno gramaticki.`,
+      `<b>Pijaca</b> (open-air market) je mesto gde su cene često nize i gde je normalno pregovarati malo o ceni — drugacije nego u supermarketu.`,
       `Fraza "Treba mi..." (мне нужно...) + genitiv je vrlo korisna i van kupovine — radi za gotovo sve svakodnevne potrebe.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "jabuka", ru: "яблоко" },
       { sr: "banana", ru: "банан" },
@@ -136,25 +136,25 @@ window.LESSONS["a1-07"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Koji padez ide uz brojeve 5 i vise?", options: ["genitiv množine", "akuzativ jednine", "nominativ množine"], correct: 0 },
+    { type: "mc", q: "Koji padež ide uz brojeve 5 i vise?", options: ["genitiv množine", "akuzativ jednine", "nominativ množine"], correct: 0 },
     { type: "mc", q: "Kako izgleda genitiv množine 'jabuka' (ž. rod na -a)?", options: ["jabuka (isto kao 1)", "jabukama", "jabuke"], correct: 0 },
     { type: "mc", q: "U 'pet banana', 'banana' je:", options: ["genitiv množine", "nominativ jednine", "dativ"], correct: 0 },
-    { type: "mc", q: "Koji padez trazi rec 'kilogram' (kolicina)?", options: ["genitiv", "akuzativ", "lokativ"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'popust'?", options: ["скидка", "цена", "вес"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'sveže'?", options: ["свежее", "старое", "дорогое"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'pijaca'?", options: ["рынок", "магазин", "ресторан"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'kesa'?", options: ["пакет", "коробка", "бутылка"], correct: 0 },
+    { type: "mc", q: "Koji padež trazi reč 'kilogram' (kolicina)?", options: ["genitiv", "akuzativ", "lokativ"], correct: 0 },
+    { type: "mc", q: "Šta znači 'popust'?", options: ["скидка", "цена", "вес"], correct: 0 },
+    { type: "mc", q: "Šta znači 'sveže'?", options: ["свежее", "старое", "дорогое"], correct: 0 },
+    { type: "mc", q: "Šta znači 'pijaca'?", options: ["рынок", "магазин", "ресторан"], correct: 0 },
+    { type: "mc", q: "Šta znači 'kesa'?", options: ["пакет", "коробка", "бутылка"], correct: 0 },
     { type: "mc", q: "Koliko jabuka ima u frazi 'dve jabuke'?", options: ["dve", "pet", "jedna"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'nekoliko'?", options: ["несколько", "много", "мало"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'treba mi'?", options: ["мне нужно", "я хочу", "я имею"], correct: 0 },
-    { type: "mc", q: "Koji oblik ide uz 'jedna' (1) jabuka?", options: ["jabuka (nominativ jednine)", "jabuka (genitiv mnozine)", "jabuke"], correct: 0 },
-    { type: "fill", q: "Dopuni: Imam pet ___. (jaje, genitiv mnozine)", answer: "jaja", alt: [] },
+    { type: "mc", q: "Šta znači 'nekoliko'?", options: ["несколько", "много", "мало"], correct: 0 },
+    { type: "mc", q: "Šta znači 'treba mi'?", options: ["мне нужно", "я хочу", "я имею"], correct: 0 },
+    { type: "mc", q: "Koji oblik ide uz 'jedna' (1) jabuka?", options: ["jabuka (nominativ jednine)", "jabuka (genitiv množine)", "jabuke"], correct: 0 },
+    { type: "fill", q: "Dopuni: Imam pet ___. (jaje, genitiv množine)", answer: "jaja", alt: [] },
     { type: "fill", q: "Dopuni: Treba mi malo ___. (šećer, genitiv)", answer: "šećera", alt: ["secera"] },
     { type: "fill", q: "Prevedi na srpski 'Сколько стоит килограмм картофеля?':", answer: "Koliko košta kilogram krompira?", alt: ["koliko kosta kilogram krompira"] },
     { type: "fill", q: "Prevedi na srpski 'Дайте мне несколько яиц.':", answer: "Dajte mi nekoliko jaja.", alt: ["dajte mi nekoliko jaja"] },
-    { type: "fill", q: "Napisi genitiv mnozine reci 'paradajz' (m. rod):", answer: "paradajza", alt: [] },
-    { type: "fill", q: "Napisi rec za 'рынок':", answer: "pijaca", alt: [] },
-    { type: "fill", q: "Napisi rec za 'скидка':", answer: "popust", alt: [] },
+    { type: "fill", q: "Napisi genitiv množine reči 'paradajz' (m. rod):", answer: "paradajza", alt: [] },
+    { type: "fill", q: "Napisi reč za 'рынок':", answer: "pijaca", alt: [] },
+    { type: "fill", q: "Napisi reč za 'скидка':", answer: "popust", alt: [] },
     { type: "fill", q: "Dopuni: Litar ___, molim. (mleko, genitiv)", answer: "mleka", alt: [] }
   ]
 };

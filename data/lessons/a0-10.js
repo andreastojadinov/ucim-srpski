@@ -7,7 +7,7 @@ window.LESSONS["a0-10"] = {
   titleRu: "Настоящее время — введение в группы глаголов",
 
   intro: {
-    sr: `Zadnja lekcija A0 nivoa! Danas ucimo osnovne tipove prezenta i ponavljamo sve dosad naučeno.`,
+    sr: `Zadnja lekcija A0 nivoa! Danas učimo osnovne tipove prezenta i ponavljamo sve dosad naučeno.`,
     ru: `Это последний урок уровня A0. Вы познакомитесь с тремя основными моделями настоящего времени (презента) обычных глаголов и с несколькими очень частыми «неправильными» глаголами — <b>hteti</b> (хотеть), <b>ići</b> (идти), <b>moći</b> (мочь). В конце — краткое повторение всего уровня A0.`
   },
 
@@ -56,7 +56,7 @@ window.LESSONS["a0-10"] = {
         ],
         drill: {
           type: "choice",
-          question: "Kako se kaze 'Я иду домой'?",
+          question: "Kako se kaže 'Я иду домой'?",
           options: ["Idem kući.", "Hoću kući.", "Mogu kući."],
           correctIndex: 0
         }
@@ -70,7 +70,7 @@ window.LESSONS["a0-10"] = {
         ],
         drill: {
           type: "fill",
-          question: "Dopuni celu recenicu: Ja ___ (zvati se) Petar i ___ (imati) trideset godina.",
+          question: "Dopuni celu rečenicu: Ja ___ (zvati se) Petar i ___ (imati) trideset godina.",
           answer: "se zovem",
           alt: ["zovem se", "se zovem i imam", "zovem se i imam"]
         }
@@ -98,14 +98,14 @@ window.LESSONS["a0-10"] = {
     titleRu: "Saveti",
     items: [
       `Kad uciš novi glagol, odmah zapamti i njegov oblik za "ja" — to ti otkriva kojoj grupi prezenta pripada, isto kao sto bi u ruskom pamtio par glagola po vidu.`,
-      `<b>Hteti</b> je kljucan jer se koristi i za "желание" i kao pomocni glagol za buduce vreme (Futur I) — to cemo uciti na A1 nivou.`,
-      `<b>Moći</b> se cesto koristi sa "da" + prezent: "Mogu da dođem" (Я могу прийти) — ova "da + prezent" konstrukcija zamenjuje infinitiv u svakodnevnom govoru.`,
-      `Cestitamo na zavrsetku A0 nivoa! Sledeci nivo (A1) uvodi padeze — temelj za mnogo precizniji srpski.`
+      `<b>Hteti</b> je kljucan jer se koristi i za "желание" i kao pomocni glagol za buduce vreme (Futur I) — to cemo učiti na A1 nivou.`,
+      `<b>Moći</b> se često koristi sa "da" + prezent: "Mogu da dođem" (Я могу прийти) — ova "da + prezent" konstrukcija zamenjuje infinitiv u svakodnevnom govoru.`,
+      `Cestitamo na zavrsetku A0 nivoa! Sledeci nivo (A1) uvodi padeže — temelj za mnogo precizniji srpski.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "raditi", ru: "работать / делать" },
       { sr: "gledati", ru: "смотреть" },
@@ -148,19 +148,19 @@ window.LESSONS["a0-10"] = {
     { type: "mc", q: "Koji je oblik glagola 'hteti' za 'ja'?", options: ["hoću", "hoćeš", "hoće"], correct: 0 },
     { type: "mc", q: "Koji je oblik glagola 'ići' za 'ti'?", options: ["ideš", "idem", "ide"], correct: 0 },
     { type: "mc", q: "Koji je oblik glagola 'moći' za 'mi'?", options: ["možemo", "mogu", "možete"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Idem kući'?", options: ["Я иду домой.", "Я хочу кофе.", "Я могу помочь."], correct: 0 },
-    { type: "mc", q: "Sta znaci 'voleti'?", options: ["любить", "хотеть", "мочь"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'učiti'?", options: ["учить", "играть", "писать"], correct: 0 },
+    { type: "mc", q: "Šta znači 'Idem kući'?", options: ["Я иду домой.", "Я хочу кофе.", "Я могу помочь."], correct: 0 },
+    { type: "mc", q: "Šta znači 'voleti'?", options: ["любить", "хотеть", "мочь"], correct: 0 },
+    { type: "mc", q: "Šta znači 'učiti'?", options: ["учить", "играть", "писать"], correct: 0 },
     { type: "mc", q: "Koja konstrukcija zamenjuje infinitiv u govoru ('mogu da...')?", options: ["da + prezent", "da + infinitiv", "li + prezent"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'svaki dan'?", options: ["каждый день", "сегодня", "вчера"], correct: 0 },
-    { type: "mc", q: "Koji glagol je vazan i za 'желание' i za buduce vreme?", options: ["hteti", "moći", "ići"], correct: 0 },
-    { type: "fill", q: "Dopuni: Ona ___ knjigu svaki dan. (čitati)", answer: "čita", alt: ["cita"] },
+    { type: "mc", q: "Šta znači 'svaki dan'?", options: ["каждый день", "сегодня", "вчера"], correct: 0 },
+    { type: "mc", q: "Koji glagol je važan i za 'желание' i za buduce vreme?", options: ["hteti", "moći", "ići"], correct: 0 },
+    { type: "fill", q: "Dopuni: Ona ___ knjigu svaki dan. (čitati)", answer: "čita", alt: ["čita"] },
     { type: "fill", q: "Dopuni: Mi ___ u školu. (ići)", answer: "idemo", alt: [] },
-    { type: "fill", q: "Dopuni: Vi ___ da pomognete? (moći)", answer: "možete", alt: ["mozete"] },
+    { type: "fill", q: "Dopuni: Vi ___ da pomognete? (moći)", answer: "možete", alt: ["možete"] },
     { type: "fill", q: "Prevedi na srpski 'Я хочу кофе.':", answer: "Hoću kafu.", alt: ["hocu kafu"] },
     { type: "fill", q: "Napisi oblik glagola 'pisati' za 'ti':", answer: "pišeš", alt: ["pises"] },
     { type: "fill", q: "Napisi oblik glagola 'raditi' za 'on':", answer: "radi", alt: [] },
-    { type: "fill", q: "Prevedi na srpski 'Могу я войти?':", answer: "Mogu li da uđem?", alt: ["mogu li da udjem"] },
+    { type: "fill", q: "Prevedi na srpski 'Могу я войти?':", answer: "Mogu li da uđem?", alt: ["mogu li da uđem"] },
     { type: "fill", q: "Napisi infinitiv glagola cija je forma za 'ja' — 'idem':", answer: "ići", alt: ["ici"] }
   ]
 };

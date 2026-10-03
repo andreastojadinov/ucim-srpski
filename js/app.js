@@ -20,7 +20,7 @@
     const bar = document.getElementById("statsBar");
     bar.innerHTML = `
       <div class="stat-pill">Dostupno lekcija: <b>${ready}</b> / ${total} planiranih</div>
-      <div class="stat-pill">Zavrseno: <b>${completedCount}</b> lekcija</div>
+      <div class="stat-pill">Završeno: <b>${completedCount}</b> lekcija</div>
     `;
   }
 
@@ -33,7 +33,7 @@
       badge = `<span class="badge soon">uskoro</span>`;
     } else if (prog.completed) {
       const pct = prog.quizTotal ? Math.round((prog.quizScore / prog.quizTotal) * 100) : null;
-      badge = `<span class="badge done">zavrseno${pct !== null ? " · " + pct + "%" : ""}</span>`;
+      badge = `<span class="badge done">završeno${pct !== null ? " · " + pct + "%" : ""}</span>`;
     } else if (prog.lastStep > 0) {
       badge = `<span class="badge progress">u toku</span>`;
     } else {
@@ -42,15 +42,16 @@
 
     if (lesson.ready) {
       const fakeTotalSteps = 6;
-      const pct = Math.min(100, Math.round((prog.lastStep / fakeTotalSteps) * 100));
-      statusLine = `<div class="progress-track"><div class="progress-fill" style="width:${prog.completed ? 100 : pct}%"></div></div>`;
+      const rawPct = prog.completed ? 100 : Math.min(100, Math.round((prog.lastStep / fakeTotalSteps) * 100));
+      const bucket = Math.round(rawPct / 10) * 10;
+      statusLine = `<div class="progress-track"><div class="progress-fill w${bucket}"></div></div>`;
     }
 
     const cls = "lesson-card " + (lesson.ready ? "ready" : "locked");
-    const clickAttr = lesson.ready ? ` onclick="location.href='lesson.html?level=${level.code}&slug=${lesson.slug}'"` : "";
+    const dataAttrs = lesson.ready ? ` data-level="${level.code}" data-slug="${lesson.slug}"` : "";
 
     return `
-      <div class="${cls}"${clickAttr}>
+      <div class="${cls}"${dataAttrs}>
         <div class="lesson-num">${level.code} · Lekcija ${lesson.id}</div>
         <div class="lesson-title">${lesson.titleSr}</div>
         <div class="lesson-title-ru">${lesson.titleRu}</div>
@@ -65,7 +66,7 @@
     wrap.innerHTML = window.CURRICULUM.map((level) => `
       <section class="level-block">
         <div class="level-head">
-          <h2 style="color:${level.color}">${level.name}</h2>
+          <h2 class="lvl-color-${level.code}">${level.name}</h2>
         </div>
         <p class="level-desc">${level.description}<span class="ru">${level.descriptionRu}</span></p>
         <div class="lesson-grid">
@@ -73,6 +74,12 @@
         </div>
       </section>
     `).join("");
+
+    wrap.querySelectorAll(".lesson-card.ready").forEach((card) => {
+      card.addEventListener("click", () => {
+        location.href = "lesson.html?level=" + card.dataset.level + "&slug=" + card.dataset.slug;
+      });
+    });
   }
 
   renderStats();

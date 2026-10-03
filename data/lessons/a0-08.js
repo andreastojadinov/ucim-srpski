@@ -7,7 +7,7 @@ window.LESSONS["a0-08"] = {
   titleRu: "Цвета и указательные местоимения",
 
   intro: {
-    sr: `Danas ucimo boje i pokazne zamenice ovaj/taj/onaj (etot/tot).`,
+    sr: `Danas učimo boje i pokazne zamenice ovaj/taj/onaj (etot/tot).`,
     ru: `Цвета — это тоже прилагательные, значит они согласуются по роду, как вы уже видели. А указательные местоимения в сербском устроены интереснее, чем в русском: вместо двух вариантов «этот/тот» здесь целых три — в зависимости от того, где находится предмет.`
   },
 
@@ -54,7 +54,7 @@ window.LESSONS["a0-08"] = {
         ],
         drill: {
           type: "fill",
-          question: "Dopuni: ___ auto je crven. (pokazna zamenica za 'ovaj', muski rod)",
+          question: "Dopuni: ___ auto je crven. (pokazna zamenica za 'ovaj', muški rod)",
           answer: "Ovaj",
           alt: ["ovaj"]
         }
@@ -69,7 +69,7 @@ window.LESSONS["a0-08"] = {
         ],
         drill: {
           type: "choice",
-          question: "Koji oblik ide uz 'kuća' (zenski rod) — '___ crvena kuća'?",
+          question: "Koji oblik ide uz 'kuća' (ženski rod) — '___ crvena kuća'?",
           options: ["Ova", "Ovaj", "Ovo"],
           correctIndex: 0
         }
@@ -96,15 +96,15 @@ window.LESSONS["a0-08"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `<b>Beo → bela → belo</b> je nepravilno (ocekivali bismo "bel/bela/belo") — ovo je stara promena koju jednostavno treba zapamtiti.`,
-      `Pozajmljene boje kao <b>braon</b>, <b>roze</b>, <b>bordo</b> se <b>ne menjaju</b> po rodu — uvek ista rec, bez obzira na imenicu.`,
-      `Sistem ovaj/taj/onaj nema tacan ekvivalent u ruskom (koji ima samo этот/тот) — u praksi, ako nisi siguran, <b>taj/ta/to</b> je najcesci i "najsigurniji" izbor za opste "тот/та/то".`,
-      `U svakodnevnom govoru <b>ovaj</b> se cesto koristi i kao "poštapalica" (слово-паразит) kad razmisljas sta dalje reci — slicno ruskom "это самое".`
+      `<b>Beo → bela → belo</b> je nepravilno (očekivali bismo "bel/bela/belo") — ovo je stara promena koju jednostavno treba zapamtiti.`,
+      `Pozajmljene boje kao <b>braon</b>, <b>roze</b>, <b>bordo</b> se <b>ne menjaju</b> po rodu — uvek ista reč, bez obzira na imenicu.`,
+      `Sistem ovaj/taj/onaj nema tačan ekvivalent u ruskom (koji ima samo этот/тот) — u praksi, ako nisi siguran, <b>taj/ta/to</b> je najcesci i "najsigurniji" izbor za opste "тот/та/то".`,
+      `U svakodnevnom govoru <b>ovaj</b> se često koristi i kao "poštapalica" (слово-паразит) kad razmisljas šta dalje reči — slicno ruskom "это самое".`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "crven / crvena / crveno", ru: "красный" },
       { sr: "plav / plava / plavo", ru: "синий / голубой" },
@@ -141,25 +141,25 @@ window.LESSONS["a0-08"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Sta znaci 'crven'?", options: ["красный", "синий", "зелёный"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'žut'?", options: ["жёлтый", "белый", "чёрный"], correct: 0 },
+    { type: "mc", q: "Šta znači 'crven'?", options: ["красный", "синий", "зелёный"], correct: 0 },
+    { type: "mc", q: "Šta znači 'žut'?", options: ["жёлтый", "белый", "чёрный"], correct: 0 },
     { type: "mc", q: "Koja boja se NE menja po rodu?", options: ["braon", "crven", "plav"], correct: 0 },
-    { type: "mc", q: "Koji je zenski oblik boje 'beo'?", options: ["bela", "belo", "beloa"], correct: 0 },
-    { type: "mc", q: "Koju pokaznu zamenicu koristis za nesto blizu tebe (govorniku)?", options: ["ovaj", "taj", "onaj"], correct: 0 },
-    { type: "mc", q: "Koju pokaznu zamenicu koristis za nesto daleko od oboje?", options: ["onaj", "ovaj", "taj"], correct: 0 },
+    { type: "mc", q: "Koji je ženski oblik boje 'beo'?", options: ["bela", "belo", "beloa"], correct: 0 },
+    { type: "mc", q: "Koju pokaznu zamenicu koristis za nešto blizu tebe (govorniku)?", options: ["ovaj", "taj", "onaj"], correct: 0 },
+    { type: "mc", q: "Koju pokaznu zamenicu koristis za nešto daleko od oboje?", options: ["onaj", "ovaj", "taj"], correct: 0 },
     { type: "mc", q: "Koji oblik od 'taj' ide uz srednji rod?", options: ["to", "taj", "ta"], correct: 0 },
-    { type: "mc", q: "Koji oblik od 'ovaj' ide uz zenski rod?", options: ["ova", "ovaj", "ovo"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'nebo je plavo'?", options: ["Небо синее.", "Трава зелёная.", "Машина красная."], correct: 0 },
+    { type: "mc", q: "Koji oblik od 'ovaj' ide uz ženski rod?", options: ["ova", "ovaj", "ovo"], correct: 0 },
+    { type: "mc", q: "Šta znači 'nebo je plavo'?", options: ["Небо синее.", "Трава зелёная.", "Машина красная."], correct: 0 },
     { type: "mc", q: "Koliko 'nivoa udaljenosti' ima srpski pokazni sistem?", options: ["tri", "dva", "cetiri"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'zelen'?", options: ["зелёный", "жёлтый", "коричневый"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'boja'?", options: ["цвет", "форма", "размер"], correct: 0 },
-    { type: "fill", q: "Dopuni: ___ knjiga je zanimljiva. (taj, zenski rod)", answer: "Ta", alt: ["ta"] },
-    { type: "fill", q: "Napisi musku formu pridjeva 'крaсный':", answer: "crven", alt: [] },
+    { type: "mc", q: "Šta znači 'zelen'?", options: ["зелёный", "жёлтый", "коричневый"], correct: 0 },
+    { type: "mc", q: "Šta znači 'boja'?", options: ["цвет", "форма", "размер"], correct: 0 },
+    { type: "fill", q: "Dopuni: ___ knjiga je zanimljiva. (taj, ženski rod)", answer: "Ta", alt: ["ta"] },
+    { type: "fill", q: "Napisi musku formu pridjeva 'красный':", answer: "crven", alt: [] },
     { type: "fill", q: "Napisi srednju formu pridjeva 'белый':", answer: "belo", alt: [] },
-    { type: "fill", q: "Prevedi na srpski 'тот человек (вдалеке)':", answer: "onaj čovek", alt: ["onaj covek"] },
-    { type: "fill", q: "Napisi boju koja znaci 'коричневый' (nepromenljiva rec):", answer: "braon", alt: [] },
-    { type: "fill", q: "Dopuni: ___ auto je žut. (ovaj, muski rod)", answer: "Ovaj", alt: ["ovaj"] },
+    { type: "fill", q: "Prevedi na srpski 'тот человек (вдалеке)':", answer: "onaj čovek", alt: ["onaj čovek"] },
+    { type: "fill", q: "Napisi boju koja znači 'коричневый' (nepromenljiva reč):", answer: "braon", alt: [] },
+    { type: "fill", q: "Dopuni: ___ auto je žut. (ovaj, muški rod)", answer: "Ovaj", alt: ["ovaj"] },
     { type: "fill", q: "Napisi zensku formu pridjeva 'чёрный':", answer: "crna", alt: [] },
-    { type: "fill", q: "Prevedi na srpski rec 'небо':", answer: "nebo", alt: [] }
+    { type: "fill", q: "Prevedi na srpski reč 'небо':", answer: "nebo", alt: [] }
   ]
 };

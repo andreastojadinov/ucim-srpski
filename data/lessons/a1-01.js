@@ -7,12 +7,12 @@ window.LESSONS["a1-01"] = {
   titleRu: "Падежи — введение (именительный и винительный)",
 
   intro: {
-    sr: `Dobrodosli na A1 nivo! Danas pocinjemo najvazniju temu srpske gramatike — padeze.`,
+    sr: `Dobrodosli na A1 nivo! Danas počinjemo najvazniju temu srpske gramatike — padeže.`,
     ru: `Отличная новость для вас: сербский язык, как и русский, — падежный язык! У него 7 падежей (в русском — 6), и логика очень похожа. В этом уроке — первый шаг: <b>nominativ</b> (именительный, который вы уже используете) и <b>akuzativ</b> (винительный, падеж прямого дополнения).`
   },
 
   grammar: {
-    titleRu: "Uvod u padeze",
+    titleRu: "Uvod u padeže",
     blocks: [
       {
         heading: "Zašto padeži? Pregled sistema",
@@ -31,7 +31,7 @@ window.LESSONS["a1-01"] = {
         },
         drill: {
           type: "choice",
-          question: "Koji srpski padez odgovara ruskom 'винительному' padezu?",
+          question: "Koji srpski padež odgovara ruskom 'винительному' padežu?",
           options: ["Akuzativ", "Dativ", "Lokativ"],
           correctIndex: 0
         }
@@ -72,7 +72,7 @@ window.LESSONS["a1-01"] = {
         ],
         drill: {
           type: "choice",
-          question: "Koji je padez imenice posle 'Idem u ___' (pravac kretanja)?",
+          question: "Koji je padež imenice posle 'Idem u ___' (pravac kretanja)?",
           options: ["Akuzativ", "Lokativ", "Genitiv"],
           correctIndex: 0
         }
@@ -99,17 +99,17 @@ window.LESSONS["a1-01"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Pravilo "zivo muski rod dobija -a u akuzativu" je <b>identicno</b> ruskom pravilu — ovo je vasa najveca prednost u ucenju srpskih padeza.`,
+      `Pravilo "živo muški rod dobija -a u akuzativu" je <b>identicno</b> ruskom pravilu — ovo je vasa najveca prednost u učenju srpskih padeža.`,
       `Ženski rod na <b>-a</b> u akuzativu skoro uvek prelazi u <b>-u</b> — isto kao rusko -а → -у (мама → маму).`,
-      `Srednji rod se <b>nikad</b> ne menja između nominativa i akuzativa u jednini — to je lakse nego u ruskom, gde bi ocekivali promenu.`,
+      `Srednji rod se <b>nikad</b> ne menja između nominativa i akuzativa u jednini — to je lakse nego u ruskom, gde bi očekivali promenu.`,
       `Predlozi <b>u</b> i <b>na</b> traze akuzativ samo kad opisuju <b>pravac</b> (kuda?); kada opisuju <b>mesto</b> (gde?), traze lokativ — to učimo u sledecoj lekciji.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
-      { sr: "padez", ru: "падеж" },
+      { sr: "padež", ru: "падеж" },
       { sr: "nominativ", ru: "именительный падеж" },
       { sr: "akuzativ", ru: "винительный падеж" },
       { sr: "grad", ru: "город" },
@@ -127,7 +127,7 @@ window.LESSONS["a1-01"] = {
     ],
     reading: {
       sourceNote: "Originalan kratak tekst napisan za ovaj kurs (nivo A1).",
-      textSr: `<p>Danas idem <span class="word" data-ru="в город (винительный, направление)">u grad</span>. Prvo idem <span class="word" data-ru="на работу (вин. падеж)">na posao</span>, a posle posla zovem <span class="word" data-ru="друга (одуш., +a)">prijatelja</span> Marka. Zajedno gledamo <span class="word" data-ru="фильм (вин. падеж)">film</span> i citamo <span class="word" data-ru="книгу">knjigu</span>. Kasnije pisem <span class="word" data-ru="письмо">pismo</span> mojoj <span class="word" data-ru="сестре">sestri</span>.</p>`,
+      textSr: `<p>Danas idem <span class="word" data-ru="в город (винительный, направление)">u grad</span>. Prvo idem <span class="word" data-ru="на работу (вин. падеж)">na posao</span>, a posle posla zovem <span class="word" data-ru="друга (одуш., +a)">prijatelja</span> Marka. Zajedno gledamo <span class="word" data-ru="фильм (вин. падеж)">film</span> i čitamo <span class="word" data-ru="книгу">knjigu</span>. Kasnije pisem <span class="word" data-ru="письмо">pismo</span> mojoj <span class="word" data-ru="сестре">sestri</span>.</p>`,
       comprehension: [
         {
           questionRu: "Куда идёт автор в первую очередь?",
@@ -145,24 +145,24 @@ window.LESSONS["a1-01"] = {
 
   quiz: [
     { type: "mc", q: "Na koje pitanje odgovara akuzativ?", options: ["koga? šta?", "kome? čemu?", "gde?"], correct: 0 },
-    { type: "mc", q: "Koji padez odgovara ruskom 'предложному'?", options: ["Lokativ", "Akuzativ", "Dativ"], correct: 0 },
-    { type: "mc", q: "Koji je akuzativ reci 'grad' (nezivo, muski rod)?", options: ["grad", "grada", "gradu"], correct: 0 },
-    { type: "mc", q: "Koji je akuzativ reci 'brat' (zivo, muski rod)?", options: ["brata", "brat", "bratu"], correct: 0 },
-    { type: "mc", q: "Koji je akuzativ reci 'žena'?", options: ["ženu", "žena", "ženi"], correct: 0 },
-    { type: "mc", q: "Koji je akuzativ reci 'selo' (srednji rod)?", options: ["selo", "sela", "selu"], correct: 0 },
-    { type: "mc", q: "Koji padez traze predlozi 'u/na' kad opisuju PRAVAC kretanja?", options: ["Akuzativ", "Lokativ", "Instrumental"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Idem u grad'?", options: ["Я иду в город.", "Я в городе.", "Я из города."], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Vidim brata'?", options: ["Я вижу брата.", "Я вижу город.", "Я вижу книгу."], correct: 0 },
-    { type: "mc", q: "Koliko padeza ima srpski jezik?", options: ["sedam", "sest", "pet"], correct: 0 },
-    { type: "mc", q: "Koji padez NEMA direktan ekvivalent u ruskom (kao zaseban oblik)?", options: ["Vokativ", "Akuzativ", "Nominativ"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'tražiti'?", options: ["искать", "находить", "терять"], correct: 0 },
+    { type: "mc", q: "Koji padež odgovara ruskom 'предложному'?", options: ["Lokativ", "Akuzativ", "Dativ"], correct: 0 },
+    { type: "mc", q: "Koji je akuzativ reči 'grad' (neživo, muški rod)?", options: ["grad", "grada", "gradu"], correct: 0 },
+    { type: "mc", q: "Koji je akuzativ reči 'brat' (živo, muški rod)?", options: ["brata", "brat", "bratu"], correct: 0 },
+    { type: "mc", q: "Koji je akuzativ reči 'žena'?", options: ["ženu", "žena", "ženi"], correct: 0 },
+    { type: "mc", q: "Koji je akuzativ reči 'selo' (srednji rod)?", options: ["selo", "sela", "selu"], correct: 0 },
+    { type: "mc", q: "Koji padež traze predlozi 'u/na' kad opisuju PRAVAC kretanja?", options: ["Akuzativ", "Lokativ", "Instrumental"], correct: 0 },
+    { type: "mc", q: "Šta znači 'Idem u grad'?", options: ["Я иду в город.", "Я в городе.", "Я из города."], correct: 0 },
+    { type: "mc", q: "Šta znači 'Vidim brata'?", options: ["Я вижу брата.", "Я вижу город.", "Я вижу книгу."], correct: 0 },
+    { type: "mc", q: "Koliko padeža ima srpski jezik?", options: ["sedam", "sest", "pet"], correct: 0 },
+    { type: "mc", q: "Koji padež NEMA direktan ekvivalent u ruskom (kao zaseban oblik)?", options: ["Vokativ", "Akuzativ", "Nominativ"], correct: 0 },
+    { type: "mc", q: "Šta znači 'tražiti'?", options: ["искать", "находить", "терять"], correct: 0 },
     { type: "fill", q: "Dopuni akuzativ: Čitam knjig___. (knjiga)", answer: "u", alt: ["knjigu"] },
-    { type: "fill", q: "Dopuni akuzativ: Volim svoj___ grad___. (svoj grad, nezivo, bez promene)", answer: "svoj grad", alt: [] },
-    { type: "fill", q: "Dopuni akuzativ: Zovem svog prijatelj___. (prijatelj, zivo)", answer: "a", alt: ["prijatelja"] },
+    { type: "fill", q: "Dopuni akuzativ: Volim svoj___ grad___. (svoj grad, neživo, bez promene)", answer: "svoj grad", alt: [] },
+    { type: "fill", q: "Dopuni akuzativ: Zovem svog prijatelj___. (prijatelj, živo)", answer: "a", alt: ["prijatelja"] },
     { type: "fill", q: "Prevedi na srpski 'Я смотрю фильм.':", answer: "Gledam film.", alt: ["gledam film"] },
     { type: "fill", q: "Prevedi na srpski 'Я иду на работу.':", answer: "Idem na posao.", alt: ["idem na posao"] },
-    { type: "fill", q: "Napisi akuzativ reci 'sestra':", answer: "sestru", alt: [] },
-    { type: "fill", q: "Napisi akuzativ reci 'selo':", answer: "selo", alt: [] },
-    { type: "fill", q: "Napisi koji padez odgovara pitanju 'koga? šta?':", answer: "akuzativ", alt: [] }
+    { type: "fill", q: "Napisi akuzativ reči 'sestra':", answer: "sestru", alt: [] },
+    { type: "fill", q: "Napisi akuzativ reči 'selo':", answer: "selo", alt: [] },
+    { type: "fill", q: "Napisi koji padež odgovara pitanju 'koga? šta?':", answer: "akuzativ", alt: [] }
   ]
 };

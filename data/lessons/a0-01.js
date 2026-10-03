@@ -7,7 +7,7 @@ window.LESSONS["a0-01"] = {
   titleRu: "Алфавит, произношение и приветствия",
 
   intro: {
-    sr: `Dobar dan! Danas pocinjemo — pismo, izgovor i prvi pozdravi na srpskom.`,
+    sr: `Dobar dan! Danas počinjemo — pismo, izgovor i prvi pozdravi na srpskom.`,
     ru: `В этом уроке вы узнаете, как читается сербская латиница (srpska latinica), какие буквы звучат непривычно для русского уха, и выучите базовые приветствия. Всё сербское письмо в этом курсе дано латиницей — это один из двух официальных алфавитов сербского языка (второй — кириллица), и именно латиницей чаще всего пишут в объявлениях о работе, в чатах и в большинстве современных текстов.`
   },
 
@@ -16,9 +16,9 @@ window.LESSONS["a0-01"] = {
     blocks: [
       {
         heading: "Slova kojih nema u ruskom jeziku",
-        explanationRu: `Sербская латиница почти полностью читается "как написано" — почти каждой букве соответствует ровно один звук, без йотации и смягчений, как в русском. Самое важное — выучить буквы, которых нет в латинском алфавите других языков и которые звучат непривычно.`,
+        explanationRu: `Сербская латиница почти полностью читается "как написано" — почти каждой букве соответствует ровно один звук, без йотации и смягчений, как в русском. Самое важное — выучить буквы, которых нет в латинском алфавите других языков и которые звучат непривычно.`,
         table: {
-          headers: ["Slovo", "Izgovor (poredjenje sa ruskim)", "Primer"],
+          headers: ["Slovo", "Izgovor (poređenje sa ruskim)", "Primer"],
           rows: [
             ["č", "как русское <b>ч</b>, но твёрже", "<b>č</b>aj — чай"],
             ["ć", "мягкое <b>ч</b>, почти как русское <b>ть</b>", "<b>ć</b>ao — привет/чао"],
@@ -39,16 +39,16 @@ window.LESSONS["a0-01"] = {
         ],
         drill: {
           type: "choice",
-          question: "Kako se izgovara slovo 'š' u reci 'škola'?",
+          question: "Kako se izgovara slovo 'š' u reči 'škola'?",
           options: ["Kao rusko Ш", "Kao rusko С", "Kao rusko Ч"],
           correctIndex: 0
         }
       },
       {
-        heading: "Slogovno 'r' — rec bez samoglasnika",
+        heading: "Slogovno 'r' — reč bez samoglasnika",
         explanationRu: `Особенность сербского языка: буква <b>r</b> между согласными работает как гласный звук — слово читается без «вставки» лишней гласной, хотя русскому глазу кажется, что гласной не хватает. Это не ошибка написания!`,
         examples: [
-          { sr: "srpski (не «сэрпски», а «сrпски» слитно)", ru: "сербский" },
+          { sr: "srpski (не «сэрпски», а «српски» слитно)", ru: "сербский" },
           { sr: "trg", ru: "площадь" },
           { sr: "prst", ru: "палец" },
           { sr: "Krk (остров)", ru: "Крк (остров)" }
@@ -67,8 +67,8 @@ window.LESSONS["a0-01"] = {
           { sr: "Zdravo! / Ćao!", ru: "Привет! (неформально, друзьям)" },
           { sr: "Dobar dan!", ru: "Добрый день! (нейтрально-формально, в любое время дня кроме утра/вечера)" },
           { sr: "Dobro jutro!", ru: "Доброе утро! (до ~10–11 часов)" },
-          { sr: "Dobro vece!", ru: "Добрый вечер!" },
-          { sr: "Laku noc!", ru: "Спокойной ночи!" }
+          { sr: "Dobro veče!", ru: "Добрый вечер!" },
+          { sr: "Laku noć!", ru: "Спокойной ночи!" }
         ],
         drill: {
           type: "fill",
@@ -87,7 +87,7 @@ window.LESSONS["a0-01"] = {
       { sr: "Ćao!", ru: "Привет! / Пока! (и при встрече, и при расставании)" },
       { sr: "Dobar dan!", ru: "Добрый день!" },
       { sr: "Dobro jutro!", ru: "Доброе утро!" },
-      { sr: "Dobro vece!", ru: "Добрый вечер!" },
+      { sr: "Dobro veče!", ru: "Добрый вечер!" },
       { sr: "Kako si?", ru: "Как ты? (неформально)" },
       { sr: "Kako ste?", ru: "Как вы? (формально)" },
       { sr: "Dobro sam, hvala. A ti?", ru: "Я хорошо, спасибо. А ты?" },
@@ -109,7 +109,7 @@ window.LESSONS["a0-01"] = {
   },
 
   vocab: {
-    titleRu: "Osnovne reci iz ove lekcije",
+    titleRu: "Osnovne reči iz ove lekcije",
     words: [
       { sr: "zdravo", ru: "привет" },
       { sr: "ćao", ru: "привет / пока" },
@@ -135,7 +135,7 @@ window.LESSONS["a0-01"] = {
       — I ja sam dobro. <span class="word" data-ru="Приятно познакомиться.">Prijatno mi je</span>.<br>
       — <span class="word" data-ru="До свидания!">Dovidjenja</span>, Pavle!<br>
       — <span class="word" data-ru="Увидимся!">Vidimo se</span>, Ana!</p>
-      <p><em>(Klikni na podvucene reci za prevod.)</em></p>`,
+      <p><em>(Klikni na podvucene reči za prevod.)</em></p>`,
       comprehension: [
         {
           questionRu: "Как Ана поздоровалась с Павле — формально или неформально?",
@@ -152,25 +152,25 @@ window.LESSONS["a0-01"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Kako se na srpskom kaze 'Привет' (neformalno)?", options: ["Zdravo", "Dobar dan", "Hvala"], correct: 0, explain: "Zdravo i Ćao su neformalni pozdravi." },
-    { type: "mc", q: "Sta znaci 'Dobro jutro'?", options: ["Доброе утро", "Добрый вечер", "Спокойной ночи"], correct: 0, explain: "Jutro = утро." },
+    { type: "mc", q: "Kako se na srpskom kaže 'Привет' (neformalno)?", options: ["Zdravo", "Dobar dan", "Hvala"], correct: 0, explain: "Zdravo i Ćao su neformalni pozdravi." },
+    { type: "mc", q: "Šta znači 'Dobro jutro'?", options: ["Доброе утро", "Добрый вечер", "Спокойной ночи"], correct: 0, explain: "Jutro = утро." },
     { type: "mc", q: "Koje slovo se izgovara kao rusko Ш?", options: ["š", "ž", "c"], correct: 0, explain: "š = ш, ž = ж, c = ц." },
     { type: "mc", q: "Koje slovo se izgovara kao rusko Ж?", options: ["ž", "š", "č"], correct: 0 },
-    { type: "mc", q: "Sta je mekse — đ ili dž?", options: ["đ", "dž", "isto su"], correct: 0, explain: "đ je mekse (kao дь), dž je tvrdje (kao дж)." },
-    { type: "mc", q: "Koju rec koristis i za 'zdravo' i za 'dovidjenja' u neformalnom razgovoru?", options: ["Ćao", "Hvala", "Molim"], correct: 0 },
+    { type: "mc", q: "Šta je mekse — đ ili dž?", options: ["đ", "dž", "isto su"], correct: 0, explain: "đ je mekse (kao дь), dž je tvrdje (kao дж)." },
+    { type: "mc", q: "Koju reč koristis i za 'zdravo' i za 'dovidjenja' u neformalnom razgovoru?", options: ["Ćao", "Hvala", "Molim"], correct: 0 },
     { type: "mc", q: "Koji pozdrav je najformalniji za rastanak?", options: ["Dovidjenja", "Ćao", "Vidimo se"], correct: 0 },
-    { type: "mc", q: "Kada koristis 'Dobro vece'?", options: ["Uveče", "Ujutru", "U podne"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'hvala'?", options: ["спасибо", "пожалуйста", "привет"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'izvini'?", options: ["извини", "здравствуй", "до свидания"], correct: 0 },
-    { type: "mc", q: "U reci 'prst' (палец), slovo r ponasa se kao:", options: ["samoglasnik", "suglasnik koji se ne cuje", "nema r u toj reci"], correct: 0 },
+    { type: "mc", q: "Kada koristis 'Dobro veče'?", options: ["Uveče", "Ujutru", "U podne"], correct: 0 },
+    { type: "mc", q: "Šta znači 'hvala'?", options: ["спасибо", "пожалуйста", "привет"], correct: 0 },
+    { type: "mc", q: "Šta znači 'izvini'?", options: ["извини", "здравствуй", "до свидания"], correct: 0 },
+    { type: "mc", q: "U reči 'prst' (палец), slovo r ponasa se kao:", options: ["samoglasnik", "suglasnik koji se ne cuje", "nema r u toj reči"], correct: 0 },
     { type: "mc", q: "Koja je razlika između 'ti' i 'vi' u obracanju?", options: ["ti = neformalno, vi = formalno", "ti = formalno, vi = neformalno", "nema razlike"], correct: 0 },
     { type: "fill", q: "Dopuni: ___, kako si? (neformalni pozdrav)", answer: "Zdravo", alt: ["Ćao", "ćao", "zdravo"], explain: "Oba su neformalna pozdrava." },
-    { type: "fill", q: "Dopuni formalni pozdrav uveče: Dobro ___.", answer: "veče", alt: ["vece", "veca", "vece"], explain: "Dobro veče = добрый вечер." },
+    { type: "fill", q: "Dopuni formalni pozdrav uveče: Dobro ___.", answer: "veče", alt: ["veče", "veca", "veče"], explain: "Dobro veče = добрый вечер." },
     { type: "fill", q: "Prevedi na srpski 'спасибо':", answer: "hvala", alt: [], explain: "" },
     { type: "fill", q: "Prevedi na srpski 'нет':", answer: "ne", alt: [], explain: "" },
     { type: "fill", q: "Prevedi na srpski 'друг':", answer: "prijatelj", alt: [], explain: "" },
     { type: "fill", q: "Dopuni: Dobar ___! (univerzalni formalni pozdrav tokom dana)", answer: "dan", alt: [], explain: "" },
     { type: "fill", q: "Napisi srpsko slovo koje se izgovara kao mekse 'ч' (blisko ruskom 'ть'):", answer: "ć", alt: ["c"], explain: "ć je mekse č." },
-    { type: "fill", q: "Napisi kako se na srpskom kaze 'спокойной ночи':", answer: "laku noć", alt: ["laku noc"], explain: "" }
+    { type: "fill", q: "Napisi kako se na srpskom kaže 'спокойной ночи':", answer: "laku noć", alt: ["laku noć"], explain: "" }
   ]
 };

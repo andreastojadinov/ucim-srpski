@@ -7,7 +7,7 @@ window.LESSONS["a0-07"] = {
   titleRu: "Семья и основные прилагательные",
 
   intro: {
-    sr: `Danas ucimo reci za porodicu i osnovne pridjeve koji se slazu sa rodom imenice.`,
+    sr: `Danas učimo reči za porodicu i osnovne pridjeve koji se slažu sa rodom imenice.`,
     ru: `Вы выучите слова для членов семьи и базовые прилагательные (хороший, красивый, молодой, старый...). Главное новое правило — прилагательные в сербском согласуются с существительным по роду, очень похоже на русский («хороший» / «хорошая» / «хорошее»).`
   },
 
@@ -32,7 +32,7 @@ window.LESSONS["a0-07"] = {
         },
         drill: {
           type: "choice",
-          question: "Kako se kaze 'дочь' na srpskom?",
+          question: "Kako se kaže 'дочь' na srpskom?",
           options: ["ćerka", "sin", "sestra"],
           correctIndex: 0
         }
@@ -97,13 +97,13 @@ window.LESSONS["a0-07"] = {
     items: [
       `Mnogi pridjevi u muskom rodu imaju "nepostojano a" koje ispada u drugim rodovima: <b>dobar → dobra/dobro</b>, <b>mudar → mudra/mudro</b>. Ne pamti ih kao "dodaj a", vec kao "ukloni a kad dodajes -a/-o".`,
       `Topla, porodicna imena (<b>mama, tata, baka, deka</b>) koriste se u svakodnevnom govoru, dok <b>majka, otac, baba, deda</b> deluju malo formalnije ili se koriste kad pricas o trecem licu.`,
-      `Red reci "pridev + imenica" je isti kao u ruskom — ne razmisljaj puno o redosledu, samo o slaganju roda.`,
-      `Kad opisujes ljude, srpski cesto koristi dva pridjeva zaredom bez zareza drugacije nego sto bi se moglo ocekivati: "lepa i pametna žena" (lepa i pametna) — красивая и умная женщина.`
+      `Red reči "pridev + imenica" je isti kao u ruskom — ne razmisljaj puno o redosledu, samo o slaganju roda.`,
+      `Kad opisujes ljude, srpski često koristi dva pridjeva zaredom bez zareza drugacije nego sto bi se moglo očekivati: "lepa i pametna žena" (lepa i pametna) — красивая и умная женщина.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "majka / mama", ru: "мать / мама" },
       { sr: "otac / tata", ru: "отец / папа" },
@@ -132,7 +132,7 @@ window.LESSONS["a0-07"] = {
         },
         {
           questionRu: "Сколько братьев у автора по тексту?",
-          options: ["Jednog.", "Dva.", "Nemа brata."],
+          options: ["Jednog.", "Dva.", "Nema brata."],
           correctIndex: 0
         }
       ]
@@ -140,25 +140,25 @@ window.LESSONS["a0-07"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Sta znaci 'majka'?", options: ["мать", "сестра", "дочь"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'ćerka'?", options: ["дочь", "сын", "жена"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'deda'?", options: ["дедушка", "бабушка", "дядя"], correct: 0 },
-    { type: "mc", q: "Koji je zenski oblik pridjeva 'dobar'?", options: ["dobra", "dobro", "dobara"], correct: 0 },
+    { type: "mc", q: "Šta znači 'majka'?", options: ["мать", "сестра", "дочь"], correct: 0 },
+    { type: "mc", q: "Šta znači 'ćerka'?", options: ["дочь", "сын", "жена"], correct: 0 },
+    { type: "mc", q: "Šta znači 'deda'?", options: ["дедушка", "бабушка", "дядя"], correct: 0 },
+    { type: "mc", q: "Koji je ženski oblik pridjeva 'dobar'?", options: ["dobra", "dobro", "dobara"], correct: 0 },
     { type: "mc", q: "Koji je srednji oblik pridjeva 'lep'?", options: ["lepo", "lepa", "lepi"], correct: 0 },
-    { type: "mc", q: "Koji je muski oblik pridjeva koji znaci 'молодой'?", options: ["mlad", "mlada", "mlado"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'visok'?", options: ["высокий", "низкий", "маленький"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'pametan'?", options: ["умный", "глупый", "старый"], correct: 0 },
-    { type: "mc", q: "Koji red reci je ispravan za 'красивый дом'?", options: ["lepa kuća", "kuća lepa", "lep kuća"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'roditelji'?", options: ["родители", "дети", "соседи"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'muž'?", options: ["муж", "жена", "брат"], correct: 0 },
+    { type: "mc", q: "Koji je muški oblik pridjeva koji znači 'молодой'?", options: ["mlad", "mlada", "mlado"], correct: 0 },
+    { type: "mc", q: "Šta znači 'visok'?", options: ["высокий", "низкий", "маленький"], correct: 0 },
+    { type: "mc", q: "Šta znači 'pametan'?", options: ["умный", "глупый", "старый"], correct: 0 },
+    { type: "mc", q: "Koji red reči je ispravan za 'красивый дом'?", options: ["lepa kuća", "kuća lepa", "lep kuća"], correct: 0 },
+    { type: "mc", q: "Šta znači 'roditelji'?", options: ["родители", "дети", "соседи"], correct: 0 },
+    { type: "mc", q: "Šta znači 'muž'?", options: ["муж", "жена", "брат"], correct: 0 },
     { type: "mc", q: "Koji oblik ide uz 'dete' (srednji rod) od 'mali'?", options: ["malo", "mali", "mala"], correct: 0 },
-    { type: "fill", q: "Dopuni: Moj brat je vrlo ___. (visok, muski rod)", answer: "visok", alt: [] },
-    { type: "fill", q: "Dopuni: Moja kuća je ___. (star, zenski rod)", answer: "stara", alt: [] },
+    { type: "fill", q: "Dopuni: Moj brat je vrlo ___. (visok, muški rod)", answer: "visok", alt: [] },
+    { type: "fill", q: "Dopuni: Moja kuća je ___. (star, ženski rod)", answer: "stara", alt: [] },
     { type: "fill", q: "Napisi 'хороший' u srednjem rodu (uz 'dete'):", answer: "dobro", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'бабушка':", answer: "baka", alt: ["baba"] },
     { type: "fill", q: "Prevedi na srpski 'сын':", answer: "sin", alt: [] },
-    { type: "fill", q: "Dopuni: Moja sestra je ___ i pametna. (lep, zenski rod)", answer: "lepa", alt: [] },
-    { type: "fill", q: "Napisi musku formu pridjeva koja znaci 'старый':", answer: "star", alt: [] },
+    { type: "fill", q: "Dopuni: Moja sestra je ___ i pametna. (lep, ženski rod)", answer: "lepa", alt: [] },
+    { type: "fill", q: "Napisi musku formu pridjeva koja znači 'старый':", answer: "star", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'родители':", answer: "roditelji", alt: [] }
   ]
 };

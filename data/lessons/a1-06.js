@@ -7,7 +7,7 @@ window.LESSONS["a1-06"] = {
   titleRu: "Еда и заказ в ресторане",
 
   intro: {
-    sr: `Danas ucimo reci za hranu i fraze koje su potrebne da naruciš jelo u restoranu.`,
+    sr: `Danas učimo reči za hranu i fraze koje su potrebne da naruciš jelo u restoranu.`,
     ru: `Практичный урок: слова для еды и напитков, и фразы для заказа в ресторане. Мы также закрепим аккузатив (винительный падеж) из урока A1-01 — ведь всё, что вы «заказываете» или «едите», стоит именно в этом падеже.`
   },
 
@@ -27,7 +27,7 @@ window.LESSONS["a1-06"] = {
           type: "fill",
           question: "Dopuni: ___ supu, molim. (želim)",
           answer: "Želim",
-          alt: ["zelim"]
+          alt: ["želim"]
         }
       },
       {
@@ -67,7 +67,7 @@ window.LESSONS["a1-06"] = {
         ],
         drill: {
           type: "choice",
-          question: "Sta kazes kad nazdravljas (tost) u Srbiji?",
+          question: "Šta kažeš kad nazdravljas (tost) u Srbiji?",
           options: ["Živeli!", "Dovidjenja!", "Izvinite!"],
           correctIndex: 0
         }
@@ -97,12 +97,12 @@ window.LESSONS["a1-06"] = {
       `<b>Živeli!</b> je standardni tost — koristi se bukvalno uvek kad se nazdravlja, bez obzira na prilike.`,
       `Napojnica (bakšiš) u Srbiji nije obavezna kao u SAD, ali je uobicajeno zaokruziti racun ili ostaviti 10% ako je usluga dobra.`,
       `Fraza <b>Mogu li da...?</b> + prezent je svestrana i radi za skoro svaku uljudnu molbu u restoranu, prodavnici ili na poslu.`,
-      `Rec <b>jelovnik</b> (меню) je dobra da znas odmah — konobar/konobarica ce ti ga doneti kad sednes, cesto i bez da trazis.`
+      `Reč <b>jelovnik</b> (меню) je dobra da znas odmah — konobar/konobarica ce ti ga doneti kad sednes, često i bez da trazis.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "jelovnik", ru: "меню" },
       { sr: "konobar / konobarica", ru: "официант / официантка" },
@@ -145,25 +145,25 @@ window.LESSONS["a1-06"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Sta znaci 'jelovnik'?", options: ["меню", "счёт", "столик"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'konobar'?", options: ["официант", "повар", "гость"], correct: 0 },
+    { type: "mc", q: "Šta znači 'jelovnik'?", options: ["меню", "счёт", "столик"], correct: 0 },
+    { type: "mc", q: "Šta znači 'konobar'?", options: ["официант", "повар", "гость"], correct: 0 },
     { type: "mc", q: "Kako trazis racun?", options: ["Račun, molim.", "Jelovnik, molim.", "Hvala, dovidjenja."], correct: 0 },
-    { type: "mc", q: "Sta se kaze kad nazdravljas?", options: ["Živeli!", "Prijatno!", "Dobar dan!"], correct: 0 },
-    { type: "mc", q: "Koji je akuzativ reci 'supa'?", options: ["supu", "supa", "supi"], correct: 0 },
-    { type: "mc", q: "Koji je akuzativ reci 'hleb' (nezivo, muski rod)?", options: ["hleb", "hleba", "hlebu"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'ukusno'?", options: ["вкусно", "горько", "солёно"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'ljuto'?", options: ["острое", "сладкое", "кислое"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'povrće'?", options: ["овощи", "фрукты", "мясо"], correct: 0 },
+    { type: "mc", q: "Šta se kaže kad nazdravljas?", options: ["Živeli!", "Prijatno!", "Dobar dan!"], correct: 0 },
+    { type: "mc", q: "Koji je akuzativ reči 'supa'?", options: ["supu", "supa", "supi"], correct: 0 },
+    { type: "mc", q: "Koji je akuzativ reči 'hleb' (neživo, muški rod)?", options: ["hleb", "hleba", "hlebu"], correct: 0 },
+    { type: "mc", q: "Šta znači 'ukusno'?", options: ["вкусно", "горько", "солёно"], correct: 0 },
+    { type: "mc", q: "Šta znači 'ljuto'?", options: ["острое", "сладкое", "кислое"], correct: 0 },
+    { type: "mc", q: "Šta znači 'povrće'?", options: ["овощи", "фрукты", "мясо"], correct: 0 },
     { type: "mc", q: "Kako pitas 'У вас есть вода?'", options: ["Imate li vode?", "Imam vodu?", "Dajete vodu?"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'alergija'?", options: ["аллергия", "болезнь", "вкус"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'preporučiti'?", options: ["рекомендовать", "заказывать", "платить"], correct: 0 },
-    { type: "fill", q: "Dopuni: ___ supu, molim. (želim)", answer: "Želim", alt: ["zelim"] },
+    { type: "mc", q: "Šta znači 'alergija'?", options: ["аллергия", "болезнь", "вкус"], correct: 0 },
+    { type: "mc", q: "Šta znači 'preporučiti'?", options: ["рекомендовать", "заказывать", "платить"], correct: 0 },
+    { type: "fill", q: "Dopuni: ___ supu, molim. (želim)", answer: "Želim", alt: ["želim"] },
     { type: "fill", q: "Dopuni akuzativ: Jedem rib___. (riba)", answer: "u", alt: ["ribu"] },
     { type: "fill", q: "Prevedi na srpski 'Могу я получить счёт?':", answer: "Mogu li da dobijem račun?", alt: ["mogu li da dobijem racun"] },
     { type: "fill", q: "Prevedi na srpski 'Это было очень вкусно.':", answer: "Bilo je veoma ukusno.", alt: ["bilo je veoma ukusno"] },
-    { type: "fill", q: "Napisi rec za 'официантка':", answer: "konobarica", alt: [] },
-    { type: "fill", q: "Napisi akuzativ reci 'salata':", answer: "salatu", alt: [] },
+    { type: "fill", q: "Napisi reč za 'официантка':", answer: "konobarica", alt: [] },
+    { type: "fill", q: "Napisi akuzativ reči 'salata':", answer: "salatu", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'У вас есть вегетарианская еда?':", answer: "Da li imate vegetarijansku hranu?", alt: ["imate li vegetarijansku hranu"] },
-    { type: "fill", q: "Napisi srpsku rec za 'стакан':", answer: "čaša", alt: ["casa"] }
+    { type: "fill", q: "Napisi srpsku reč za 'стакан':", answer: "čaša", alt: ["casa"] }
   ]
 };

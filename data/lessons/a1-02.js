@@ -7,12 +7,12 @@ window.LESSONS["a1-02"] = {
   titleRu: "Местный падеж — где находится?",
 
   intro: {
-    sr: `Danas ucimo lokativ — padez koji odgovara na pitanje "gde?".`,
+    sr: `Danas učimo lokativ — padež koji odgovara na pitanje "gde?".`,
     ru: `<b>Lokativ</b> — почти точный аналог русского предложного падежа: отвечает на вопрос «где?» и используется с предлогами <b>u</b> (в) и <b>na</b> (на), когда речь о статичном месте, а не о направлении движения. Остальные падежи (генитив, датив, инструментал, вокатив) подробно пройдём на уровне A2 — сейчас сосредоточимся на самом практичном: обозначении места.`
   },
 
   grammar: {
-    titleRu: "Lokativ — padez mesta",
+    titleRu: "Lokativ — padež mesta",
     blocks: [
       {
         heading: "Lokativ u jednini",
@@ -47,7 +47,7 @@ window.LESSONS["a1-02"] = {
         },
         drill: {
           type: "choice",
-          question: "Koji padez ide uz 'Radim na pos___' (mesto, gde?)",
+          question: "Koji padež ide uz 'Radim na pos___' (mesto, gde?)",
           options: ["Lokativ (poslu)", "Akuzativ (posao)", "Nominativ (posao)"],
           correctIndex: 0
         }
@@ -62,7 +62,7 @@ window.LESSONS["a1-02"] = {
         ],
         drill: {
           type: "choice",
-          question: "Koji predlog + lokativ znaci 'говорить О чём-то'?",
+          question: "Koji predlog + lokativ znači 'говорить О чём-то'?",
           options: ["o", "na", "u"],
           correctIndex: 0
         }
@@ -90,14 +90,14 @@ window.LESSONS["a1-02"] = {
     titleRu: "Saveti",
     items: [
       `Zapamti par "kuda? → akuzativ" / "gde? → lokativ" kao <b>jedno pravilo</b> — ono je identicno ruskom, pa ti ne treba novo razmisljanje, samo prevod navike.`,
-      `U svakodnevnom govoru, mnogi oblici datива i lokativa se poklapaju (npr. "školi" je i dativ i lokativ) — zato ucenje lokativa odmah olaksava i buduce ucenje dativa na A2 nivou.`,
-      `Kod nekih zenskih imenica na -ka/-ga/-ha dolazi do promene suglasnika (npr. <i>ruka</i> → <i>ruci</i>, <i>noga</i> → <i>nozi</i>) — ovo je napredniji detalj koji cemo uvezbati kasnije, za sada samo budi svestan da postoji.`,
+      `U svakodnevnom govoru, mnogi oblici dativa i lokativa se poklapaju (npr. "školi" je i dativ i lokativ) — zato učenje lokativa odmah olaksava i buduce učenje dativa na A2 nivou.`,
+      `Kod nekih ženskih imenica na -ka/-ga/-ha dolazi do promene suglasnika (npr. <i>ruka</i> → <i>ruci</i>, <i>noga</i> → <i>nozi</i>) — ovo je napredniji detalj koji cemo uvezbati kasnije, za sada samo budi svestan da postoji.`,
       `Predlog <b>o</b> + lokativ za "говорить о чём-то" radi identicno kao u ruskom — jedna manje stvar da pamtis ispočetka.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "lokativ", ru: "местный падеж (предложный)" },
       { sr: "gde", ru: "где" },
@@ -135,24 +135,24 @@ window.LESSONS["a1-02"] = {
 
   quiz: [
     { type: "mc", q: "Na koje pitanje odgovara lokativ?", options: ["gde?", "koga? šta?", "kome?"], correct: 0 },
-    { type: "mc", q: "Koji je lokativ reci 'grad'?", options: ["gradu", "grad", "grada"], correct: 0 },
-    { type: "mc", q: "Koji je lokativ reci 'škola'?", options: ["školi", "školu", "škola"], correct: 0 },
-    { type: "mc", q: "Sta trazi akuzativ uz 'u/na'?", options: ["pravac (kuda?)", "mesto (gde?)", "vreme (kada?)"], correct: 0 },
-    { type: "mc", q: "Sta trazi lokativ uz 'u/na'?", options: ["mesto (gde?)", "pravac (kuda?)", "razlog (zasto?)"], correct: 0 },
-    { type: "mc", q: "Koja recenica je tacna za 'Я работаю на работе' (mesto)?", options: ["Radim na poslu.", "Idem na posao.", "Radim posao."], correct: 0 },
-    { type: "mc", q: "Koja recenica je tacna za 'Я иду на работу' (pravac)?", options: ["Idem na posao.", "Radim na poslu.", "Idem na poslu."], correct: 0 },
-    { type: "mc", q: "Koji predlog + lokativ znaci 'о чём-то'?", options: ["o", "sa", "za"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Pričamo o filmu'?", options: ["Мы говорим о фильме.", "Мы смотрим фильм.", "Мы идём в кино."], correct: 0 },
-    { type: "mc", q: "Sta znaci 'bolnica'?", options: ["больница", "школа", "гараж"], correct: 0 },
-    { type: "mc", q: "Koji je lokativ reci 'posao'?", options: ["poslu", "posao", "posla"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'na selu'?", options: ["в деревне", "в городе", "в школе"], correct: 0 },
+    { type: "mc", q: "Koji je lokativ reči 'grad'?", options: ["gradu", "grad", "grada"], correct: 0 },
+    { type: "mc", q: "Koji je lokativ reči 'škola'?", options: ["školi", "školu", "škola"], correct: 0 },
+    { type: "mc", q: "Šta trazi akuzativ uz 'u/na'?", options: ["pravac (kuda?)", "mesto (gde?)", "vreme (kada?)"], correct: 0 },
+    { type: "mc", q: "Šta trazi lokativ uz 'u/na'?", options: ["mesto (gde?)", "pravac (kuda?)", "razlog (zašto?)"], correct: 0 },
+    { type: "mc", q: "Koja rečenica je tačna za 'Я работаю на работе' (mesto)?", options: ["Radim na poslu.", "Idem na posao.", "Radim posao."], correct: 0 },
+    { type: "mc", q: "Koja rečenica je tačna za 'Я иду на работу' (pravac)?", options: ["Idem na posao.", "Radim na poslu.", "Idem na poslu."], correct: 0 },
+    { type: "mc", q: "Koji predlog + lokativ znači 'о чём-то'?", options: ["o", "sa", "za"], correct: 0 },
+    { type: "mc", q: "Šta znači 'Pričamo o filmu'?", options: ["Мы говорим о фильме.", "Мы смотрим фильм.", "Мы идём в кино."], correct: 0 },
+    { type: "mc", q: "Šta znači 'bolnica'?", options: ["больница", "школа", "гараж"], correct: 0 },
+    { type: "mc", q: "Koji je lokativ reči 'posao'?", options: ["poslu", "posao", "posla"], correct: 0 },
+    { type: "mc", q: "Šta znači 'na selu'?", options: ["в деревне", "в городе", "в школе"], correct: 0 },
     { type: "fill", q: "Dopuni: Radim u bolnic___. (bolnica, lokativ)", answer: "i", alt: ["bolnici"] },
     { type: "fill", q: "Dopuni: Knjiga je na stol___. (sto, lokativ)", answer: "u", alt: ["stolu"] },
     { type: "fill", q: "Prevedi na srpski 'Я живу в Белграде.':", answer: "Živim u Beogradu.", alt: ["zivim u beogradu"] },
     { type: "fill", q: "Prevedi na srpski 'Мы говорим о работе.':", answer: "Pričamo o poslu.", alt: ["pricamo o poslu"] },
-    { type: "fill", q: "Napisi lokativ reci 'kuća':", answer: "kući", alt: ["kuci"] },
-    { type: "fill", q: "Napisi lokativ reci 'selo':", answer: "selu", alt: [] },
-    { type: "fill", q: "Dopuni par: Idem u skolu. / Učim u skol___. (lokativ)", answer: "i", alt: ["školi", "skoli"] },
-    { type: "fill", q: "Napisi padez koji odgovara na pitanje 'gde?':", answer: "lokativ", alt: [] }
+    { type: "fill", q: "Napisi lokativ reči 'kuća':", answer: "kući", alt: ["kuci"] },
+    { type: "fill", q: "Napisi lokativ reči 'selo':", answer: "selu", alt: [] },
+    { type: "fill", q: "Dopuni par: Idem u školu. / Učim u škol___. (lokativ)", answer: "i", alt: ["školi", "školi"] },
+    { type: "fill", q: "Napisi padež koji odgovara na pitanje 'gde?':", answer: "lokativ", alt: [] }
   ]
 };

@@ -7,12 +7,12 @@ window.LESSONS["a1-03"] = {
   titleRu: "Притяжательные местоимения и прилагательные",
 
   intro: {
-    sr: `Danas ucimo kako se kaze "moj, tvoj, njegov, njen..." i kako se prave prisvojni pridevi od imena.`,
+    sr: `Danas učimo kako se kaže "moj, tvoj, njegov, njen..." i kako se prave prisvojni pridevi od imena.`,
     ru: `Притяжательные местоимения («мой, твой, его, её, наш, ваш, их») в сербском согласуются с тем, <b>что принадлежит</b>, а не с тем, <b>кому принадлежит</b> — точно как в русском «мой дом» / «моя книга». Плюс вы узнаете особый сербский (и отчасти русский разговорный!) способ — образовывать притяжательные прилагательные прямо из имён: <i>Markov auto</i> — «Марков автомобиль».`
   },
 
   grammar: {
-    titleRu: "Prisvojne reci",
+    titleRu: "Prisvojne reči",
     blocks: [
       {
         heading: "Prisvojne zamenice",
@@ -68,7 +68,7 @@ window.LESSONS["a1-03"] = {
         drill: {
           type: "choice",
           question: "Kada koristis 'svoj' umesto 'njegov/njen'?",
-          options: ["Kad je vlasnik isti kao subjekt recenice", "Kad je vlasnik muskarac", "Uvek, bez razlike"],
+          options: ["Kad je vlasnik isti kao subjekt rečenice", "Kad je vlasnik muskarac", "Uvek, bez razlike"],
           correctIndex: 0
         }
       }
@@ -94,15 +94,15 @@ window.LESSONS["a1-03"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Najcesca greska pocetnika: prisvojna rec se slaze sa <b>stvari koja se poseduje</b>, a ne sa vlasnikom. "Njegova sestra" je tacno iako je "on" muskog roda — zato sto je "sestra" zenskog roda.`,
-      `<b>Njegov</b> (его) i <b>njen</b> (её) biraju se prema rodu <b>vlasnika</b>, a zavrsetak (-ov/-ova/-ovo ili -en/-na/-no) prema rodu <b>stvari</b> — dva razlicita pravila se primenjuju istovremeno.`,
+      `Najcesca greska pocetnika: prisvojna reč se slaže sa <b>stvari koja se poseduje</b>, a ne sa vlasnikom. "Njegova sestra" je tačno iako je "on" muskog roda — zato sto je "sestra" zenskog roda.`,
+      `<b>Njegov</b> (его) i <b>njen</b> (её) biraju se prema rodu <b>vlasnika</b>, a završetak (-ov/-ova/-ovo ili -en/-na/-no) prema rodu <b>stvari</b> — dva različita pravila se primenjuju istovremeno.`,
       `Prisvojni pridevi od imena (-ov/-ev/-in) se koriste mnogo cesce u srpskom nego u standardnom ruskom — slobodno ih koristi i za obicna imena, ne samo poznate osobe.`,
-      `<b>Svoj</b> je koristan kad hoces da budes precizan da je vlasnik upravo subjekt recenice — u svakodnevnom govoru se ipak cesto i "njegov/njen" koristi umesto "svoj" bez velike razlike u znacenju.`
+      `<b>Svoj</b> je koristan kad hoces da budes precizan da je vlasnik upravo subjekt rečenice — u svakodnevnom govoru se ipak često i "njegov/njen" koristi umesto "svoj" bez velike razlike u znacenju.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "moj / moja / moje", ru: "мой / моя / моё" },
       { sr: "tvoj / tvoja / tvoje", ru: "твой / твоя / твоё" },
@@ -139,25 +139,25 @@ window.LESSONS["a1-03"] = {
   },
 
   quiz: [
-    { type: "mc", q: "Koja prisvojna zamenica znaci 'его'?", options: ["njegov", "njen", "njihov"], correct: 0 },
-    { type: "mc", q: "Koja prisvojna zamenica znaci 'её'?", options: ["njen", "njegov", "njihov"], correct: 0 },
-    { type: "mc", q: "Koji oblik ide uz 'sestra' (zenski rod) od 'moj'?", options: ["moja", "moj", "moje"], correct: 0 },
-    { type: "mc", q: "Koji oblik ide uz 'auto' (muski rod) od 'naš'?", options: ["naš", "naša", "naše"], correct: 0 },
+    { type: "mc", q: "Koja prisvojna zamenica znači 'его'?", options: ["njegov", "njen", "njihov"], correct: 0 },
+    { type: "mc", q: "Koja prisvojna zamenica znači 'её'?", options: ["njen", "njegov", "njihov"], correct: 0 },
+    { type: "mc", q: "Koji oblik ide uz 'sestra' (ženski rod) od 'moj'?", options: ["moja", "moj", "moje"], correct: 0 },
+    { type: "mc", q: "Koji oblik ide uz 'auto' (muški rod) od 'naš'?", options: ["naš", "naša", "naše"], correct: 0 },
     { type: "mc", q: "Kako se gradi prisvojni pridev od imena 'Marko'?", options: ["Markov", "Markoin", "Markoja"], correct: 0 },
     { type: "mc", q: "Kako se gradi prisvojni pridev od imena 'Ana'?", options: ["Anina", "Anov", "Anino"], correct: 0 },
-    { type: "mc", q: "Kada se koristi 'svoj'?", options: ["kad je vlasnik = subjekt", "kad je vlasnik zena", "uvek umesto njegov/njen"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Markov auto'?", options: ["Марков автомобиль", "Автомобиль Анны", "Наш автомобиль"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'čiji'?", options: ["чей", "какой", "который"], correct: 0 },
-    { type: "mc", q: "Koji rod odreduje zavrsetak prisvojne zamenice — vlasnika ili stvari?", options: ["stvari koja se poseduje", "vlasnika", "oba podjednako"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'vlasnik'?", options: ["владелец", "работник", "гость"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'pripadati'?", options: ["принадлежать", "работать", "жить"], correct: 0 },
+    { type: "mc", q: "Kada se koristi 'svoj'?", options: ["kad je vlasnik = subjekt", "kad je vlasnik žena", "uvek umesto njegov/njen"], correct: 0 },
+    { type: "mc", q: "Šta znači 'Markov auto'?", options: ["Марков автомобиль", "Автомобиль Анны", "Наш автомобиль"], correct: 0 },
+    { type: "mc", q: "Šta znači 'čiji'?", options: ["чей", "какой", "который"], correct: 0 },
+    { type: "mc", q: "Koji rod odreduje završetak prisvojne zamenice — vlasnika ili stvari?", options: ["stvari koja se poseduje", "vlasnika", "oba podjednako"], correct: 0 },
+    { type: "mc", q: "Šta znači 'vlasnik'?", options: ["владелец", "работник", "гость"], correct: 0 },
+    { type: "mc", q: "Šta znači 'pripadati'?", options: ["принадлежать", "работать", "жить"], correct: 0 },
     { type: "fill", q: "Dopuni: ___ knjiga je interesantna. (Ana + prisvojni pridev)", answer: "Anina", alt: [] },
-    { type: "fill", q: "Dopuni: Ovo je ___ pas. (njegov, muski rod)", answer: "njegov", alt: [] },
+    { type: "fill", q: "Dopuni: Ovo je ___ pas. (njegov, muški rod)", answer: "njegov", alt: [] },
     { type: "fill", q: "Dopuni: On voli ___ posao. (svoj, refleksivno)", answer: "svoj", alt: [] },
-    { type: "fill", q: "Prevedi na srpski 'Это наш дом.' (kuća, zenski rod):", answer: "Ovo je naša kuća.", alt: ["ovo je nasa kuca"] },
+    { type: "fill", q: "Prevedi na srpski 'Это наш дом.' (kuća, ženski rod):", answer: "Ovo je naša kuća.", alt: ["ovo je nasa kuca"] },
     { type: "fill", q: "Napisi prisvojni pridev od imena 'Petar':", answer: "Petrov", alt: [] },
     { type: "fill", q: "Napisi prisvojnu zamenicu za 'их':", answer: "njihov", alt: [] },
-    { type: "fill", q: "Dopuni: ___ deca su lepa. (vaš, srednji rod mnozina)", answer: "Vaša", alt: ["vasa"] },
-    { type: "fill", q: "Napisi reč za 'чей' (upitna prisvojna zamenica, muski rod):", answer: "čiji", alt: ["ciji"] }
+    { type: "fill", q: "Dopuni: ___ deca su lepa. (vaš, srednji rod množina)", answer: "Vaša", alt: ["vasa"] },
+    { type: "fill", q: "Napisi reč za 'чей' (upitna prisvojna zamenica, muški rod):", answer: "čiji", alt: ["ciji"] }
   ]
 };

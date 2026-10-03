@@ -7,7 +7,7 @@ window.LESSONS["a1-09"] = {
   titleRu: "Сравнение прилагательных",
 
   intro: {
-    sr: `Danas ucimo komparativ (lepši, bolji...) i superlativ (najlepši, najbolji...).`,
+    sr: `Danas učimo komparativ (lepši, bolji...) i superlativ (najlepši, najbolji...).`,
     ru: `Хорошая новость: самые частые сравнительные формы — <b>неправильные</b>, и они почти зеркально совпадают с русскими неправильными формами: <i>bolji</i> (лучше), <i>gori</i> (хуже), <i>veći</i> (больше), <i>manji</i> (меньше). Это даёт вам готовый список для запоминания практически бесплатно.`
   },
 
@@ -28,7 +28,7 @@ window.LESSONS["a1-09"] = {
         },
         drill: {
           type: "choice",
-          question: "Kako se kaze 'лучше' (komparativ od dobar)?",
+          question: "Kako se kaže 'лучше' (komparativ od dobar)?",
           options: ["bolji", "dobriji", "najbolji"],
           correctIndex: 0
         }
@@ -63,7 +63,7 @@ window.LESSONS["a1-09"] = {
         ],
         drill: {
           type: "choice",
-          question: "Koji predlog + padez znaci 'чем' u poređenju ('viši ___ Petra')?",
+          question: "Koji predlog + padež znači 'чем' u poređenju ('viši ___ Petra')?",
           options: ["od + genitiv", "sa + instrumental", "u + lokativ"],
           correctIndex: 0
         }
@@ -92,13 +92,13 @@ window.LESSONS["a1-09"] = {
     items: [
       `Zapamti <b>bolji/gori/veći/manji</b> kao "paket" — identicni su po logici ruskim лучше/хуже/больше/меньше, samo druga slova.`,
       `<b>Naj-</b> ide <b>uvek</b> direktno na komparativ, bez razmaka: najbolji, ne "naj bolji".`,
-      `Posle <b>od</b> u poredjenju ide genitiv (Marko je viši od Petra = od + Petra u genitivu), a posle <b>nego</b> moze ici i nominativ kad poredis cele recenice/zamenice (bolja je nego ja).`,
+      `Posle <b>od</b> u poređenju ide genitiv (Marko je viši od Petra = od + Petra u genitivu), a posle <b>nego</b> može ici i nominativ kad poredis cele rečenice/zamenice (bolja je nego ja).`,
       `Mnogi komparativi imaju promenu poslednjeg suglasnika (d→đ, z→ž, p→pš) — ovo su stare glasovne promene, najlakse ih je nauciti kroz primere, ne kroz pravila.`
     ]
   },
 
   vocab: {
-    titleRu: "Reci iz ove lekcije",
+    titleRu: "Reči iz ove lekcije",
     words: [
       { sr: "bolji", ru: "лучше" },
       { sr: "gori", ru: "хуже" },
@@ -118,7 +118,7 @@ window.LESSONS["a1-09"] = {
     ],
     reading: {
       sourceNote: "Originalan kratak tekst napisan za ovaj kurs (nivo A1).",
-      textSr: `<p>Beograd je <span class="word" data-ru="больше Ниша">veći od Niša</span>, ali mnogi kažu da je Niš <span class="word" data-ru="интереснее для туристов">zanimljiviji za turiste</span>. Moj brat misli da je Beograd <span class="word" data-ru="самый лучший город">najbolji grad</span> u Srbiji, dok ja mislim da je <span class="word" data-ru="самый красивый">najlepši</span> Novi Sad. U svakom slucaju, svi se slazu da je leto <span class="word" data-ru="лучше, чем зима">bolje od zime</span>.</p>`,
+      textSr: `<p>Beograd je <span class="word" data-ru="больше Ниша">veći od Niša</span>, ali mnogi kažu da je Niš <span class="word" data-ru="интереснее для туристов">zanimljiviji za turiste</span>. Moj brat misli da je Beograd <span class="word" data-ru="самый лучший город">najbolji grad</span> u Srbiji, dok ja mislim da je <span class="word" data-ru="самый красивый">najlepši</span> Novi Sad. U svakom slucaju, svi se slažu da je leto <span class="word" data-ru="лучше, чем зима">bolje od zime</span>.</p>`,
       comprehension: [
         {
           questionRu: "Какой город, по мнению брата автора, самый лучший?",
@@ -141,19 +141,19 @@ window.LESSONS["a1-09"] = {
     { type: "mc", q: "Koji je komparativ od 'mali'?", options: ["manji", "maliji", "najmanji"], correct: 0 },
     { type: "mc", q: "Koji je komparativ od 'lep'?", options: ["lepši", "lepiji", "najlepši"], correct: 0 },
     { type: "mc", q: "Kako se gradi superlativ?", options: ["naj- + komparativ", "naj- + positiv", "komparativ + naj"], correct: 0 },
-    { type: "mc", q: "Koji predlog + padez znaci 'than' u poredjenju?", options: ["od + genitiv", "sa + instrumental", "za + akuzativ"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'najbolji'?", options: ["самый лучший", "лучше", "хуже"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'Marko je viši od Petra'?", options: ["Марко выше Петра.", "Марко и Петр одного роста.", "Петр выше Марко."], correct: 0 },
+    { type: "mc", q: "Koji predlog + padež znači 'than' u poređenju?", options: ["od + genitiv", "sa + instrumental", "za + akuzativ"], correct: 0 },
+    { type: "mc", q: "Šta znači 'najbolji'?", options: ["самый лучший", "лучше", "хуже"], correct: 0 },
+    { type: "mc", q: "Šta znači 'Marko je viši od Petra'?", options: ["Марко выше Петра.", "Марко и Петр одного роста.", "Петр выше Марко."], correct: 0 },
     { type: "mc", q: "Koji je komparativ od 'mlad'?", options: ["mlađi", "mladiji", "najmladi"], correct: 0 },
     { type: "mc", q: "Koji je komparativ od 'brz'?", options: ["brži", "brziji", "najbrzi"], correct: 0 },
-    { type: "mc", q: "Sta znaci 'opcija'?", options: ["вариант", "выбор (действие)", "решение"], correct: 0 },
+    { type: "mc", q: "Šta znači 'opcija'?", options: ["вариант", "выбор (действие)", "решение"], correct: 0 },
     { type: "fill", q: "Dopuni: Ovaj grad je ___ od onog. (velik, komparativ)", answer: "veći", alt: ["veci"] },
-    { type: "fill", q: "Dopuni: Ona je ___ u razredu. (pametan, superlativ, zenski rod)", answer: "najpametnija", alt: [] },
+    { type: "fill", q: "Dopuni: Ona je ___ u razredu. (pametan, superlativ, ženski rod)", answer: "najpametnija", alt: [] },
     { type: "fill", q: "Prevedi na srpski 'Это самый быстрый способ.' (način, m. rod):", answer: "Ovo je najbrži način.", alt: ["ovo je najbrzi nacin"] },
     { type: "fill", q: "Napisi komparativ od 'pametan':", answer: "pametniji", alt: [] },
     { type: "fill", q: "Napisi superlativ od 'dobar':", answer: "najbolji", alt: [] },
-    { type: "fill", q: "Prevedi na srpski 'Сегодня холоднее, чем вчера.':", answer: "Danas je hladnije nego juče.", alt: ["danas je hladnije nego juce"] },
+    { type: "fill", q: "Prevedi na srpski 'Сегодня холоднее, чем вчера.':", answer: "Danas je hladnije nego juče.", alt: ["danas je hladnije nego juče"] },
     { type: "fill", q: "Napisi komparativ od 'mlad':", answer: "mlađi", alt: ["mladji"] },
-    { type: "fill", q: "Napisi reč koja znaci 'чем' uz genitiv:", answer: "od", alt: [] }
+    { type: "fill", q: "Napisi reč koja znači 'чем' uz genitiv:", answer: "od", alt: [] }
   ]
 };
