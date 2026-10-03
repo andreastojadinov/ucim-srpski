@@ -75,7 +75,7 @@ window.LESSONS["a0-06"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Danas je ponedeljak.", ru: "Сегодня понедельник." },
       { sr: "Sastanak je u sredu.", ru: "Встреча в среду." },
@@ -101,7 +101,7 @@ window.LESSONS["a0-06"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "ponedeljak – nedelja", ru: "дни недели (см. таблицу выше)" },
       { sr: "mesec", ru: "месяц" },

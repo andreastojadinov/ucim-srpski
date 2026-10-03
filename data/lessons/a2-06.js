@@ -71,7 +71,7 @@ window.LESSONS["a2-06"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Radim u velikoj kompaniji.", ru: "Я работаю в большой компании." },
       { sr: "Moj šef je vrlo zahtevan.", ru: "Мой начальник очень требовательный." },
@@ -97,7 +97,7 @@ window.LESSONS["a2-06"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "zanimanje", ru: "профессия" },
       { sr: "posao", ru: "работа" },

@@ -71,7 +71,7 @@ window.LESSONS["a1-02"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Živim u Beogradu.", ru: "Я живу в Белграде." },
       { sr: "Knjiga je na stolu.", ru: "Книга на столе." },
@@ -97,7 +97,7 @@ window.LESSONS["a1-02"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "lokativ", ru: "местный падеж (предложный)" },
       { sr: "gde", ru: "где" },

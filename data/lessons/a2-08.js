@@ -82,7 +82,7 @@ window.LESSONS["a2-08"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Kuhinja je pored dnevne sobe.", ru: "Кухня рядом с гостиной." },
       { sr: "Ispod stola je mačka.", ru: "Под столом кошка." },
@@ -108,7 +108,7 @@ window.LESSONS["a2-08"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "soba", ru: "комната" },
       { sr: "kuhinja", ru: "кухня" },

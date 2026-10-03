@@ -73,7 +73,7 @@ window.LESSONS["a1-10"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Koliko traje put do Novog Sada?", ru: "Сколько длится путь до Нового Сада?" },
       { sr: "Karta za voz, molim.", ru: "Билет на поезд, пожалуйста." },
@@ -99,7 +99,7 @@ window.LESSONS["a1-10"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "autobus", ru: "автобус" },
       { sr: "voz", ru: "поезд" },

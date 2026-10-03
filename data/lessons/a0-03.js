@@ -87,7 +87,7 @@ window.LESSONS["a0-03"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Imam psa.", ru: "У меня есть собака." },
       { sr: "Nemam sestru.", ru: "У меня нет сестры." },
@@ -113,7 +113,7 @@ window.LESSONS["a0-03"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "imati", ru: "иметь" },
       { sr: "nemati", ru: "не иметь" },

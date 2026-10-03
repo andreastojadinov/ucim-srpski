@@ -19,7 +19,7 @@
   };
   dataScript.onerror = function () {
     document.getElementById("lessonRoot").innerHTML =
-      "<div class='panel'><p>Lekcija nije pronađena. <a href='index.html'>Nazad na početnu</a>.</p></div>";
+      "<div class='panel'><p>Lekcija nije pronađena / Урок не найден. <a href='index.html'>Nazad na početnu / На главную</a>.</p></div>";
   };
   document.body.appendChild(dataScript);
 })();

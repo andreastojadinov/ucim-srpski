@@ -71,7 +71,7 @@ window.LESSONS["a2-07"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Boli me glava od jutros.", ru: "У меня болит голова с утра." },
       { sr: "Imam alergiju na polen.", ru: "У меня аллергия на пыльцу." },
@@ -97,7 +97,7 @@ window.LESSONS["a2-07"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "lekar", ru: "врач" },
       { sr: "bolnica", ru: "больница" },

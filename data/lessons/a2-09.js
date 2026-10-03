@@ -83,7 +83,7 @@ window.LESSONS["a2-09"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Volim i čaj i kafu.", ru: "Я люблю и чай, и кофе." },
       { sr: "Nije skupo, ali nije ni jeftino.", ru: "Не дорого, но и не дёшево." },
@@ -109,7 +109,7 @@ window.LESSONS["a2-09"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "jer", ru: "потому что" },
       { sr: "zato što", ru: "из-за того что" },

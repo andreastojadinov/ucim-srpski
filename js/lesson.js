@@ -9,7 +9,7 @@
   const root = document.getElementById("lessonRoot");
 
   if (!lesson) {
-    root.innerHTML = "<div class='panel'><p>Lekcija nije pronađena. <a href='index.html'>Nazad na početnu</a>.</p></div>";
+    root.innerHTML = "<div class='panel'><p>Lekcija nije pronađena / Урок не найден. <a href='index.html'>Nazad na početnu / На главную</a>.</p></div>";
     return;
   }
 
@@ -19,12 +19,12 @@
   document.title = lesson.titleSr + " — Učim Srpski";
 
   const STEPS = [
-    { key: "intro", label: "Uvod" },
-    { key: "grammar", label: "Gramatika" },
-    { key: "examples", label: "Primeri" },
-    { key: "tips", label: "Saveti" },
-    { key: "vocab", label: "Vokabular" },
-    { key: "quiz", label: "Kviz" }
+    { key: "intro", label: "Uvod / Введение" },
+    { key: "grammar", label: "Gramatika / Грамматика" },
+    { key: "examples", label: "Primeri / Примеры" },
+    { key: "tips", label: "Saveti / Советы" },
+    { key: "vocab", label: "Vokabular / Словарь" },
+    { key: "quiz", label: "Kviz / Тест" }
   ];
 
   let progress = getLessonProgress(lesson.slug);
@@ -66,8 +66,8 @@
     const isFirst = currentStepIndex === 0;
     const isLast = currentStepIndex === STEPS.length - 1;
     return `<div class="nav-row">
-      <button class="btn secondary" id="prevBtn" ${isFirst ? "disabled" : ""}>&larr; Prethodno</button>
-      ${isLast ? "" : `<button class="btn" id="nextBtn">Sledece &rarr;</button>`}
+      <button class="btn secondary" id="prevBtn" ${isFirst ? "disabled" : ""}>&larr; Prethodno / Назад</button>
+      ${isLast ? "" : `<button class="btn" id="nextBtn">Sledeće / Далее &rarr;</button>`}
     </div>`;
   }
 
@@ -102,7 +102,7 @@
     const i = lesson.intro || {};
     return `
       <div class="panel">
-        <h2>Uvod u lekciju</h2>
+        <h2>Uvod u lekciju / Введение в урок</h2>
         ${i.sr ? `<p class="sr-example"><span class="sr">${i.sr}</span></p>` : ""}
         <div class="ru-box"><span class="lbl">На русском</span>${i.ru || ""}</div>
         ${navRow()}
@@ -120,7 +120,7 @@
       ).join("");
       return `
         <div class="drill" data-drill="${uid}" data-correct="${drill.correctIndex}">
-          <div class="drill-q">Probaj sam: ${escapeHtml(drill.question)}</div>
+          <div class="drill-q">Probaj sam / Попробуй сам: ${escapeHtml(drill.question)}</div>
           <div class="drill-options">${opts}</div>
           <div class="feedback" data-fb="${uid}"></div>
         </div>
@@ -129,10 +129,10 @@
     if (drill.type === "fill") {
       return `
         <div class="drill" data-drill="${uid}">
-          <div class="drill-q">Probaj sam: ${escapeHtml(drill.question)}</div>
+          <div class="drill-q">Probaj sam / Попробуй сам: ${escapeHtml(drill.question)}</div>
           <div class="text-check-row">
-            <input type="text" placeholder="Upiši odgovor..." data-input="${uid}">
-            <button class="btn" data-check="${uid}">Provera</button>
+            <input type="text" placeholder="Upiši odgovor... / Впиши ответ..." data-input="${uid}">
+            <button class="btn" data-check="${uid}">Provera / Проверить</button>
           </div>
           <div class="feedback" data-fb="${uid}"></div>
         </div>
@@ -168,7 +168,7 @@
 
     return `
       <div class="panel">
-        <h2>Gramatika</h2>
+        <h2>Gramatika / Грамматика</h2>
         ${blocksHtml}
         ${navRow()}
       </div>
@@ -188,7 +188,7 @@
     `).join("");
     return `
       <div class="panel">
-        <h2>Primeri</h2>
+        <h2>Primeri / Примеры</h2>
         ${ex.titleRu ? `<div class="ru-box"><span class="lbl">Как использовать</span>${ex.titleRu}</div>` : ""}
         ${cards}
         ${navRow()}
@@ -203,8 +203,8 @@
     const items = (t.items || []).map((txt) => `<div class="ru-box tip"><span class="lbl">Совет / Savet</span>${txt}</div>`).join("");
     return `
       <div class="panel">
-        <h2>Saveti i izuzeci</h2>
-        ${items || "<p>Nema dodatnih napomena za ovu lekciju.</p>"}
+        <h2>Saveti i izuzeci / Советы и исключения</h2>
+        ${items || "<p>Nema dodatnih napomena za ovu lekciju. / Нет дополнительных заметок для этого урока.</p>"}
         ${navRow()}
       </div>
     `;
@@ -221,7 +221,8 @@
     let readingHtml = "";
     if (v.reading) {
       readingHtml = `
-        <h3>Kratak tekst za vežbanje čitanja</h3>
+        <h3>Kratak tekst za vežbanje čitanja / Текст для чтения</h3>
+        <p class="quiz-intro-note">Klikni na podvučenu reč da vidiš prevod. / Нажми на подчёркнутое слово, чтобы увидеть перевод.</p>
         <div class="reading-excerpt">
           ${v.reading.textSr}
           <span class="source">${v.reading.sourceNote || ""}</span>
@@ -235,7 +236,7 @@
 
     return `
       <div class="panel">
-        <h2>Vokabular</h2>
+        <h2>Vokabular / Словарь</h2>
         ${v.titleRu ? `<div class="ru-box"><span class="lbl">Слова этого урока</span>${v.titleRu}</div>` : ""}
         <table class="vocab-table">${wordsHtml}</table>
         ${readingHtml}
@@ -255,19 +256,19 @@
       ).join("");
       body = `<div class="drill-options" data-qopts="${idx}">${opts}</div>
         <div class="quiz-check-wrap">
-          <button class="btn" data-qcheck="${idx}" disabled>Provera</button>
+          <button class="btn" data-qcheck="${idx}" disabled>Provera / Проверить</button>
         </div>`;
     } else if (item.type === "fill") {
       body = `
         <div class="quiz-check-wrap">
-          <input type="text" placeholder="Upiši odgovor..." data-qinput="${idx}" ${state.answered ? "disabled" : ""}>
-          <button class="btn" data-qcheck="${idx}" ${state.answered ? "disabled" : ""}>Provera</button>
+          <input type="text" placeholder="Upiši odgovor... / Впиши ответ..." data-qinput="${idx}" ${state.answered ? "disabled" : ""}>
+          <button class="btn" data-qcheck="${idx}" ${state.answered ? "disabled" : ""}>Provera / Проверить</button>
         </div>
       `;
     }
     return `
       <div class="quiz-item" data-qitem="${idx}">
-        <div class="q-num">Pitanje ${idx + 1} / ${lesson.quiz.length}</div>
+        <div class="q-num">Pitanje / Вопрос ${idx + 1} / ${lesson.quiz.length}</div>
         <div class="q-text">${item.q}</div>
         ${body}
         <div class="feedback" data-qfb="${idx}"></div>
@@ -277,17 +278,17 @@
 
   function renderQuiz() {
     if (quizFinished && progress.quizScore !== null && progress.quizScore !== undefined && !quizRetryActive) {
-      return `<h2 class="quiz-done-heading">Kviz</h2>` + renderQuizSummaryFromProgress();
+      return `<h2 class="quiz-done-heading">Kviz / Тест</h2>` + renderQuizSummaryFromProgress();
     }
     const items = lesson.quiz.map((item, idx) => renderQuizItem(item, idx)).join("");
     return `
       <div class="panel">
-        <h2>Kviz</h2>
-        <p class="quiz-intro-note">Odaberi odgovor ili upiši reč, pa klikni <b>Provera</b>. / Выбери ответ или допиши слово, затем нажми «Provera».</p>
+        <h2>Kviz / Тест</h2>
+        <p class="quiz-intro-note">Odaberi odgovor ili upiši reč, pa klikni <b>Provera</b>. / Выбери ответ или допиши слово, затем нажми «Проверить».</p>
         ${items}
         <div class="nav-row">
-          <button class="btn secondary" id="prevBtn">&larr; Prethodno</button>
-          <button class="btn" id="finishQuizBtn">Završi kviz</button>
+          <button class="btn secondary" id="prevBtn">&larr; Prethodno / Назад</button>
+          <button class="btn" id="finishQuizBtn">Završi kviz / Завершить тест</button>
         </div>
       </div>
     `;
@@ -303,8 +304,8 @@
         <div class="score">${score} / ${total}</div>
         <div>${pct}%</div>
         <p class="quiz-summary-actions">
-          <button class="btn secondary" id="retryQuizBtn">Pokušaj ponovo</button>
-          <a class="btn btn-link-inline" href="index.html">Nazad na sve lekcije</a>
+          <button class="btn secondary" id="retryQuizBtn">Pokušaj ponovo / Попробовать снова</button>
+          <a class="btn btn-link-inline" href="index.html">Nazad na sve lekcije / Назад ко всем урокам</a>
         </p>
       </div>
     `;
@@ -352,7 +353,7 @@
             btn.classList.add("wrong");
             const correctBtn = drillEl.querySelector(`.opt-btn[data-idx="${correctIdx}"]`);
             if (correctBtn) correctBtn.classList.add("correct");
-            fb.textContent = "Nije tačno. Tačan odgovor je oznacen zeleno. / Неверно — правильный ответ отмечен зелёным.";
+            fb.textContent = "Nije tačno. Tačan odgovor je označen zeleno. / Неверно — правильный ответ отмечен зелёным.";
             fb.className = "feedback show bad";
           }
         });
@@ -399,6 +400,12 @@
 
   function wireReadingWords(scope) {
     scope.querySelectorAll(".reading-excerpt .word").forEach((w) => {
+      if (!w.querySelector(".tooltip")) {
+        const tip = document.createElement("span");
+        tip.className = "tooltip";
+        tip.textContent = w.dataset.ru || "";
+        w.appendChild(tip);
+      }
       w.addEventListener("click", (e) => {
         e.stopPropagation();
         const wasOpen = w.classList.contains("open");
@@ -439,7 +446,7 @@
             fb.textContent = "Tačno! / Правильно! " + (item.explain || "");
             fb.className = "feedback show ok";
           } else {
-            fb.textContent = `Nije tačno. Tačan odgovor: "${item.options[item.correct]}". ${item.explain || ""}`;
+            fb.textContent = `Nije tačno. Tačan odgovor / Правильный ответ: "${item.options[item.correct]}". ${item.explain || ""}`;
             fb.className = "feedback show bad";
           }
         });
@@ -456,7 +463,7 @@
             fb.textContent = "Tačno! / Правильно! " + (item.explain || "");
             fb.className = "feedback show ok";
           } else {
-            fb.textContent = `Nije tačno. Tačan odgovor: "${item.answer}". ${item.explain || ""}`;
+            fb.textContent = `Nije tačno. Tačan odgovor / Правильный ответ: "${item.answer}". ${item.explain || ""}`;
             fb.className = "feedback show bad";
           }
         });

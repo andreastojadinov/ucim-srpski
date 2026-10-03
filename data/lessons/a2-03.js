@@ -84,7 +84,7 @@ window.LESSONS["a2-03"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Čim budem stigao, zovem te.", ru: "Как только приеду, позвоню тебе." },
       { sr: "Ako bude padala kiša, ostajemo kući.", ru: "Если пойдёт дождь, останемся дома." },
@@ -110,7 +110,7 @@ window.LESSONS["a2-03"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "ako", ru: "если" },
       { sr: "kad", ru: "когда" },

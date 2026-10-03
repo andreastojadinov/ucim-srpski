@@ -74,7 +74,7 @@ window.LESSONS["a1-04"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Sutra ćemo putovati u Niš.", ru: "Завтра мы поедем в Ниш." },
       { sr: "Videćemo se uskoro.", ru: "Увидимся скоро." },
@@ -100,7 +100,7 @@ window.LESSONS["a1-04"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "sutra", ru: "завтра" },
       { sr: "uskoro", ru: "скоро" },

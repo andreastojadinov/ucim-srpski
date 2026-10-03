@@ -67,7 +67,7 @@ window.LESSONS["a1-07"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Koliko košta kilogram jabuka?", ru: "Сколько стоит килограмм яблок?" },
       { sr: "Imate li popust?", ru: "У вас есть скидка?" },
@@ -93,7 +93,7 @@ window.LESSONS["a1-07"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "jabuka", ru: "яблоко" },
       { sr: "banana", ru: "банан" },

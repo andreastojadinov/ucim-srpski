@@ -87,7 +87,7 @@ window.LESSONS["a2-01"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod i padež.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод и падеж.",
     items: [
       { sr: "Ovo je moj grad. (nominativ)", ru: "Это мой город." },
       { sr: "Nemam vremena. (genitiv)", ru: "У меня нет времени." },
@@ -113,7 +113,7 @@ window.LESSONS["a2-01"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "padež", ru: "падеж" },
       { sr: "dativ", ru: "дательный падеж" },

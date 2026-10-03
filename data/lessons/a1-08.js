@@ -76,7 +76,7 @@ window.LESSONS["a1-08"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Ustajem rano.", ru: "Я встаю рано." },
       { sr: "Kupam se ujutru.", ru: "Я купаюсь по утрам." },
@@ -102,7 +102,7 @@ window.LESSONS["a1-08"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "buditi se", ru: "просыпаться" },
       { sr: "ustati", ru: "встать" },

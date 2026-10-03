@@ -65,7 +65,7 @@ window.LESSONS["a2-10"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Poštovani, obraćam se povodom slobodnog radnog mesta.", ru: "Уважаемый, обращаюсь по поводу вакансии." },
       { sr: "Zahvaljujem se na prilici.", ru: "Благодарю за возможность." },
@@ -88,7 +88,7 @@ window.LESSONS["a2-10"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "poštovani / poštovana", ru: "уважаемый / уважаемая" },
       { sr: "obraćati se", ru: "обращаться" },

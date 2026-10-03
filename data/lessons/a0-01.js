@@ -81,7 +81,7 @@ window.LESSONS["a0-01"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod na ruski.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод на русский.",
     items: [
       { sr: "Zdravo!", ru: "Привет!" },
       { sr: "Ćao!", ru: "Привет! / Пока! (и при встрече, и при расставании)" },
@@ -109,7 +109,7 @@ window.LESSONS["a0-01"] = {
   },
 
   vocab: {
-    titleRu: "Osnovne reči iz ove lekcije",
+    titleRu: "Основные слова этого урока",
     words: [
       { sr: "zdravo", ru: "привет" },
       { sr: "ćao", ru: "привет / пока" },

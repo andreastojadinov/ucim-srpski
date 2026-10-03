@@ -71,7 +71,7 @@ window.LESSONS["a0-04"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod i rod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод и род.",
     items: [
       { sr: "grad (m.) → gradovi", ru: "город → города" },
       { sr: "sto (m.) → stolovi", ru: "стол → столы" },
@@ -97,7 +97,7 @@ window.LESSONS["a0-04"] = {
   },
 
   vocab: {
-    titleRu: "Imenice sa oznakom roda",
+    titleRu: "Существительные с указанием рода",
     words: [
       { sr: "grad (m.)", ru: "город" },
       { sr: "sto (m.)", ru: "стол" },

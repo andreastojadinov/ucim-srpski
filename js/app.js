@@ -19,8 +19,8 @@
     const { total, ready } = countLessons();
     const bar = document.getElementById("statsBar");
     bar.innerHTML = `
-      <div class="stat-pill">Dostupno lekcija: <b>${ready}</b> / ${total} planiranih</div>
-      <div class="stat-pill">Završeno: <b>${completedCount}</b> lekcija</div>
+      <div class="stat-pill">Dostupno lekcija / Доступно уроков: <b>${ready}</b> / ${total}</div>
+      <div class="stat-pill">Završeno / Завершено: <b>${completedCount}</b></div>
     `;
   }
 
@@ -30,14 +30,14 @@
     let statusLine = "";
 
     if (!lesson.ready) {
-      badge = `<span class="badge soon">uskoro</span>`;
+      badge = `<span class="badge soon">uskoro / скоро</span>`;
     } else if (prog.completed) {
       const pct = prog.quizTotal ? Math.round((prog.quizScore / prog.quizTotal) * 100) : null;
-      badge = `<span class="badge done">završeno${pct !== null ? " · " + pct + "%" : ""}</span>`;
+      badge = `<span class="badge done">završeno / готово${pct !== null ? " · " + pct + "%" : ""}</span>`;
     } else if (prog.lastStep > 0) {
-      badge = `<span class="badge progress">u toku</span>`;
+      badge = `<span class="badge progress">u toku / в процессе</span>`;
     } else {
-      badge = `<span class="badge new">novo</span>`;
+      badge = `<span class="badge new">novo / новое</span>`;
     }
 
     if (lesson.ready) {

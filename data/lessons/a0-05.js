@@ -88,7 +88,7 @@ window.LESSONS["a0-05"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Imam trideset godina.", ru: "Мне тридцать лет." },
       { sr: "Moj broj telefona je nula-šest-pet...", ru: "Мой номер телефона — ноль-шесть-пять..." },
@@ -114,7 +114,7 @@ window.LESSONS["a0-05"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "nula – deset", ru: "ноль – десять (видите таблицу выше)" },
       { sr: "dvadeset", ru: "двадцать" },

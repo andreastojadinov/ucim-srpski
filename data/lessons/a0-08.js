@@ -78,7 +78,7 @@ window.LESSONS["a0-08"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Nebo je plavo.", ru: "Небо синее." },
       { sr: "Trava je zelena.", ru: "Трава зелёная." },
@@ -104,7 +104,7 @@ window.LESSONS["a0-08"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "crven / crvena / crveno", ru: "красный" },
       { sr: "plav / plava / plavo", ru: "синий / голубой" },

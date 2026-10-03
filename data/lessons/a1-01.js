@@ -81,7 +81,7 @@ window.LESSONS["a1-01"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Čitam knjigu.", ru: "Я читаю книгу." },
       { sr: "Volim kafu.", ru: "Я люблю кофе." },
@@ -107,7 +107,7 @@ window.LESSONS["a1-01"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "padež", ru: "падеж" },
       { sr: "nominativ", ru: "именительный падеж" },

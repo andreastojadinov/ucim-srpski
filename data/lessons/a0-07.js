@@ -77,7 +77,7 @@ window.LESSONS["a0-07"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Imam veliku porodicu.", ru: "У меня большая семья." },
       { sr: "Moj otac je visok i mršav.", ru: "Мой отец высокий и худой." },
@@ -103,7 +103,7 @@ window.LESSONS["a0-07"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "majka / mama", ru: "мать / мама" },
       { sr: "otac / tata", ru: "отец / папа" },

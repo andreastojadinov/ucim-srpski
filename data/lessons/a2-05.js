@@ -70,7 +70,7 @@ window.LESSONS["a2-05"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Gledam film svako veče. (nesvršeni)", ru: "Я смотрю фильм каждый вечер." },
       { sr: "Pogledao sam taj film juče. (svršeni)", ru: "Я посмотрел этот фильм вчера." },
@@ -96,7 +96,7 @@ window.LESSONS["a2-05"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "pisati / napisati", ru: "писать / написать" },
       { sr: "čitati / pročitati", ru: "читать / прочитать" },

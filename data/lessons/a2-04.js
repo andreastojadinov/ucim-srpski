@@ -79,7 +79,7 @@ window.LESSONS["a2-04"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Dođi ovamo!", ru: "Иди сюда!" },
       { sr: "Sedi, molim te.", ru: "Сядь, пожалуйста." },
@@ -105,7 +105,7 @@ window.LESSONS["a2-04"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "sedeti → sedi!", ru: "сидеть → сядь!" },
       { sr: "ustati → ustani!", ru: "встать → встань!" },

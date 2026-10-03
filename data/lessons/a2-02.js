@@ -84,7 +84,7 @@ window.LESSONS["a2-02"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Gledao sam zanimljiv film.", ru: "Я смотрел интересный фильм." },
       { sr: "Govorila je o poslu.", ru: "Она говорила о работе." },
@@ -110,7 +110,7 @@ window.LESSONS["a2-02"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "gledati", ru: "смотреть" },
       { sr: "govoriti", ru: "говорить" },

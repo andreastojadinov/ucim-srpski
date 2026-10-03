@@ -96,7 +96,7 @@ window.LESSONS["a0-02"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Ja sam dobro.", ru: "Я в порядке / Мне хорошо." },
       { sr: "Ti si moj prijatelj.", ru: "Ты мой друг." },
@@ -122,7 +122,7 @@ window.LESSONS["a0-02"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "ja", ru: "я" },
       { sr: "ti", ru: "ты" },

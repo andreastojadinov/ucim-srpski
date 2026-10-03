@@ -76,7 +76,7 @@ window.LESSONS["a1-06"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Da li imate vegetarijansku hranu?", ru: "У вас есть вегетарианская еда?" },
       { sr: "Molim vas, jelovnik.", ru: "Пожалуйста, меню." },
@@ -102,7 +102,7 @@ window.LESSONS["a1-06"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "jelovnik", ru: "меню" },
       { sr: "konobar / konobarica", ru: "официант / официантка" },

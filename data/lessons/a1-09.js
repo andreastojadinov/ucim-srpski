@@ -72,7 +72,7 @@ window.LESSONS["a1-09"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Ovaj grad je veći od onog.", ru: "Этот город больше того." },
       { sr: "Ona je bolja studentkinja od mene.", ru: "Она лучшая студентка, чем я." },
@@ -98,7 +98,7 @@ window.LESSONS["a1-09"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "bolji", ru: "лучше" },
       { sr: "gori", ru: "хуже" },

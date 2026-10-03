@@ -74,7 +74,7 @@ window.LESSONS["a1-05"] = {
   },
 
   examples: {
-    titleRu: "Klikni na karticu da vidis prevod.",
+    titleRu: "Нажми на карточку, чтобы увидеть перевод.",
     items: [
       { sr: "Juče sam učio srpski.", ru: "Вчера я учил сербский." },
       { sr: "On je otišao kući.", ru: "Он пошёл домой. (ići → otišao, nepravilno)" },
@@ -100,7 +100,7 @@ window.LESSONS["a1-05"] = {
   },
 
   vocab: {
-    titleRu: "Reči iz ove lekcije",
+    titleRu: "Слова этого урока",
     words: [
       { sr: "juče", ru: "вчера" },
       { sr: "sinoć", ru: "вчера вечером" },
