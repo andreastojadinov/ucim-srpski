@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lekcija — Ucim Srpski</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="lesson-header">
+  <div class="inner">
+    <a class="back-link" href="index.html">&larr; Sve lekcije</a>
+    <h1 id="lessonTitle">Ucitavanje...</h1>
+  </div>
+  <div class="step-tabs" id="stepTabs"></div>
+</div>
+
+<div class="lesson-body" id="lessonRoot">
+  <p>Ucitavanje lekcije...</p>
+</div>
+
+<script src="data/curriculum.js"></script>
+<script src="js/storage.js"></script>
+<script>
+(function () {
+  const params = new URLSearchParams(location.search);
+  window.LESSON_SLUG = params.get("slug") || "";
+  window.LESSON_LEVEL = params.get("level") || "";
+
+  const dataScript = document.createElement("script");
+  dataScript.src = "data/lessons/" + window.LESSON_SLUG + ".js";
+  dataScript.onload = function () {
+    const engine = document.createElement("script");
+    engine.src = "js/lesson.js";
+    document.body.appendChild(engine);
+  };
+  dataScript.onerror = function () {
+    document.getElementById("lessonRoot").innerHTML =
+      "<div class='panel'><p>Lekcija nije pronadjena. <a href='index.html'>Nazad na pocetnu</a>.</p></div>";
+  };
+  document.body.appendChild(dataScript);
+})();
+</script>
+</body>
+</html>
