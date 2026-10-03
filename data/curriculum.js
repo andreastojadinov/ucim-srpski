@@ -60,16 +60,16 @@ window.CURRICULUM = [
     descriptionRu:
       "Все падежи на практике, перфект подробно, футур II, условное наклонение, императив, глагольный вид и работа.",
     lessons: [
-      { id: 1, slug: "a2-01", titleSr: "Svi padeži — pregled i upotreba", titleRu: "Все падежи — обзор и употребление", ready: false },
-      { id: 2, slug: "a2-02", titleSr: "Perfekt — detaljno", titleRu: "Перфект — подробно", ready: false },
-      { id: 3, slug: "a2-03", titleSr: "Futur II i kondicional", titleRu: "Футур II и условное наклонение", ready: false },
-      { id: 4, slug: "a2-04", titleSr: "Imperativ — zapovedni nacin", titleRu: "Императив — повелительное наклонение", ready: false },
-      { id: 5, slug: "a2-05", titleSr: "Glagolski vid — svrseni i nesvrseni", titleRu: "Глагольный вид — совершенный и несовершенный", ready: false },
-      { id: 6, slug: "a2-06", titleSr: "Posao i profesije", titleRu: "Работа и профессии", ready: false },
-      { id: 7, slug: "a2-07", titleSr: "Zdravlje i kod lekara", titleRu: "Здоровье и у врача", ready: false },
-      { id: 8, slug: "a2-08", titleSr: "Stan, kuca i pravci kretanja", titleRu: "Квартира, дом и направления движения", ready: false },
-      { id: 9, slug: "a2-09", titleSr: "Veznici i složene rečenice", titleRu: "Союзы и сложные предложения", ready: false },
-      { id: 10, slug: "a2-10", titleSr: "Pisanje mejla i formalna komunikacija", titleRu: "Написание письма и формальное общение", ready: false }
+      { id: 1, slug: "a2-01", titleSr: "Svi padeži — pregled i upotreba", titleRu: "Все падежи — обзор и употребление", ready: true },
+      { id: 2, slug: "a2-02", titleSr: "Perfekt — detaljno", titleRu: "Перфект — подробно", ready: true },
+      { id: 3, slug: "a2-03", titleSr: "Futur II i kondicional", titleRu: "Футур II и условное наклонение", ready: true },
+      { id: 4, slug: "a2-04", titleSr: "Imperativ — zapovedni način", titleRu: "Императив — повелительное наклонение", ready: true },
+      { id: 5, slug: "a2-05", titleSr: "Glagolski vid — svršeni i nesvršeni", titleRu: "Глагольный вид — совершенный и несовершенный", ready: true },
+      { id: 6, slug: "a2-06", titleSr: "Posao i profesije", titleRu: "Работа и профессии", ready: true },
+      { id: 7, slug: "a2-07", titleSr: "Zdravlje i kod lekara", titleRu: "Здоровье и у врача", ready: true },
+      { id: 8, slug: "a2-08", titleSr: "Stan, kuća i pravci kretanja", titleRu: "Квартира, дом и направления движения", ready: true },
+      { id: 9, slug: "a2-09", titleSr: "Veznici i složene rečenice", titleRu: "Союзы и сложные предложения", ready: true },
+      { id: 10, slug: "a2-10", titleSr: "Pisanje mejla i formalna komunikacija", titleRu: "Написание письма и формальное общение", ready: true }
     ]
   },
   {
