@@ -78,20 +78,20 @@ window.CURRICULUM = [
     nameRu: "Средний уровень",
     color: "#7a3fc9",
     description:
-      "Pasiv, participi, indirektni govor, poslovna komunikacija, intervju za posao i priprema za zivot u Srbiji.",
+      "Pasiv, participi, indirektni govor, poslovna komunikacija, intervju za posao i priprema za život u Srbiji.",
     descriptionRu:
       "Пассив, причастия, косвенная речь, деловое общение, собеседование на работу и подготовка к жизни в Сербии.",
     lessons: [
-      { id: 1, slug: "b1-01", titleSr: "Pasiv — trpni glagolski oblik", titleRu: "Пассив — страдательный залог", ready: false },
-      { id: 2, slug: "b1-02", titleSr: "Glagolski prilozi i participi", titleRu: "Деепричастия и причастия", ready: false },
-      { id: 3, slug: "b1-03", titleSr: "Indirektni govor", titleRu: "Косвенная речь", ready: false },
-      { id: 4, slug: "b1-04", titleSr: "Izrazavanje misljenja i argumentacija", titleRu: "Выражение мнения и аргументация", ready: false },
-      { id: 5, slug: "b1-05", titleSr: "Poslovna komunikacija", titleRu: "Деловое общение", ready: false },
-      { id: 6, slug: "b1-06", titleSr: "Srpska kultura i obicaji", titleRu: "Сербская культура и обычаи", ready: false },
-      { id: 7, slug: "b1-07", titleSr: "Vesti i mediji", titleRu: "Новости и СМИ", ready: false },
-      { id: 8, slug: "b1-08", titleSr: "Idiomi i frazeologija", titleRu: "Идиомы и фразеология", ready: false },
-      { id: 9, slug: "b1-09", titleSr: "Pisanje CV-a i motivacionog pisma", titleRu: "Составление резюме и мотивационного письма", ready: false },
-      { id: 10, slug: "b1-10", titleSr: "Intervju za posao — simulacija", titleRu: "Собеседование на работу — симуляция", ready: false }
+      { id: 1, slug: "b1-01", titleSr: "Pasiv — trpni glagolski oblik", titleRu: "Пассив — страдательный залог", ready: true },
+      { id: 2, slug: "b1-02", titleSr: "Glagolski prilozi i participi", titleRu: "Деепричастия и причастия", ready: true },
+      { id: 3, slug: "b1-03", titleSr: "Indirektni govor", titleRu: "Косвенная речь", ready: true },
+      { id: 4, slug: "b1-04", titleSr: "Izražavanje mišljenja i argumentacija", titleRu: "Выражение мнения и аргументация", ready: true },
+      { id: 5, slug: "b1-05", titleSr: "Poslovna komunikacija", titleRu: "Деловое общение", ready: true },
+      { id: 6, slug: "b1-06", titleSr: "Srpska kultura i običaji", titleRu: "Сербская культура и обычаи", ready: true },
+      { id: 7, slug: "b1-07", titleSr: "Vesti i mediji", titleRu: "Новости и СМИ", ready: true },
+      { id: 8, slug: "b1-08", titleSr: "Idiomi i frazeologija", titleRu: "Идиомы и фразеология", ready: true },
+      { id: 9, slug: "b1-09", titleSr: "Pisanje CV-a i motivacionog pisma", titleRu: "Составление резюме и мотивационного письма", ready: true },
+      { id: 10, slug: "b1-10", titleSr: "Intervju za posao — simulacija", titleRu: "Собеседование на работу — симуляция", ready: true }
     ]
   }
 ];
