@@ -99,10 +99,10 @@ window.LESSONS["a1-01"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Pravilo "živo muški rod dobija -a u akuzativu" je <b>identicno</b> ruskom pravilu — ovo je vasa najveca prednost u učenju srpskih padeža.`,
-      `Ženski rod na <b>-a</b> u akuzativu skoro uvek prelazi u <b>-u</b> — isto kao rusko -а → -у (мама → маму).`,
-      `Srednji rod se <b>nikad</b> ne menja između nominativa i akuzativa u jednini — to je lakse nego u ruskom, gde bi očekivali promenu.`,
-      `Predlozi <b>u</b> i <b>na</b> traze akuzativ samo kad opisuju <b>pravac</b> (kuda?); kada opisuju <b>mesto</b> (gde?), traze lokativ — to učimo u sledecoj lekciji.`
+      `Правило «одушевлённый мужской род получает -a в винительном падеже» <b>идентично</b> русскому правилу — это ваше самое большое преимущество в изучении сербских падежей.`,
+      `Женский род на <b>-a</b> в винительном падеже почти всегда переходит в <b>-u</b> — точно как русское -а → -у (мама → маму).`,
+      `Средний род <b>никогда</b> не меняется между именительным и винительным падежом в единственном числе — это проще, чем в русском, где ожидалось бы изменение.`,
+      `Предлоги <b>u</b> и <b>na</b> требуют винительного падежа только когда описывают <b>направление</b> (куда?); когда описывают <b>место</b> (где?), требуют местного падежа — это выучим в следующем уроке.`
     ]
   },
 

@@ -91,10 +91,10 @@ window.LESSONS["a1-10"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Instrumental bez predloga za sredstvo transporta (vozom, autobusom) je gotovo identicno ruskom "ехать поездом" — koristi tu naviku direktno.`,
-      `Ne mesaj: <b>vozom</b> (sredstvo, bez "sa") i <b>sa prijateljem</b> (drustvo, uz "sa") — oba su instrumental, ali različita upotreba.`,
-      `Fraza <b>Koliko traje...?</b> (Сколько длится...?) je korisna za bilo koju vremensku duzinu, ne samo putovanja.`,
-      `Cestitamo na zavrsetku A1 nivoa! Sada znas osnovne padeže (nominativ, akuzativ, lokativ, i uvod u genitiv i instrumental), buduce i proslo vreme. A2 nivo ce sistematizovati sve padeže zajedno.`
+      `Творительный падеж без предлога для средства передвижения (vozom, autobusom) почти идентичен русскому «ехать поездом» — используй эту привычку напрямую.`,
+      `Не путай: <b>vozom</b> (средство, без «sa») и <b>sa prijateljem</b> (компания, с «sa») — оба творительный падеж, но разное употребление.`,
+      `Фраза <b>Koliko traje...?</b> (Сколько длится...?) полезна для любой продолжительности времени, не только для путешествий.`,
+      `Поздравляем с завершением уровня A1! Теперь ты знаешь основные падежи (именительный, винительный, местный, и введение в родительный и творительный), будущее и прошедшее время. Уровень A2 систематизирует все падежи вместе.`
     ]
   },
 

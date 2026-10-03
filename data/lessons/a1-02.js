@@ -89,10 +89,10 @@ window.LESSONS["a1-02"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Zapamti par "kuda? → akuzativ" / "gde? → lokativ" kao <b>jedno pravilo</b> — ono je identicno ruskom, pa ti ne treba novo razmisljanje, samo prevod navike.`,
-      `U svakodnevnom govoru, mnogi oblici dativa i lokativa se poklapaju (npr. "školi" je i dativ i lokativ) — zato učenje lokativa odmah olaksava i buduce učenje dativa na A2 nivou.`,
-      `Kod nekih ženskih imenica na -ka/-ga/-ha dolazi do promene suglasnika (npr. <i>ruka</i> → <i>ruci</i>, <i>noga</i> → <i>nozi</i>) — ovo je napredniji detalj koji cemo uvezbati kasnije, za sada samo budi svestan da postoji.`,
-      `Predlog <b>o</b> + lokativ za "говорить о чём-то" radi identicno kao u ruskom — jedna manje stvar da pamtis ispočetka.`
+      `Запомни пару «kuda? → винительный» / «gde? → местный» как <b>одно правило</b> — оно идентично русскому, так что не нужно новое размышление, только перевод привычки.`,
+      `В повседневной речи многие формы датива и локатива совпадают (например, «školi» — это и датив, и локатив) — поэтому изучение локатива сразу облегчает будущее изучение датива на уровне A2.`,
+      `У некоторых существительных женского рода на -ka/-ga/-ha происходит изменение согласного (например, <i>ruka</i> → <i>ruci</i>, <i>noga</i> → <i>nozi</i>) — это более продвинутая деталь, которую отработаем позже, пока просто имей в виду, что она существует.`,
+      `Предлог <b>o</b> + локатив для «говорить о чём-то» работает идентично русскому — ещё одна вещь, которую не нужно учить заново.`
     ]
   },
 

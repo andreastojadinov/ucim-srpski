@@ -102,10 +102,10 @@ window.LESSONS["a2-03"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Futur II se skoro <b>uvek</b> javlja posle reči <b>ako, kad, čim, dok</b> kada je reč o budučnosti — van tih rečenica se retko koristi.`,
-      `Kondicional <b>bih/bi/bismo/biste</b> je klitika, pa se, kao i "sam/si/je", ne stavlja na prvo mesto u rečenici: "Voleo bih" je prirodnije nego "Bih voleo".`,
-      `Za uljudne molbe, kondicional je mnogo mekši nego imperativ — "Mogao bih li?" zvuci mnogo ljubaznije nego "Daj mi!"`,
-      `Čest izraz <b>"Da sam na tvom mestu"</b> (на твоём месте) uvek ide sa kondicionalom u drugom delu rečenice — korisna fraza za savete.`
+      `Futur II почти <b>всегда</b> встречается после слов <b>ako, kad, čim, dok</b>, когда речь о будущем — вне этих предложений используется редко.`,
+      `Кондиционал <b>bih/bi/bismo/biste</b> — это клитика, и, как «sam/si/je», не ставится на первое место в предложении: «Voleo bih» естественнее, чем «Bih voleo».`,
+      `Для вежливых просьб кондиционал гораздо мягче императива — «Mogao bih li?» звучит намного вежливее, чем «Daj mi!»`,
+      `Частое выражение <b>«Da sam na tvom mestu»</b> (на твоём месте) всегда идёт с кондиционалом во второй части предложения — полезная фраза для советов.`
     ]
   },
 

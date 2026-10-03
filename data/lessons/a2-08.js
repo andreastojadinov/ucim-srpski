@@ -100,10 +100,10 @@ window.LESSONS["a2-08"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Zapamti dobro: predlozi <b>ispred, iza, pored, između, iznad, ispod</b> idu sa <b>genitivom</b> — ovo je najčešća zamka za ruske govornike jer je logika suprotna od ruskog instrumentala.`,
-      `<b>Prizemlje</b> je "nulti" sprat (na nivou zemlje) — kao u vecini Evrope, a razlikuje se od američkog sistema brojanja spratova.`,
-      `Reč <b>sprat</b> (этаж) se koristi sa predlogom "na": na prvom spratu, na drugom spratu — slicno ruskom "на первом этаже".`,
-      `Za vertikalno kretanje koristi se "gore/dole" (up/down) uz "popeti se" (подняться) i "sići" (спуститься) — korisno u zgradama bez lifta!`
+      `Запомни хорошо: предлоги <b>ispred, iza, pored, između, iznad, ispod</b> идут с <b>родительным падежом</b> — это самая частая ловушка для русскоговорящих, потому что логика противоположна русскому творительному падежу.`,
+      `<b>Prizemlje</b> — «нулевой» этаж (на уровне земли) — как в большинстве Европы, отличается от американской системы подсчёта этажей.`,
+      `Слово <b>sprat</b> (этаж) используется с предлогом «na»: na prvom spratu, na drugom spratu — похоже на русское «на первом этаже».`,
+      `Для вертикального движения используется «gore/dole» (вверх/вниз) вместе с «popeti se» (подняться) и «sići» (спуститься) — полезно в зданиях без лифта!`
     ]
   },
 

@@ -88,10 +88,10 @@ window.LESSONS["a2-05"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Ovo je verovatno <b>najlakša</b> gramatička tema za vas kao ruskog govornika — razmišljajte o vidu potpuno isto kao na ruskom.`,
-      `Uvek uči oba partnera para zajedno (pisati/napisati), tačno kao sto bi ucio vidske parove na ruskom.`,
-      `Svršeni glagoli obično <b>nemaju</b> prezent sa značenjem "sada" — njihov "prezent" oblik (napišem, pročitam) najčešće ima buduće ili uslovno značenje, baš kao rusko "напишу" koje gramatički izgleda kao sadašnje vreme, a znači buduće.`,
-      `Imperativ i futur najčešće idu uz svršeni vid kad opisuju jednu konkretnu radnju: "Napiši mi poruku!" (jednom, konkretno), ali "Piši mi često!" (ponavljano, nesvršeni).`
+      `Это, вероятно, <b>самая лёгкая</b> грамматическая тема для вас как для русскоговорящего — думайте о виде точно так же, как в русском.`,
+      `Всегда учи обоих партнёров пары вместе (pisati/napisati), точно как учил бы видовые пары в русском.`,
+      `Глаголы совершенного вида обычно <b>не имеют</b> презента со значением «сейчас» — их форма «презента» (napišem, pročitam) чаще всего имеет будущее или условное значение, точно как русское «напишу», которое грамматически выглядит как настоящее время, а означает будущее.`,
+      `Императив и будущее время чаще всего сочетаются с совершенным видом, когда описывают одно конкретное действие: «Napiši mi poruku!» (один раз, конкретно), но «Piši mi često!» (повторяющееся действие, несовершенный вид).`
     ]
   },
 

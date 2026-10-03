@@ -102,10 +102,10 @@ window.LESSONS["a2-02"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Glagoli na <b>-ovati</b> menjaju se u prezentu (kupovati → kupujem), ali u perfektu particip ostaje "pravilan" — kupovao, bez promene osnove.`,
-      `Glagoli na <b>-ći</b> su nepravilni upravo zato sto čuvaju staru koren-osnovu — najlakse ih je nauciti kao mali spisak od 5-6 vrlo čestih glagola.`,
-      `U pricanju dogadjaja (redosled akcija), Srbi često nizu nekoliko perfekata zaredom: "Ustao sam, doručkovao sam, otišao sam na posao..." — slicno ruskom nizanju prošlog vremena.`,
-      `Kad je rečenica sa "se" i pitanjem istovremeno, redosled je: particip + jesi/si + li + se — npr. "Jesi li se naspavao?"`
+      `Глаголы на <b>-ovati</b> меняются в презенте (kupovati → kupujem), но в перфекте причастие остаётся «правильным» — kupovao, без изменения основы.`,
+      `Глаголы на <b>-ći</b> неправильные именно потому, что сохраняют старую корневую основу — легче всего выучить их как небольшой список из 5-6 очень частых глаголов.`,
+      `При рассказе о событиях (последовательность действий) сербы часто нанизывают несколько перфектов подряд: «Ustao sam, doručkovao sam, otišao sam na posao...» — похоже на русское нанизывание прошедшего времени.`,
+      `Когда в предложении одновременно «se» и вопрос, порядок такой: причастие + jesi/si + li + se — например, «Jesi li se naspavao?»`
     ]
   },
 

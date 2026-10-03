@@ -97,10 +97,10 @@ window.LESSONS["a0-10"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Kad uciš novi glagol, odmah zapamti i njegov oblik za "ja" — to ti otkriva kojoj grupi prezenta pripada, isto kao sto bi u ruskom pamtio par glagola po vidu.`,
-      `<b>Hteti</b> je kljucan jer se koristi i za "желание" i kao pomocni glagol za buduce vreme (Futur I) — to cemo učiti na A1 nivou.`,
-      `<b>Moći</b> se često koristi sa "da" + prezent: "Mogu da dođem" (Я могу прийти) — ova "da + prezent" konstrukcija zamenjuje infinitiv u svakodnevnom govoru.`,
-      `Cestitamo na zavrsetku A0 nivoa! Sledeci nivo (A1) uvodi padeže — temelj za mnogo precizniji srpski.`
+      `Когда учишь новый глагол, сразу запомни и его форму для «я» — это покажет, к какой группе презента он принадлежит, точно как в русском ты запоминаешь пару глаголов по виду.`,
+      `<b>Hteti</b> является ключевым, так как используется и для «желания», и как вспомогательный глагол для будущего времени (Futur I) — это выучим на уровне A1.`,
+      `<b>Moći</b> часто используется с «da» + презент: «Mogu da dođem» (Я могу прийти) — эта конструкция «da + презент» заменяет инфинитив в повседневной речи.`,
+      `Поздравляем с завершением уровня A0! Следующий уровень (A1) вводит падежи — основу для гораздо более точного сербского.`
     ]
   },
 

@@ -106,10 +106,10 @@ window.LESSONS["a0-05"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Brojeve telefona Srbi obično izgovaraju cifru po cifru ili u parovima — slicno kao i u ruskom.`,
-      `Reč <b>evro</b> (евро) koristi se za veče iznose (stanarina, plate), a <b>dinar</b> za svakodnevne male kupovine — korisno je znati oba.`,
-      `Fraza <b>Koliko košta?</b> radi i u jednini i množini konteksta — za vise stvari pitas "Koliko košta ovo?" pokazujuci na predmet, bez promene glagola.`,
-      `Slaganje brojeva sa imenicama (1 / 2-4 / 5+) izgleda slicno kao u ruskom, ali oblici imenica se razlikuju — ovo cemo detaljno učiti kroz padeže na A1 nivou.`
+      `Номера телефонов сербы обычно произносят по цифре или парами — похоже на русский.`,
+      `Слово <b>evro</b> (евро) используется для крупных сумм (аренда, зарплаты), а <b>dinar</b> — для повседневных мелких покупок — полезно знать оба.`,
+      `Фраза <b>Koliko košta?</b> работает и в единственном, и во множественном контексте — для нескольких предметов спрашивают «Koliko košta ovo?», указывая на предмет, без изменения глагола.`,
+      `Согласование чисел с существительными (1 / 2-4 / 5+) выглядит похоже на русское, но формы существительных отличаются — это подробно изучим через падежи на уровне A1.`
     ]
   },
 

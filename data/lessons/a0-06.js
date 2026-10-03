@@ -93,10 +93,10 @@ window.LESSONS["a0-06"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `<b>Nedelja</b> = i «воскресенье» i «неделя» — ako je nejasno iz konteksta, može se reči <b>sedmica</b> za "неделю" radi preciznosti.`,
-      `Nedelja (sedmica) počinje <b>ponedeljkom</b>, a ne nedeljom/voskresenjem — razlika od nekih drugih kalendarskih navika.`,
-      `Broj uz "sat" prati isto pravilo kao broj uz "godina": 1 sat, 2-4 sata, 5+ sati.`,
-      `Za delove dana koristi se: <b>jutro</b> (утро), <b>podne</b> (полдень), <b>popodne</b> (после полудня), <b>veče</b> (вечер), <b>noć</b> (ночь).`
+      `<b>Nedelja</b> означает и «воскресенье», и «неделя» — если из контекста непонятно, можно сказать <b>sedmica</b> для «недели», чтобы быть точнее.`,
+      `Неделя (sedmica) начинается с <b>понедельника</b>, а не с воскресенья — отличие от некоторых других календарных привычек.`,
+      `Число перед «sat» следует тому же правилу, что и перед «godina»: 1 sat, 2-4 sata, 5+ sati.`,
+      `Для частей дня используются: <b>jutro</b> (утро), <b>podne</b> (полдень), <b>popodne</b> (после полудня), <b>veče</b> (вечер), <b>noć</b> (ночь).`
     ]
   },
 

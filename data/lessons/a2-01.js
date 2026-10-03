@@ -105,10 +105,10 @@ window.LESSONS["a2-01"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Dativ i lokativ jednine imaju <b>iste oblike</b> kod većine imenica — ako znaš jedan, skoro znaš i drugi.`,
-      `Vokativ se najviše koristi uz imena, titule i srodstvo (majko, oče, prijatelju) — u svakodnevnom govoru se ipak ponekad zamenjuje nominativom, posebno kod stranih imena.`,
-      `Ne brini ako ne zapamtiš sve padeže odjednom — sledeće lekcije u A2 nivou detaljno obrađuju perfekat, futur i druge teme, a padeži će se uvežbavati postepeno kroz primere.`,
-      `Najbolja strategija: uči imenicu zajedno sa rečenicom koja pokazuje padež u kontekstu, a ne izolovane tabele napamet.`
+      `Дательный и местный падеж в единственном числе имеют <b>одинаковые формы</b> у большинства существительных — если знаешь один, почти знаешь и другой.`,
+      `Звательный падеж чаще всего используется с именами, титулами и родственными связями (majko, oče, prijatelju) — в повседневной речи его всё же иногда заменяют именительным, особенно с иностранными именами.`,
+      `Не переживай, если не запомнишь все падежи сразу — следующие уроки уровня A2 подробно разберут перфект, будущее время и другие темы, а падежи будут отрабатываться постепенно на примерах.`,
+      `Лучшая стратегия: учи существительное вместе с предложением, которое показывает падеж в контексте, а не изолированные таблицы наизусть.`
     ]
   },
 

@@ -89,10 +89,10 @@ window.LESSONS["a0-04"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Pravilo "<b>-a</b> = ženski, <b>-o/-e</b> = srednji, suglasnik = muški" tačno je u vecini slucajeva, ali uvek uči rod zajedno sa novom reči — kao i u ruskom, postoje izuzeci (npr. <i>auto</i>, <i>radio</i> su muskog roda).`,
-      `Rodovi imenica se često <b>ne poklapaju</b> između srpskog i ruskog za istu reč — provera je korisna navika kada uciš novi vokabular.`,
-      `<b>Dete → deca</b> je klasican izuzetak koji svi uce rano — zapamti ga kao posebnu, nepravilnu reč.`,
-      `Kod muskog roda, jednoslozne reči (sto, grad, sin) često dobijaju umetak <b>-ov-</b> ili <b>-ev-</b> u množini: sto → stolovi, sin → sinovi.`
+      `Правило «<b>-a</b> = женский, <b>-o/-e</b> = средний, согласная = мужской» верно в большинстве случаев, но всегда учи род вместе с новым словом — как и в русском, есть исключения (например, <i>auto</i>, <i>radio</i> мужского рода).`,
+      `Род существительных часто <b>не совпадает</b> между сербским и русским для одного и того же слова — проверка — полезная привычка при изучении новой лексики.`,
+      `<b>Dete → deca</b> — классическое исключение, которое все учат рано — запомни его как особое, неправильное слово.`,
+      `У существительных мужского рода односложные слова (sto, grad, sin) часто получают вставку <b>-ov-</b> или <b>-ev-</b> во множественном числе: sto → stolovi, sin → sinovi.`
     ]
   },
 

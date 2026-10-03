@@ -85,10 +85,10 @@ window.LESSONS["a1-07"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Genitiv množine je jedan od najkorisnijih padeža u svakodnevnoj kupovini — vredi ga uvezbati na recima koje najcesce kupujes.`,
-      `Kad nisi siguran kakav je genitiv množine neke reči, slobodno koristi osnovni (nominativ) oblik — ljudi ce te razumeti, iako nije savrseno gramaticki.`,
-      `<b>Pijaca</b> (open-air market) je mesto gde su cene često nize i gde je normalno pregovarati malo o ceni — drugacije nego u supermarketu.`,
-      `Fraza "Treba mi..." (мне нужно...) + genitiv je vrlo korisna i van kupovine — radi za gotovo sve svakodnevne potrebe.`
+      `Родительный падеж множественного числа — один из самых полезных падежей в повседневных покупках — стоит отработать его на словах, которые чаще всего покупаешь.`,
+      `Если не уверен, какой родительный падеж множественного числа у какого-то слова, смело используй базовую (именительную) форму — люди тебя поймут, хотя это не идеально грамматически.`,
+      `<b>Pijaca</b> (рынок под открытым небом) — место, где цены часто ниже и где нормально немного торговаться — иначе, чем в супермаркете.`,
+      `Фраза «Treba mi...» (мне нужно...) + родительный падеж очень полезна и за пределами покупок — подходит почти для всех повседневных нужд.`
     ]
   },
 

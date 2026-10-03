@@ -97,10 +97,10 @@ window.LESSONS["a2-04"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Reč <b>Hajde!</b> (давай!) je izuzetno česta u govoru — koristi se i kao poziv na akciju i kao ohrabrenje, bez stroge gramatičke konjugacije.`,
-      `Imperativ za "vi" se koristi i kao množina (vama, ljudi) i kao formalno obraćanje jednoj osobi — isto kao "vi" u drugim kontekstima.`,
-      `"Nemoj" + da + prezent je mnogo prirodniji nacin za zabranu nego direktno negiranje imperativa — koristi ga kao podrazumevani obrazac.`,
-      `U svakodnevnom govoru, imperativ često prati "molim te" (ti) ili "molim vas" (vi) da bi zvucao ljubaznije, a ne kao stroga naredba.`
+      `Слово <b>Hajde!</b> (давай!) чрезвычайно частое в речи — используется и как призыв к действию, и как подбадривание, без строгого грамматического спряжения.`,
+      `Императив для «vi» используется и как множественное число (вам, людям), и как формальное обращение к одному человеку — точно как «vi» в других контекстах.`,
+      `«Nemoj» + da + презент — гораздо более естественный способ запрета, чем прямое отрицание императива — используй это как стандартную модель.`,
+      `В повседневной речи императив часто сопровождается «molim te» (ты) или «molim vas» (вы), чтобы звучать вежливее, а не как строгий приказ.`
     ]
   },
 

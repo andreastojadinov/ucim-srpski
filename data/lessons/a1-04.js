@@ -92,10 +92,10 @@ window.LESSONS["a1-04"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Ovo gradivo je gotovo <b>kopija</b> ruskog "буду + infinitiv" — razmisljaj o ću/ćeš/će tačno kao o буду/будешь/будет.`,
-      `Pravilo spajanja (radiću, ne "radim ću") je samo <b>pravopisno</b> — izgovor je gotovo isti, samo se pise zajedno kad infinitiv dolazi prvi.`,
-      `Negacija <b>nikad</b> ne zadrzava infinitiv spojen — uvek "Neću raditi", nikad "Radićeneću" ili slicno.`,
-      `U svakodnevnom govoru, blizak buduci dogadjaj se često izrazava i prezentom (kao "Sutra idem kod lekara" umesto "Sutra ću ići kod lekara") — potpuno kao u ruskom razgovornom jeziku.`
+      `Этот материал почти <b>копия</b> русского «буду + инфинитив» — думай о ću/ćeš/će точно как о буду/будешь/будет.`,
+      `Правило слияния (radiću, не «radim ću») — это только <b>орфография</b> — произношение почти одинаковое, просто пишется слитно, когда инфинитив идёт первым.`,
+      `Отрицание <b>никогда</b> не оставляет инфинитив слитным — всегда «Neću raditi», никогда «Radićeneću» или подобное.`,
+      `В повседневной речи близкое будущее событие часто выражается и презентом (как «Sutra idem kod lekara» вместо «Sutra ću ići kod lekara») — точно как в русской разговорной речи.`
     ]
   },
 

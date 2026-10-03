@@ -94,10 +94,10 @@ window.LESSONS["a1-03"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Najcesca greska pocetnika: prisvojna reč se slaže sa <b>stvari koja se poseduje</b>, a ne sa vlasnikom. "Njegova sestra" je tačno iako je "on" muskog roda — zato sto je "sestra" zenskog roda.`,
-      `<b>Njegov</b> (его) i <b>njen</b> (её) biraju se prema rodu <b>vlasnika</b>, a završetak (-ov/-ova/-ovo ili -en/-na/-no) prema rodu <b>stvari</b> — dva različita pravila se primenjuju istovremeno.`,
-      `Prisvojni pridevi od imena (-ov/-ev/-in) se koriste mnogo cesce u srpskom nego u standardnom ruskom — slobodno ih koristi i za obicna imena, ne samo poznate osobe.`,
-      `<b>Svoj</b> je koristan kad hoces da budes precizan da je vlasnik upravo subjekt rečenice — u svakodnevnom govoru se ipak često i "njegov/njen" koristi umesto "svoj" bez velike razlike u znacenju.`
+      `Самая частая ошибка новичков: притяжательное слово согласуется с <b>вещью, которой владеют</b>, а не с владельцем. «Njegova sestra» правильно, хотя «on» мужского рода — потому что «sestra» женского рода.`,
+      `<b>Njegov</b> (его) и <b>njen</b> (её) выбираются по роду <b>владельца</b>, а окончание (-ov/-ova/-ovo или -en/-na/-no) — по роду <b>вещи</b> — два разных правила применяются одновременно.`,
+      `Притяжательные прилагательные от имён (-ov/-ev/-in) используются в сербском гораздо чаще, чем в стандартном русском — смело используй их и для обычных имён, не только для известных людей.`,
+      `<b>Svoj</b> полезно, когда хочешь точно показать, что владелец — именно подлежащее предложения — в повседневной речи всё же часто используют и «njegov/njen» вместо «svoj» без большой разницы в значении.`
     ]
   },
 

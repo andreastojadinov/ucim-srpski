@@ -114,10 +114,10 @@ window.LESSONS["a0-02"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Kratke forme (<b>sam, si, je, smo, ste, su</b>) gotovo nikada ne počinju rečenicu — zato se "Ja sam Ana", a ne "Sam Ana". Odrečni oblik (<b>nisam</b> itd.) ovo pravilo nema — može stajati na pocetku.`,
-      `U pitanjima se oblik "jeste" / "jesam" koristi za kratke potvrdne odgovore: "Da li si umoran? — Jesam." (Да, устал.) — slicno kao rusko "Да, это так."`,
-      `Zamenicu <b>vi</b> koristi kada se obracas nepoznatoj osobi ili starijoj osobi formalno — potpuno isto kao rusko formalno "Вы".`,
-      `Razlika oni / one / ona zavisi od roda grupe o kojoj govoris — za sada pamti <b>oni</b> kao najcesci, "neutralni" izbor kada nisi siguran.`
+      `Краткие формы (<b>sam, si, je, smo, ste, su</b>) почти никогда не начинают предложение — поэтому «Ja sam Ana», а не «Sam Ana». У отрицательной формы (<b>nisam</b> и т.д.) такого правила нет — она может стоять в начале.`,
+      `В вопросах форма «jeste»/«jesam» используется для коротких утвердительных ответов: «Da li si umoran? — Jesam.» (Да, устал.) — похоже на русское «Да, это так.»`,
+      `Местоимение <b>vi</b> используй, когда обращаешься к незнакомому или старшему человеку формально — точно как русское формальное «Вы».`,
+      `Различие oni / one / ona зависит от рода группы, о которой идёт речь — пока запомни <b>oni</b> как самый частый, «нейтральный» выбор, если не уверен.`
     ]
   },
 

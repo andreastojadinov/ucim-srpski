@@ -96,10 +96,10 @@ window.LESSONS["a0-08"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `<b>Beo → bela → belo</b> je nepravilno (očekivali bismo "bel/bela/belo") — ovo je stara promena koju jednostavno treba zapamtiti.`,
-      `Pozajmljene boje kao <b>braon</b>, <b>roze</b>, <b>bordo</b> se <b>ne menjaju</b> po rodu — uvek ista reč, bez obzira na imenicu.`,
-      `Sistem ovaj/taj/onaj nema tačan ekvivalent u ruskom (koji ima samo этот/тот) — u praksi, ako nisi siguran, <b>taj/ta/to</b> je najcesci i "najsigurniji" izbor za opste "тот/та/то".`,
-      `U svakodnevnom govoru <b>ovaj</b> se često koristi i kao "poštapalica" (слово-паразит) kad razmisljas šta dalje reči — slicno ruskom "это самое".`
+      `<b>Beo → bela → belo</b> — неправильная форма (ожидалось бы «bel/bela/belo») — это старое изменение, которое просто нужно запомнить.`,
+      `Заимствованные цвета, такие как <b>braon</b>, <b>roze</b>, <b>bordo</b>, <b>не меняются</b> по роду — всегда одно и то же слово, независимо от существительного.`,
+      `Система ovaj/taj/onaj не имеет точного эквивалента в русском (где только этот/тот) — на практике, если не уверен, <b>taj/ta/to</b> — самый частый и «самый безопасный» выбор для общего «тот/та/то».`,
+      `В повседневной речи <b>ovaj</b> часто используется и как слово-паразит, когда думаешь, что сказать дальше — похоже на русское «это самое».`
     ]
   },
 

@@ -94,10 +94,10 @@ window.LESSONS["a1-08"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `"Se" se <b>ne menja</b> po licima — isto kao rusko -ся/-сь. Ovo cini povratne glagole lakim za transfer iz ruskog.`,
-      `Neki glagoli su povratni u srpskom ali <b>nisu</b> u ruskom (npr. <i>odmarati se</i> — "отдыхать" bez -ся) — uvek provveri svaki novi glagol.`,
-      `U perfektu, red je uvek: <b>particip + sam/si/je... + se</b> (ili particip + se + sam, zavisno od rečenice) — "se" se nikad ne stavlja prvo.`,
-      `Fraza <b>Kako se osećaš?</b> (Как ты себя чувствуешь?) je svakodnevna i prirodno koristi povratni glagol — dobra za vežbanje.`
+      `«Se» <b>не меняется</b> по лицам — точно как русское -ся/-сь. Это делает возвратные глаголы лёгкими для переноса из русского.`,
+      `Некоторые глаголы возвратные в сербском, но <b>не</b> в русском (например, <i>odmarati se</i> — «отдыхать» без -ся) — всегда проверяй каждый новый глагол.`,
+      `В перфекте порядок всегда такой: <b>причастие + sam/si/je... + se</b> (или причастие + se + sam, в зависимости от предложения) — «se» никогда не ставится первым.`,
+      `Фраза <b>Kako se osećaš?</b> (Как ты себя чувствуешь?) повседневная и естественно использует возвратный глагол — хороша для практики.`
     ]
   },
 

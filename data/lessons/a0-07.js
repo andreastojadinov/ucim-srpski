@@ -95,10 +95,10 @@ window.LESSONS["a0-07"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Mnogi pridjevi u muskom rodu imaju "nepostojano a" koje ispada u drugim rodovima: <b>dobar → dobra/dobro</b>, <b>mudar → mudra/mudro</b>. Ne pamti ih kao "dodaj a", vec kao "ukloni a kad dodajes -a/-o".`,
-      `Topla, porodicna imena (<b>mama, tata, baka, deka</b>) koriste se u svakodnevnom govoru, dok <b>majka, otac, baba, deda</b> deluju malo formalnije ili se koriste kad pricas o trecem licu.`,
-      `Red reči "pridev + imenica" je isti kao u ruskom — ne razmisljaj puno o redosledu, samo o slaganju roda.`,
-      `Kad opisujes ljude, srpski često koristi dva pridjeva zaredom bez zareza drugacije nego sto bi se moglo očekivati: "lepa i pametna žena" (lepa i pametna) — красивая и умная женщина.`
+      `У многих прилагательных мужского рода есть «непостоянное a», которое пропадает в других родах: <b>dobar → dobra/dobro</b>, <b>mudar → mudra/mudro</b>. Запоминай их не как «добавь a», а как «убери a, когда добавляешь -a/-o».`,
+      `Тёплые, семейные имена (<b>mama, tata, baka, deka</b>) используются в повседневной речи, а <b>majka, otac, baba, deda</b> звучат немного формальнее или используются, когда говорят о третьем лице.`,
+      `Порядок слов «прилагательное + существительное» такой же, как в русском — не думай много о порядке, только о согласовании рода.`,
+      `Когда описываешь людей, сербский часто использует два прилагательных подряд без запятой, иначе, чем можно было бы ожидать: «lepa i pametna žena» (lepa i pametna) — красивая и умная женщина.`
     ]
   },
 

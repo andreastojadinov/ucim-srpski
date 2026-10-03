@@ -94,10 +94,10 @@ window.LESSONS["a1-06"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `<b>Živeli!</b> je standardni tost — koristi se bukvalno uvek kad se nazdravlja, bez obzira na prilike.`,
-      `Napojnica (bakšiš) u Srbiji nije obavezna kao u SAD, ali je uobicajeno zaokruziti racun ili ostaviti 10% ako je usluga dobra.`,
-      `Fraza <b>Mogu li da...?</b> + prezent je svestrana i radi za skoro svaku uljudnu molbu u restoranu, prodavnici ili na poslu.`,
-      `Reč <b>jelovnik</b> (меню) je dobra da znas odmah — konobar/konobarica ce ti ga doneti kad sednes, često i bez da trazis.`
+      `<b>Živeli!</b> — стандартный тост, используется буквально всегда при произнесении тоста, независимо от повода.`,
+      `Чаевые в Сербии не обязательны, как в США, но принято округлять счёт или оставлять 10%, если обслуживание хорошее.`,
+      `Фраза <b>Mogu li da...?</b> + презент универсальна и подходит почти для любой вежливой просьбы в ресторане, магазине или на работе.`,
+      `Слово <b>jelovnik</b> (меню) полезно знать сразу — официант/официантка принесёт его, когда сядешь, часто даже без просьбы.`
     ]
   },
 

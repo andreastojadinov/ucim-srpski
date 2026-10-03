@@ -92,10 +92,10 @@ window.LESSONS["a1-05"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `L-particip (radio/radila/radilo/radili) odgovara tačno ruskom prošlom vremenu po slaganju roda/broja — jedina razlika je dodatna klitika "sam/si/je...".`,
-      `Glagol <b>ići</b> ima nepravilan particip: <b>išao / išla / išlo / išli</b> (ne "idio") — vrlo frekventna reč, vredna pamcenja.`,
-      `Klitika "sam/si/je..." može stajati i posle prvog naglasenog dela rečenice, ne samo posle subjekta — zato "Juče sam radio" zvuci prirodnije nego "Juče ja sam radio".`,
-      `Za muški rod jednine, l-particip se završava na suglasnik <b>-o</b> (radio), sto nekad zbunjuje jer izgleda kao da se završava na samoglasnik — zapravo je to istorijsko "l" koje je prešlo u "o" na kraju reči.`
+      `L-причастие (radio/radila/radilo/radili) точно соответствует русскому прошедшему времени по согласованию рода/числа — единственное отличие — дополнительная клитика «sam/si/je...».`,
+      `Глагол <b>ići</b> имеет неправильное причастие: <b>išao / išla / išlo / išli</b> (не «idio») — очень частое слово, стоящее запоминания.`,
+      `Клитика «sam/si/je...» может стоять и после первой ударной части предложения, не только после подлежащего — поэтому «Juče sam radio» звучит естественнее, чем «Juče ja sam radio».`,
+      `Для мужского рода единственного числа l-причастие заканчивается на согласную <b>-o</b> (radio), что иногда сбивает с толку, так как выглядит как окончание на гласную — на самом деле это историческое «l», перешедшее в «o» в конце слова.`
     ]
   },
 

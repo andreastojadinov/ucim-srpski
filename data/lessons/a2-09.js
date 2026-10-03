@@ -101,10 +101,10 @@ window.LESSONS["a2-09"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `<b>Pošto</b> je dvosmisleno — ako nisi siguran da li znači "так как" ili "после того как", koristi umesto toga <b>jer</b> (причина) ili <b>nakon što</b> (время) da izbegneš zabunu.`,
-      `Konstrukcija <b>da + prezent</b> je toliko česta da je gotovo nemoguce govoriti srpski bez nje — navikni se da je koristiš svuda gde bi na ruskom stavio infinitiv posle glagola volje/potrebe.`,
-      `<b>Iako</b> i <b>mada</b> su potpuni sinonimi (хотя) — možeš koristiti bilo koji, stvar je stila.`,
-      `U pisanom, formalnijem jeziku često se vidi i "infinitiv" bez "da" (npr. "Želim učiti"), ali u govoru je "da + prezent" mnogo prirodnije i češće.`
+      `<b>Pošto</b> двусмысленно — если не уверен, означает ли оно «так как» или «после того как», используй вместо него <b>jer</b> (причина) или <b>nakon što</b> (время), чтобы избежать путаницы.`,
+      `Конструкция <b>da + prezent</b> настолько частая, что почти невозможно говорить по-сербски без неё — привыкни использовать её везде, где в русском поставил бы инфинитив после глагола желания/необходимости.`,
+      `<b>Iako</b> и <b>mada</b> — полные синонимы (хотя) — можешь использовать любое, это вопрос стиля.`,
+      `В письменном, более формальном языке иногда встречается и «инфинитив» без «da» (например, «Želim učiti»), но в речи «da + prezent» гораздо естественнее и чаще.`
     ]
   },
 

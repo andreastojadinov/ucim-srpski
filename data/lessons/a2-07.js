@@ -89,10 +89,10 @@ window.LESSONS["a2-07"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Konstrukcija "Boli me X" je česta zamka — ne prevodi doslovno iz ruskog "у меня болит", vec zapamti srpski obrazac kao celinu.`,
-      `Glagol se slaže sa delom tela: <b>Boli me</b> (jednina: glava, stomak) ali <b>Bole me</b> (množina: noge, zubi, leđa su uvek množina).`,
-      `U hitnim slučajevima, broj za hitnu pomoć u Srbiji je <b>194</b> — korisno zapamtiti.`,
-      `Reč <b>apoteka</b> (аптека) je lažni prijatelj sa engleskim "apothecary" ali tačno odgovara ruskoj "аптеке" — mesto gde se kupuju lekovi.`
+      `Конструкция «Boli me X» — частая ловушка — не переводи дословно с русского «у меня болит», а запомни сербскую модель целиком.`,
+      `Глагол согласуется с частью тела: <b>Boli me</b> (единственное число: голова, живот), но <b>Bole me</b> (множественное число: ноги, зубы, спина всегда во множественном числе).`,
+      `В экстренных случаях номер скорой помощи в Сербии — <b>194</b> — полезно запомнить.`,
+      `Слово <b>apoteka</b> (аптека) — ложный друг с английским «apothecary», но точно соответствует русской «аптеке» — месту, где покупают лекарства.`
     ]
   },
 

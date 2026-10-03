@@ -89,10 +89,10 @@ window.LESSONS["a2-06"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Kao i na ruskom, ženske forme profesija su predmet promena u jeziku — u formalnim dokumentima (CV, ugovor) često se koristi muški oblik, dok se u govoru sve vise koriste ženski oblici.`,
-      `<b>Baviti se</b> + instrumental je fensi/formalniji nacin da kažeš čime se baviš, dok je <b>raditi kao</b> + nominativ jednostavniji i češći u svakodnevnom govoru.`,
-      `Fraza <b>Šta si po zanimanju?</b> je standardni nacin da pitas nekoga za profesiju — odgovara se sa "Ja sam + profesija" (nominativ).`,
-      `U poslovnom kontekstu, "radno iskustvo" (experience) i "CV" (biografija/životopis) su kljucni pojmovi za trazenje posla u Srbiji.`
+      `Как и в русском, женские формы профессий — предмет изменений в языке: в официальных документах (резюме, договор) часто используется мужская форма, а в речи всё больше используют женские формы.`,
+      `<b>Baviti se</b> + творительный падеж — более изысканный/формальный способ сказать, чем ты занимаешься, а <b>raditi kao</b> + именительный падеж — проще и чаще в повседневной речи.`,
+      `Фраза <b>Šta si po zanimanju?</b> — стандартный способ спросить кого-то о профессии — отвечают «Ja sam + профессия» (именительный падеж).`,
+      `В деловом контексте «radno iskustvo» (опыт работы) и «CV» (резюме/биография) — ключевые понятия для поиска работы в Сербии.`
     ]
   },
 

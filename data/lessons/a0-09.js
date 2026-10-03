@@ -92,10 +92,10 @@ window.LESSONS["a0-09"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Dvostruka negacija (<b>niko ne..., ništa ne..., nikad ne...</b>) je <b>obavezna</b> — za razliku od engleskog, ovo je ustvari lakse za ruske govornike jer radi tačno kao u ruskom.`,
-      `<b>Da li</b> i inverzija sa <b>li</b> su potpuno zamenljivi — izbor je stvar stila, ne gramatike.`,
-      `<b>Koji/koja/koje</b> se slaže sa rodom imenice na koju se odnosi, kao pridev: "koji grad" (m.), "koja knjiga" (ž.), "koje selo" (s.).`,
-      `Reč <b>šta</b> se koristi za stvari, a <b>ko</b> za ljude — kao rusko "что" i "кто".`
+      `Двойное отрицание (<b>niko ne..., ništa ne..., nikad ne...</b>) <b>обязательно</b> — в отличие от английского, это на самом деле легче для русскоговорящих, потому что работает точно как в русском.`,
+      `<b>Da li</b> и инверсия с <b>li</b> полностью взаимозаменяемы — выбор это вопрос стиля, а не грамматики.`,
+      `<b>Koji/koja/koje</b> согласуется с родом существительного, к которому относится, как прилагательное: «koji grad» (м.р.), «koja knjiga» (ж.р.), «koje selo» (с.р.).`,
+      `Слово <b>šta</b> используется для вещей, а <b>ko</b> — для людей, как русское «что» и «кто».`
     ]
   },
 

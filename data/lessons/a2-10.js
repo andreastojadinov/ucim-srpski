@@ -80,10 +80,10 @@ window.LESSONS["a2-10"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Veliko slovo za <b>Vi/Vas/Vaš</b> koristi se samo u <b>pismu/mejlu</b> i samo kad se obraćaš jednoj osobi formalno — u govoru se ne "čuje" razlika, pa nije greška ako zaboraviš u svakodnevnom tekstu.`,
-      `<b>S poštovanjem</b> je najformalniji i najsigurniji završetak mejla — odgovara ruskom "С уважением".`,
-      `Fraza <b>Da li biste mogli...?</b> (kondicional) je standard za uljudne formalne molbe — izbegavaj direktne imperative u formalnoj prepisci.`,
-      `Ova lekcija je dobra priprema za B1 nivo, gde cemo detaljno obraditi pisanje CV-a, motivacionog pisma i pripremu za intervju za posao.`
+      `Заглавная буква для <b>Vi/Vas/Vaš</b> используется только в <b>письме/имейле</b> и только когда обращаешься к одному человеку формально — в устной речи разница «не слышна», так что не ошибка, если забудешь в повседневном тексте.`,
+      `<b>S poštovanjem</b> — самое формальное и самое безопасное завершение письма — соответствует русскому «С уважением».`,
+      `Фраза <b>Da li biste mogli...?</b> (кондиционал) — стандарт для вежливых формальных просьб — избегай прямых императивов в формальной переписке.`,
+      `Этот урок — хорошая подготовка к уровню B1, где подробно разберём написание резюме, мотивационного письма и подготовку к собеседованию.`
     ]
   },
 

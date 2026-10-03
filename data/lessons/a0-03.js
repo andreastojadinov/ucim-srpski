@@ -105,10 +105,10 @@ window.LESSONS["a0-03"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Ne mesaj <b>sam</b> (biti — я есть) i <b>imam</b> (imati — у меня есть) — pocetnici često grese i kazu "Ja sam dvadeset godina" umesto tačnog "Imam dvadeset godina".`,
-      `U pitanju za ime, <b>se</b> ostaje uvek uz glagol: "Kako se zoveš?", nikad "Kako zoveš?".`,
-      `Fraza <b>Drago mi je</b> (Приятно познакомиться) koristi se i pri upoznavanju i kada cujes dobru vest — slicno ruskom "Приятно".`,
-      `Broj posle "godina" ponekad menja oblik reči "godina" (1 godina, 2-4 godine, 5+ godina) — ovo cemo detaljno obraditi u lekciji o brojevima.`
+      `Не путай <b>sam</b> (biti — я есть) и <b>imam</b> (imati — у меня есть) — новички часто ошибаются и говорят «Ja sam dvadeset godina» вместо правильного «Imam dvadeset godina».`,
+      `В вопросе об имени <b>se</b> всегда остаётся при глаголе: «Kako se zoveš?», никогда «Kako zoveš?».`,
+      `Фраза <b>Drago mi je</b> (Приятно познакомиться) используется и при знакомстве, и когда слышишь хорошую новость — похоже на русское «Приятно».`,
+      `Число после «godina» иногда меняет форму слова «godina» (1 godina, 2-4 godine, 5+ godina) — это подробно разберём в уроке про числа.`
     ]
   },
 

@@ -101,10 +101,10 @@ window.LESSONS["a0-01"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Reč <b>ćao</b> je u srpski dosla iz italijanskog (ciao) i koristi se i za "zdravo" i za "dovidjenja" — slicno kao u italijanskom jeziku. Koristi je samo sa ljudima sa kojima si na "ti".`,
-      `<b>Dobar dan</b> je "univerzalni" formalni pozdrav — ako nisi siguran/na kog pozdrava da koristis, ovaj je najsigurniji izbor tokom dana.`,
-      `Slova <b>đ</b> i <b>dž</b> se lako pobrkaju — <b>đ</b> je mekse (kao rusko дь), a <b>dž</b> je tvrdje (kao dž u "džem" - джем). Vezbaj razliku na recima: <i>đak</i> (ученик) i <i>džak</i> (мешок).`,
-      `U svakodnevnom govoru, mladi i prijatelji skoro uvek koriste <b>ćao</b> i <b>zdravo</b>, dok se <b>dobar dan</b> i <b>dovidjenja</b> cuvaju za posao, prodavnice i nepoznate ljude — bas kao razlika između «привет» и «добрый день» у русских.`
+      `Слово <b>ćao</b> пришло в сербский из итальянского (ciao) и используется и для «привет», и для «пока» — как в итальянском. Используй его только с теми, с кем на «ты».`,
+      `<b>Dobar dan</b> — «универсальное» формальное приветствие: если не уверены, какое приветствие использовать, это самый безопасный выбор в течение дня.`,
+      `Буквы <b>đ</b> и <b>dž</b> легко перепутать — <b>đ</b> мягче (как русское дь), а <b>dž</b> твёрже (как dž в слове «džem» — джем). Потренируйся на словах: <i>đak</i> (ученик) и <i>džak</i> (мешок).`,
+      `В повседневной речи молодёжь и друзья почти всегда используют <b>ćao</b> и <b>zdravo</b>, а <b>dobar dan</b> и <b>dovidjenja</b> оставляют для работы, магазинов и незнакомых людей — точно как разница между «привет» и «добрый день» у русских.`
     ]
   },
 

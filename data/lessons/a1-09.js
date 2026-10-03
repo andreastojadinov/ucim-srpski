@@ -90,10 +90,10 @@ window.LESSONS["a1-09"] = {
   tips: {
     titleRu: "Saveti",
     items: [
-      `Zapamti <b>bolji/gori/veći/manji</b> kao "paket" — identicni su po logici ruskim лучше/хуже/больше/меньше, samo druga slova.`,
-      `<b>Naj-</b> ide <b>uvek</b> direktno na komparativ, bez razmaka: najbolji, ne "naj bolji".`,
-      `Posle <b>od</b> u poređenju ide genitiv (Marko je viši od Petra = od + Petra u genitivu), a posle <b>nego</b> može ici i nominativ kad poredis cele rečenice/zamenice (bolja je nego ja).`,
-      `Mnogi komparativi imaju promenu poslednjeg suglasnika (d→đ, z→ž, p→pš) — ovo su stare glasovne promene, najlakse ih je nauciti kroz primere, ne kroz pravila.`
+      `Запомни <b>bolji/gori/veći/manji</b> как «пакет» — они идентичны по логике русским лучше/хуже/больше/меньше, только другие буквы.`,
+      `<b>Naj-</b> всегда стоит прямо перед компаративом, без пробела: najbolji, не «naj bolji».`,
+      `После <b>od</b> в сравнении идёт родительный падеж (Marko je viši od Petra = od + Petra в родительном), а после <b>nego</b> может идти и именительный, когда сравниваешь целые предложения/местоимения (bolja je nego ja).`,
+      `У многих компаративов меняется последняя согласная (d→đ, z→ž, p→pš) — это старые звуковые изменения, легче всего выучить их на примерах, а не по правилам.`
     ]
   },
 
